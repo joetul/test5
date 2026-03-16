@@ -6,75 +6,87 @@
   <title>TV Season Tracker - RSS Feeds for Your Favorite Shows</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f5f2ea;
-      --bg-alt: #efe8db;
-      --ink: #1e1b18;
-      --ink-muted: #5f5a52;
-      --surface: #fffdf8;
-      --surface-soft: #f8f3e8;
-      --line: #ddd1bc;
-      --line-strong: #c5b392;
-      --primary: #0f766e;
-      --primary-strong: #115e59;
-      --accent: #d97706;
-      --good: #0f766e;
-      --bad: #b91c1c;
-      --radius-lg: 20px;
-      --radius-md: 14px;
-      --shadow-soft: 0 20px 45px rgba(49, 40, 25, 0.08);
+      --bg: #282a36;
+      --bg-darker: #21222c;
+      --bg-lighter: #2d2f3d;
+      --current: #44475a;
+      --current-hover: #515473;
+      --fg: #f8f8f2;
+      --fg-muted: #9da0b3;
+      --fg-dim: #6272a4;
+      --comment: #6272a4;
+      --cyan: #8be9fd;
+      --green: #50fa7b;
+      --orange: #ffb86c;
+      --pink: #ff79c6;
+      --purple: #bd93f9;
+      --red: #ff5555;
+      --yellow: #f1fa8c;
+      --border: #44475a;
+      --border-hover: #6272a4;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --glow-purple: 0 0 20px rgba(189, 147, 249, 0.15);
+      --glow-pink: 0 0 20px rgba(255, 121, 198, 0.1);
+      --glow-cyan: 0 0 15px rgba(139, 233, 253, 0.1);
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+      --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     * {
       box-sizing: border-box;
     }
 
-    html,
-    body {
+    html, body {
       margin: 0;
       padding: 0;
     }
 
     body {
-      font-family: "Manrope", "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at 8% 10%, rgba(217, 119, 6, 0.16), transparent 35%),
-        radial-gradient(circle at 90% 8%, rgba(15, 118, 110, 0.15), transparent 34%),
-        linear-gradient(165deg, var(--bg) 0%, var(--bg-alt) 100%);
-      color: var(--ink);
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
       min-height: 100vh;
-      line-height: 1.55;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
-    .grain {
+    /* subtle gradient orbs in the background */
+    body::before {
+      content: "";
       position: fixed;
       inset: 0;
+      background:
+        radial-gradient(ellipse 600px 400px at 10% 10%, rgba(189, 147, 249, 0.08), transparent),
+        radial-gradient(ellipse 500px 350px at 85% 20%, rgba(255, 121, 198, 0.06), transparent),
+        radial-gradient(ellipse 400px 300px at 50% 80%, rgba(139, 233, 253, 0.04), transparent);
       pointer-events: none;
-      opacity: 0.18;
-      background-image: radial-gradient(rgba(30, 27, 24, 0.15) 0.5px, transparent 0.5px);
-      background-size: 3px 3px;
       z-index: 0;
     }
 
     .container {
-      width: min(1120px, 94vw);
+      width: 100%;
+      max-width: 960px;
       margin: 0 auto;
-      padding: 2.3rem 1rem 4rem;
+      padding: 3rem 1.5rem 5rem;
       position: relative;
       z-index: 1;
-      animation: fade-up 600ms ease-out;
+      animation: enter 500ms ease-out;
     }
 
+    /* === HERO === */
     .hero {
-      background: rgba(255, 253, 248, 0.86);
-      backdrop-filter: blur(8px);
-      border: 1px solid var(--line);
-      border-radius: calc(var(--radius-lg) + 4px);
+      margin-bottom: 2.5rem;
       padding: 2rem;
-      box-shadow: var(--shadow-soft);
-      margin-bottom: 1.4rem;
+      background: var(--bg-darker);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow), var(--glow-purple);
     }
 
     .hero-top {
@@ -83,195 +95,211 @@
       align-items: center;
       gap: 1rem;
       flex-wrap: wrap;
+      margin-bottom: 1.75rem;
     }
 
     .logo {
       display: inline-flex;
       align-items: center;
-      gap: 0.7rem;
+      gap: 0.65rem;
       text-decoration: none;
-      color: var(--ink);
-      font-weight: 700;
-      font-family: "Space Grotesk", sans-serif;
-      letter-spacing: -0.01em;
+      color: var(--fg);
     }
 
     .logo-badge {
-      width: 2.25rem;
-      height: 2.25rem;
+      width: 2.1rem;
+      height: 2.1rem;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      border-radius: 0.8rem;
-      background: linear-gradient(145deg, var(--accent), #f59e0b);
-      color: #fff;
-      box-shadow: 0 8px 20px rgba(217, 119, 6, 0.22);
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, var(--purple), var(--pink));
+      color: var(--bg);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 12px rgba(189, 147, 249, 0.3);
+    }
+
+    .logo span:last-child {
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: -0.01em;
     }
 
     .mini-pill {
-      border: 1px solid var(--line-strong);
-      border-radius: 999px;
-      padding: 0.45rem 0.8rem;
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: var(--ink-muted);
-      background: rgba(248, 243, 232, 0.9);
+      color: var(--purple);
+      border: 1px solid rgba(189, 147, 249, 0.3);
+      border-radius: 999px;
+      padding: 0.35rem 0.75rem;
+      background: rgba(189, 147, 249, 0.08);
     }
 
     h1 {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: clamp(2rem, 4.6vw, 3.5rem);
-      line-height: 1.06;
+      font-size: clamp(2.2rem, 5.5vw, 3.4rem);
+      line-height: 1.1;
       letter-spacing: -0.03em;
-      margin: 1.1rem 0 0.9rem;
-      max-width: 760px;
-      text-wrap: balance;
+      font-weight: 700;
+      margin: 0 0 0.9rem;
+      max-width: 650px;
+      background: linear-gradient(135deg, var(--fg) 0%, var(--purple) 50%, var(--pink) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     .subtitle {
       margin: 0;
-      max-width: 760px;
-      color: var(--ink-muted);
-      font-size: clamp(1rem, 2.2vw, 1.13rem);
+      max-width: 520px;
+      color: var(--fg-muted);
+      font-size: 1rem;
+      line-height: 1.65;
     }
 
     .hero-stats {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.7rem;
-      margin-top: 1.25rem;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
     }
 
     .stat-chip {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--cyan);
+      background: rgba(139, 233, 253, 0.07);
+      border: 1px solid rgba(139, 233, 253, 0.15);
       border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--surface-soft);
-      color: var(--ink-muted);
-      padding: 0.5rem 0.8rem;
-      font-size: 0.84rem;
-      font-weight: 600;
+      padding: 0.38rem 0.7rem;
     }
 
-    .main-panel,
-    .info-section {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-soft);
-    }
-
+    /* === MAIN PANEL === */
     .main-panel {
-      padding: 1.35rem;
-      margin-bottom: 1.35rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .toolbar-title {
+      display: block;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--comment);
+      margin-bottom: 0.75rem;
     }
 
     .toolbar {
       display: grid;
-      grid-template-columns: 1.4fr 1fr;
+      grid-template-columns: 1fr auto;
       gap: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid var(--line);
-      margin-bottom: 1rem;
-    }
-
-    .filter-label,
-    .toolbar-title {
-      display: block;
-      margin-bottom: 0.55rem;
-      color: var(--ink-muted);
-      font-weight: 700;
-      font-size: 0.8rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .toolbar-title {
-      margin-bottom: 0.4rem;
+      align-items: end;
+      margin-bottom: 0.9rem;
     }
 
     #filter {
       width: 100%;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: #fff;
-      color: var(--ink);
-      padding: 0.82rem 1rem;
-      font-size: 0.96rem;
-      font-family: "Manrope", sans-serif;
-      transition: border-color 160ms ease, box-shadow 160ms ease;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg-darker);
+      color: var(--fg);
+      padding: 0.7rem 0.9rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+
+    #filter::placeholder {
+      color: var(--comment);
     }
 
     #filter:focus-visible {
       outline: none;
-      border-color: var(--primary);
-      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.14);
+      border-color: var(--purple);
+      box-shadow: 0 0 0 3px rgba(189, 147, 249, 0.15);
     }
 
     #count {
       margin: 0;
-      color: var(--ink-muted);
-      font-size: 0.9rem;
-      font-weight: 600;
+      color: var(--fg-muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+      white-space: nowrap;
     }
 
     .bulk-section {
       display: flex;
-      align-items: end;
+      align-items: center;
       justify-content: space-between;
-      gap: 0.8rem;
+      gap: 0.75rem;
       flex-wrap: wrap;
+      padding: 0.7rem 1rem;
+      background: var(--bg-darker);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      margin-bottom: 0.9rem;
     }
 
     #selected-count {
-      color: var(--ink-muted);
-      font-size: 0.9rem;
-      font-weight: 600;
+      color: var(--fg-muted);
+      font-size: 0.82rem;
+      font-weight: 500;
     }
 
     .bulk-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.55rem;
+      gap: 0.4rem;
     }
 
     .bulk-btn,
     .rss-btn,
     .cta-button {
-      border-radius: 999px;
-      font-family: "Manrope", sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 0.8rem;
       cursor: pointer;
-      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease, border-color 180ms ease;
+      transition: all var(--transition);
       text-decoration: none;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      border-radius: var(--radius-sm);
     }
 
     .bulk-btn {
-      border: 1px solid var(--line-strong);
-      color: var(--ink);
-      background: #fff;
-      padding: 0.6rem 0.95rem;
+      border: 1px solid var(--border);
+      color: var(--fg-muted);
+      background: var(--current);
+      padding: 0.45rem 0.75rem;
     }
 
-    .bulk-btn:hover:not(:disabled),
-    .bulk-btn:focus-visible:not(:disabled) {
-      transform: translateY(-1px);
-      border-color: var(--primary);
+    .bulk-btn:hover:not(:disabled) {
+      background: var(--current-hover);
+      border-color: var(--border-hover);
+      color: var(--fg);
     }
 
     .bulk-btn:disabled {
-      opacity: 0.45;
+      opacity: 0.35;
       cursor: not-allowed;
     }
 
+    /* === SHOW CARDS === */
     .shows-list {
       display: grid;
-      gap: 0.9rem;
+      gap: 1px;
+      background: rgba(68, 71, 90, 0.5);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
     }
 
     .show-card {
@@ -279,234 +307,275 @@
       grid-template-columns: 1fr auto;
       align-items: center;
       gap: 1rem;
-      background: linear-gradient(180deg, #fff, #fffcf6);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      padding: 1rem;
-      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
-      animation: fade-up 340ms ease both;
+      background: var(--bg-darker);
+      padding: 0.85rem 1rem;
+      transition: background var(--transition);
+      animation: fade-in 300ms ease both;
     }
 
     .show-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--line-strong);
-      box-shadow: 0 12px 24px rgba(49, 40, 25, 0.08);
+      background: var(--bg-lighter);
     }
 
     .show-info {
       display: grid;
-      gap: 0.6rem;
+      gap: 0.4rem;
+      min-width: 0;
     }
 
     .show-name {
       margin: 0;
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 1.24rem;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+      color: var(--fg);
     }
 
     .show-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.45rem;
+      gap: 0.35rem;
     }
 
     .tag {
       display: inline-flex;
       align-items: center;
       border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--surface-soft);
-      padding: 0.37rem 0.7rem;
-      color: var(--ink-muted);
-      font-size: 0.78rem;
-      font-weight: 700;
+      padding: 0.18rem 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--fg-muted);
+      background: var(--current);
     }
 
     .tag.status-running {
-      border-color: rgba(15, 118, 110, 0.32);
-      color: var(--good);
-      background: rgba(15, 118, 110, 0.09);
+      color: var(--green);
+      background: rgba(80, 250, 123, 0.1);
+      border: 1px solid rgba(80, 250, 123, 0.2);
     }
 
     .tag.status-ended {
-      border-color: rgba(185, 28, 28, 0.32);
-      color: var(--bad);
-      background: rgba(185, 28, 28, 0.09);
+      color: var(--red);
+      background: rgba(255, 85, 85, 0.1);
+      border: 1px solid rgba(255, 85, 85, 0.2);
     }
 
     .tag a {
-      color: var(--primary);
+      color: var(--purple);
       text-decoration: none;
     }
 
     .tag a:hover {
+      color: var(--pink);
       text-decoration: underline;
     }
 
     .show-actions {
       display: flex;
       align-items: center;
-      gap: 0.72rem;
+      gap: 0.65rem;
     }
 
     .checkbox-wrapper {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      color: var(--ink-muted);
-      font-size: 0.82rem;
-      font-weight: 700;
+      gap: 0.4rem;
+      color: var(--comment);
+      font-size: 0.78rem;
+      font-weight: 500;
       white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .checkbox-wrapper:hover {
+      color: var(--fg-muted);
     }
 
     input[type="checkbox"] {
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       cursor: pointer;
-      accent-color: var(--primary);
+      accent-color: var(--purple);
     }
 
     .rss-btn {
-      border: 1px solid var(--primary);
-      background: linear-gradient(135deg, var(--primary), var(--primary-strong));
-      color: #fff;
-      padding: 0.62rem 1rem;
-      letter-spacing: 0.03em;
-      min-width: 96px;
+      border: 1px solid transparent;
+      background: linear-gradient(135deg, var(--purple), var(--pink));
+      color: var(--bg);
+      padding: 0.45rem 0.85rem;
+      font-weight: 700;
+      min-width: 82px;
+      box-shadow: 0 2px 8px rgba(189, 147, 249, 0.2);
     }
 
-    .rss-btn:hover,
-    .rss-btn:focus-visible {
+    .rss-btn:hover {
+      box-shadow: 0 4px 16px rgba(189, 147, 249, 0.35);
       transform: translateY(-1px);
-      box-shadow: 0 10px 18px rgba(15, 118, 110, 0.25);
     }
 
     .rss-btn.copied {
-      border-color: #0e9f6e;
-      background: linear-gradient(135deg, #10b981, #059669);
+      background: linear-gradient(135deg, var(--green), #3ddc84);
+      box-shadow: 0 2px 12px rgba(80, 250, 123, 0.3);
     }
 
     .empty-state {
       text-align: center;
-      border: 1px dashed var(--line-strong);
-      border-radius: var(--radius-md);
-      color: var(--ink-muted);
-      padding: 2rem 1rem;
-      background: var(--surface-soft);
+      color: var(--comment);
+      padding: 3rem 1rem;
+      background: var(--bg-darker);
     }
 
     .empty-state p {
       margin: 0;
+      font-size: 0.9rem;
     }
 
+    /* === INFO SECTIONS === */
     .info-section {
-      padding: 1.35rem;
-      margin-bottom: 1.35rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: var(--bg-darker);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
     }
 
     .info-section h2 {
-      margin: 0 0 0.75rem;
-      font-size: 1.48rem;
-      font-family: "Space Grotesk", sans-serif;
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 700;
       letter-spacing: -0.02em;
-      line-height: 1.2;
+      line-height: 1.3;
+      color: var(--fg);
     }
 
     .info-section p {
-      margin: 0 0 0.8rem;
-      color: var(--ink-muted);
+      margin: 0 0 0.6rem;
+      color: var(--fg-muted);
+      font-size: 0.9rem;
     }
 
     .info-section p:last-child {
       margin-bottom: 0;
     }
 
+    .info-section strong {
+      color: var(--orange);
+      font-weight: 600;
+    }
+
     .reasons {
       margin: 0;
-      padding-left: 1.15rem;
-      color: var(--ink-muted);
+      padding-left: 1.1rem;
+      color: var(--fg-muted);
       display: grid;
-      gap: 0.33rem;
-      font-size: 0.94rem;
+      gap: 0.25rem;
+      font-size: 0.88rem;
+    }
+
+    .reasons li::marker {
+      color: var(--purple);
     }
 
     .cta-group {
-      margin-top: 1rem;
+      margin-top: 1.25rem;
       display: grid;
-      gap: 0.85rem;
-      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      gap: 0.75rem;
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .cta-card {
-      background: linear-gradient(180deg, #fff, #fff9ed);
-      border: 1px solid var(--line);
+      background: var(--bg);
+      border: 1px solid var(--border);
       border-radius: var(--radius-md);
-      padding: 1rem;
-      transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+      padding: 1.25rem;
+      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
       display: grid;
-      gap: 0.55rem;
+      gap: 0.4rem;
       align-content: start;
     }
 
     .cta-card:hover {
-      border-color: var(--line-strong);
+      border-color: var(--border-hover);
+      box-shadow: var(--glow-purple);
       transform: translateY(-2px);
-      box-shadow: 0 10px 22px rgba(49, 40, 25, 0.09);
     }
 
     .cta-card h3 {
       margin: 0;
-      font-size: 1.04rem;
-      font-family: "Space Grotesk", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
       letter-spacing: -0.01em;
+      color: var(--fg);
     }
 
     .cta-card p {
       margin: 0;
-      color: var(--ink-muted);
-      font-size: 0.9rem;
+      color: var(--comment);
+      font-size: 0.82rem;
+      line-height: 1.55;
     }
 
     .cta-button {
       justify-self: start;
-      margin-top: 0.22rem;
-      background: #fff;
-      border: 1px solid var(--line-strong);
-      color: var(--ink);
-      padding: 0.6rem 0.9rem;
+      margin-top: 0.35rem;
+      background: var(--current);
+      border: 1px solid var(--border);
+      color: var(--fg-muted);
+      padding: 0.45rem 0.75rem;
     }
 
-    .cta-button:hover,
-    .cta-button:focus-visible {
-      border-color: var(--primary);
-      color: var(--primary-strong);
-      transform: translateY(-1px);
+    .cta-button:hover {
+      border-color: var(--purple);
+      color: var(--purple);
+      background: rgba(189, 147, 249, 0.1);
     }
 
+    /* === FOOTER === */
     footer {
-      margin-top: 2.1rem;
-      padding-top: 1.4rem;
-      border-top: 1px solid var(--line);
-      color: var(--ink-muted);
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--comment);
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.9rem;
+      gap: 1.5rem;
+      font-size: 0.82rem;
     }
 
     footer a {
-      color: var(--primary-strong);
+      color: var(--purple);
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     footer a:hover {
-      text-decoration: underline;
+      color: var(--pink);
     }
 
-    @keyframes fade-up {
+    /* === SCROLLBAR === */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--current);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--current-hover);
+    }
+
+    /* === SELECTION === */
+    ::selection {
+      background: rgba(189, 147, 249, 0.3);
+      color: var(--fg);
+    }
+
+    /* === ANIMATIONS === */
+    @keyframes enter {
       from {
         opacity: 0;
         transform: translateY(8px);
@@ -517,35 +586,54 @@
       }
     }
 
-    @media (max-width: 880px) {
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 768px) {
+      .container {
+        padding: 2rem 1rem 3rem;
+      }
+
       .toolbar {
         grid-template-columns: 1fr;
       }
 
       .show-card {
         grid-template-columns: 1fr;
-        align-items: start;
+        gap: 0.6rem;
       }
 
       .show-actions {
         width: 100%;
         justify-content: space-between;
       }
+
+      .cta-group {
+        grid-template-columns: 1fr;
+      }
     }
 
-    @media (max-width: 640px) {
-      .container {
-        padding: 1.3rem 0.8rem 2.3rem;
-      }
-
-      .hero,
-      .main-panel,
-      .info-section {
-        padding: 1rem;
-      }
-
+    @media (max-width: 480px) {
       h1 {
-        font-size: clamp(1.75rem, 9vw, 2.4rem);
+        font-size: 2rem;
+      }
+
+      .hero {
+        padding: 1.25rem;
+      }
+
+      .hero-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+
+      .bulk-section {
+        flex-direction: column;
+        align-items: flex-start;
       }
 
       .bulk-actions {
@@ -561,19 +649,14 @@
         grid-template-columns: 1fr auto;
       }
 
-      .rss-btn {
-        min-width: 84px;
-      }
-
       footer {
         flex-direction: column;
-        gap: 0.6rem;
+        gap: 0.5rem;
       }
     }
   </style>
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
   <div class="container">
     <header class="hero">
       <div class="hero-top">
@@ -581,75 +664,72 @@
           <span class="logo-badge" aria-hidden="true">TV</span>
           <span>TV Season Tracker</span>
         </a>
-        <span class="mini-pill">Open Source Feed Directory</span>
+        <span class="mini-pill">Open Source</span>
       </div>
-      <h1>Track season announcements with clean RSS feeds.</h1>
-      <p class="subtitle">Browse shows, copy one-click feed links, or export an OPML bundle for your reader in seconds.</p>
+      <h1>Never miss a new season again.</h1>
+      <p class="subtitle">Subscribe to clean RSS feeds for your favorite TV shows. One click to copy, or export a bundle for your reader.</p>
       <div class="hero-stats" aria-hidden="true">
-        <span class="stat-chip">Built from TVmaze data</span>
-        <span class="stat-chip">Daily-friendly updates</span>
-        <span class="stat-chip">Fast copy + OPML export</span>
+        <span class="stat-chip">TVmaze data</span>
+        <span class="stat-chip">Updated daily</span>
+        <span class="stat-chip">OPML export</span>
       </div>
     </header>
 
     <section class="main-panel" aria-labelledby="browse-heading">
-      <h2 id="browse-heading" class="toolbar-title">Browse and subscribe</h2>
+      <p class="toolbar-title" id="browse-heading">Browse shows</p>
       <div class="toolbar">
         <div class="search-container">
-          <label class="filter-label" for="filter">Search series</label>
-          <input id="filter" type="text" placeholder="Type a show title or status...">
+          <input id="filter" type="text" placeholder="Search by title or status...">
         </div>
-        <div class="bulk-section">
-          <div>
-            <p id="count">0 series available</p>
-            <span id="selected-count">0 selected</span>
-          </div>
-          <div class="bulk-actions">
-            <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
-            <button id="clear-selected" class="bulk-btn" type="button">Clear Selection</button>
-            <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
-          </div>
+        <p id="count">0 series</p>
+      </div>
+      <div class="bulk-section">
+        <span id="selected-count">0 selected</span>
+        <div class="bulk-actions">
+          <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
+          <button id="clear-selected" class="bulk-btn" type="button">Clear</button>
+          <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
         </div>
       </div>
       <div id="list" class="shows-list" aria-live="polite"></div>
     </section>
 
     <section class="info-section" aria-labelledby="how-it-works-heading">
-      <h2 id="how-it-works-heading">How this works</h2>
-      <p>Click RSS on any series to copy its feed URL and paste it into Feedly, NetNewsWire, Inoreader, or any RSS app.</p>
-      <p>Metadata is generated from TVmaze, and this project intentionally keeps update pacing friendly to public API limits.</p>
+      <h2 id="how-it-works-heading">How it works</h2>
+      <p>Click <strong>Copy RSS</strong> on any show to grab its feed URL, then paste it into Feedly, NetNewsWire, Inoreader, or any RSS reader.</p>
+      <p>Show metadata comes from TVmaze. Feeds update daily within public API limits.</p>
     </section>
 
     <section class="info-section" aria-labelledby="missing-show-heading">
-      <h2 id="missing-show-heading">Cannot find your series?</h2>
-      <p>Sometimes a show is missing because it is brand new, named differently on TVmaze, or simply not requested yet.</p>
+      <h2 id="missing-show-heading">Can't find a show?</h2>
+      <p>It might be new, named differently on TVmaze, or not yet requested.</p>
       <ul class="reasons">
-        <li>Title mismatch: regional titles and punctuation can differ.</li>
-        <li>New or unreleased shows may not be listed yet in source metadata.</li>
-        <li>Community list curation means requests and contributions matter.</li>
+        <li>Title mismatches: regional names and punctuation can differ.</li>
+        <li>New or unreleased shows may not be in source data yet.</li>
+        <li>The list is community-curated, so contributions help.</li>
       </ul>
       <div class="cta-group">
         <article class="cta-card">
           <h3>Open an issue</h3>
-          <p>Ask for a show to be added. Include the title and TVmaze link if you have it.</p>
-          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Request a Series</a>
+          <p>Request a show to be added. Include the title and TVmaze link if you can.</p>
+          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Request</a>
         </article>
         <article class="cta-card">
-          <h3>Submit a pull request</h3>
-          <p>Add the show yourself in shows.json and open a PR for review.</p>
-          <a href="#" id="pr-link" class="cta-button" target="_blank" rel="noopener">Create Pull Request</a>
+          <h3>Submit a PR</h3>
+          <p>Add a show yourself in shows.json and open a pull request.</p>
+          <a href="#" id="pr-link" class="cta-button" target="_blank" rel="noopener">Pull Request</a>
         </article>
         <article class="cta-card">
-          <h3>Fork and build your own</h3>
-          <p>This project uses the MIT license, so you can fork it and customize your own version freely.</p>
-          <a href="#" id="fork-link" class="cta-button" target="_blank" rel="noopener">Fork on GitHub</a>
+          <h3>Fork it</h3>
+          <p>MIT licensed. Fork the repo and build your own version.</p>
+          <a href="#" id="fork-link" class="cta-button" target="_blank" rel="noopener">Fork</a>
         </article>
       </div>
     </section>
 
     <footer>
-      <span>Data source: <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">TVmaze API</a></span>
-      <span>Project: <a id="repo-link" href="#" target="_blank" rel="noopener">GitHub repository</a></span>
+      <span>Data: <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">TVmaze API</a></span>
+      <span>Source: <a id="repo-link" href="#" target="_blank" rel="noopener">GitHub</a></span>
       <span>License: <a href="https://github.com/joetul/TV-Season-Tracker-RSS/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a></span>
     </footer>
   </div>
@@ -768,12 +848,12 @@
 
     function render() {
       listEl.textContent = "";
-      countEl.textContent = `${state.filtered.length} series available`;
+      countEl.textContent = `${state.filtered.length} series`;
 
       if (!state.filtered.length) {
         const empty = document.createElement("div");
         empty.className = "empty-state";
-        empty.innerHTML = "<p>No series match your search yet. Try another keyword or open a request below.</p>";
+        empty.innerHTML = "<p>No series match your search. Try another keyword or request one below.</p>";
         listEl.appendChild(empty);
         return;
       }
@@ -795,12 +875,12 @@
 
         const status = document.createElement("span");
         status.className = `tag ${statusClass(show.status)}`.trim();
-        status.textContent = show.status || "Unknown Status";
+        status.textContent = show.status || "Unknown";
         meta.appendChild(status);
 
         const latest = document.createElement("span");
         latest.className = "tag";
-        latest.textContent = `Season ${show.latest_season || 0}`;
+        latest.textContent = `S${show.latest_season || 0}`;
         meta.appendChild(latest);
 
         const availability = document.createElement("span");
@@ -809,7 +889,7 @@
         availabilityLink.href = watchSearchUrl(show);
         availabilityLink.target = "_blank";
         availabilityLink.rel = "noopener noreferrer";
-        availabilityLink.textContent = "Where to Watch";
+        availabilityLink.textContent = "Watch";
         availability.appendChild(availabilityLink);
         meta.appendChild(availability);
 
