@@ -667,9 +667,6 @@
   <div class="container">
     <header class="hero">
       <div class="hero-top">
-        <a href="#" class="logo" aria-label="TV Season Tracker home">
-          <span>TV Season Tracker</span>
-        </a>
         <a href="https://github.com/joetul/TV-Season-Tracker-RSS" class="mini-pill" target="_blank" rel="noopener">GitHub</a>
       </div>
       <h1>Never miss a new season again.</h1>
@@ -849,6 +846,17 @@
 
     function render() {
       listEl.textContent = "";
+      const query = normalize(filterEl.value.trim());
+
+      if (!query) {
+        countEl.textContent = `${state.allShows.length} series available`;
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.innerHTML = "<p>Search for a show above to get started.</p>";
+        listEl.appendChild(empty);
+        return;
+      }
+
       countEl.textContent = `${state.filtered.length} series`;
 
       if (!state.filtered.length) {
@@ -958,7 +966,7 @@
     function applyFilter() {
       const query = normalize(filterEl.value.trim());
       if (!query) {
-        state.filtered = [...state.allShows];
+        state.filtered = [];
         render();
         return;
       }
@@ -1005,7 +1013,7 @@
 
         if (!Array.isArray(data)) throw new Error("Invalid index.json format");
         state.allShows = data;
-        state.filtered = [...data];
+        state.filtered = [];
         pruneSelection();
         render();
       } catch (error) {
