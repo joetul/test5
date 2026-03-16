@@ -1,4 +1,4 @@
-# tv-season-rss
+# TV Season Tracker RSS
 
 Track upcoming TV season drops and publish one RSS feed per show using only GitHub Actions and GitHub Pages.
 
@@ -8,10 +8,12 @@ This project is fully static and infrastructure-free:
 - GitHub Pages serves the generated XML feeds and a small browseable landing page.
 - No server, no database, no paid API, no package installs.
 
+Contributions are welcome. If you want to suggest improvements, open a pull request. If you prefer your own setup, fork the project and customize your tracked shows.
+
 ## Repository Layout
 
 ```text
-tv-season-rss/
+tv-season-tracker-rss/
 ├── .github/
 │   └── workflows/
 │       └── update-feeds.yml
@@ -32,7 +34,7 @@ tv-season-rss/
 Use either approach:
 
 1. Fork this repository on GitHub.
-2. Or create a new repo named tv-season-rss and copy all files into it.
+2. Or create a new repo named tv-season-tracker-rss and copy all files into it.
 
 Push the files to your default branch (for example, main).
 
