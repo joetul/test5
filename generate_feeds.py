@@ -23,9 +23,9 @@ INDEX_PATH = FEEDS_DIR / "index.json"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 API_BASE = "https://api.tvmaze.com"
 USER_AGENT = "tv-season-rss/1.0"
-REQUEST_DELAY_SECONDS = 0.6
-RETRY_429_DELAY_SECONDS = 10
-MAX_429_RETRIES = 5
+REQUEST_DELAY_SECONDS = 1.0
+RETRY_429_DELAY_SECONDS = 20
+MAX_429_RETRIES = 8
 
 
 ET.register_namespace("atom", ATOM_NS)
