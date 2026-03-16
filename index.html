@@ -3,274 +3,449 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TV Season RSS</title>
+  <title>TV Season Tracker – RSS Feeds for Your Favorite Shows</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #111417;
-      --surface: #1c2228;
-      --surface-alt: #27303a;
-      --text: #f0ebe2;
-      --muted: #b8b3a8;
-      --line: #364250;
-      --running: #6ed3a4;
-      --ended: #8993a1;
-      --button: #ecb54f;
-      --button-ink: #1f1607;
-      --copied: #6ed3a4;
+      --bg: #0a0e27;
+      --bg-alt: #0f1428;
+      --surface: #151d3b;
+      --surface-hover: #1a2347;
+      --text: #f5f5f5;
+      --text-muted: #a0a0a0;
+      --accent: #7c3aed;
+      --accent-bright: #a78bfa;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --border: #2a3556;
+      --border-light: #3d4a6b;
     }
 
     * {
       box-sizing: border-box;
     }
 
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      margin: 0;
-      min-height: 100vh;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
       color: var(--text);
-      font-family: "Cormorant Garamond", Georgia, serif;
-      background:
-        radial-gradient(circle at 15% 20%, rgba(236, 181, 79, 0.10), transparent 35%),
-        radial-gradient(circle at 85% 10%, rgba(110, 211, 164, 0.10), transparent 30%),
-        radial-gradient(circle at 40% 85%, rgba(99, 158, 219, 0.09), transparent 28%),
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.11'/%3E%3C/svg%3E"),
-        var(--bg);
-      background-attachment: fixed;
+      line-height: 1.6;
+      min-height: 100vh;
     }
 
-    .wrap {
-      width: min(980px, 94vw);
+    .container {
+      width: min(1100px, 95vw);
       margin: 0 auto;
-      padding: 2.5rem 0 3rem;
+      padding: 3rem 1.5rem;
     }
 
-    h1 {
-      font-size: clamp(2.1rem, 5vw, 3.5rem);
-      line-height: 1.05;
-      margin: 0 0 0.6rem;
-      letter-spacing: 0.01em;
-      text-wrap: balance;
+    /* Header & Hero */
+    header {
+      margin-bottom: 3rem;
     }
 
-    .subtitle {
-      margin: 0;
-      color: var(--muted);
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 2rem;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+      border-radius: 8px;
+      color: white;
+      font-weight: 700;
       font-size: 1.2rem;
     }
 
-    .chrome {
-      font-family: "IBM Plex Mono", "Courier New", monospace;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      font-size: 0.77rem;
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      margin: 0 0 1rem;
+      line-height: 1.1;
+      font-weight: 700;
+      letter-spacing: -0.02em;
     }
 
-    .panel {
-      margin-top: 1.7rem;
-      background: linear-gradient(165deg, rgba(28, 34, 40, 0.92), rgba(19, 24, 30, 0.90));
-      border: 1px solid var(--line);
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Main Panel */
+    .main-panel {
+      background: rgba(21, 29, 59, 0.5);
+      border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 1.2rem;
-      backdrop-filter: blur(5px);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .search-container {
+      margin-bottom: 1.5rem;
     }
 
     #filter {
       width: 100%;
-      border: 1px solid var(--line);
+      border: 1px solid var(--border);
       border-radius: 10px;
-      background: #0f1318;
+      background: rgba(15, 20, 40, 0.6);
       color: var(--text);
-      padding: 0.8rem 0.9rem;
-      font-family: "IBM Plex Mono", "Courier New", monospace;
-      font-size: 0.88rem;
+      padding: 0.875rem 1.25rem;
+      font-family: "Geist", sans-serif;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+    }
+
+    #filter:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: rgba(15, 20, 40, 0.9);
+      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+    }
+
+    .filter-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
     }
 
     #count {
-      margin: 0.9rem 0 0;
-      color: var(--muted);
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
     }
 
-    .bulk {
-      margin-top: 0.7rem;
+    .bulk-section {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      gap: 0.7rem;
-      color: var(--muted);
+      gap: 1rem;
     }
 
     .bulk-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.45rem;
+      gap: 0.6rem;
     }
 
     .bulk-btn {
-      border: 1px solid var(--line);
-      border-radius: 9px;
-      background: rgba(15, 19, 24, 0.75);
+      padding: 0.6rem 1rem;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      background: rgba(21, 29, 59, 0.8);
       color: var(--text);
-      padding: 0.45rem 0.65rem;
+      font-size: 0.85rem;
+      font-weight: 500;
       cursor: pointer;
-      font: inherit;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .bulk-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      background: rgba(21, 29, 59, 0.95);
     }
 
     .bulk-btn:disabled {
-      opacity: 0.45;
+      opacity: 0.4;
       cursor: not-allowed;
     }
 
-    .cards {
-      margin-top: 1rem;
+    /* Shows List */
+    .shows-list {
       display: grid;
-      gap: 0.8rem;
+      gap: 1rem;
     }
 
-    .card {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 0.8rem;
-      padding: 0.95rem;
+    .show-card {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1.5rem;
+      align-items: start;
+      padding: 1.25rem;
+      border: 1px solid var(--border);
       border-radius: 12px;
-      border: 1px solid #334152;
-      background: linear-gradient(145deg, var(--surface), var(--surface-alt));
+      background: rgba(21, 29, 59, 0.3);
+      transition: all 0.3s ease;
     }
 
-    .card-actions {
+    .show-card:hover {
+      border-color: var(--border-light);
+      background: rgba(21, 29, 59, 0.5);
+    }
+
+    .show-info {
       display: flex;
-      align-items: center;
-      gap: 0.7rem;
-      margin-left: auto;
-    }
-
-    .select-wrap {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      color: var(--muted);
-    }
-
-    .select-wrap input {
-      width: 1rem;
-      height: 1rem;
-      accent-color: var(--button);
-      cursor: pointer;
+      flex-direction: column;
+      gap: 0.75rem;
     }
 
     .show-name {
       margin: 0;
-      font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+      font-size: 1.25rem;
       font-weight: 700;
+      letter-spacing: -0.01em;
     }
 
-    .meta {
-      margin-top: 0.45rem;
+    .show-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.6rem;
     }
 
     .tag {
       display: inline-flex;
       align-items: center;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 0.18rem 0.55rem;
-      color: var(--muted);
-      background: rgba(15, 19, 24, 0.7);
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: rgba(15, 20, 40, 0.4);
     }
 
-    .tag.link {
-      padding: 0;
-      overflow: hidden;
+    .tag.status-running {
+      border-color: rgba(16, 185, 129, 0.3);
+      color: var(--success);
+      background: rgba(16, 185, 129, 0.08);
     }
 
-    .tag.link a {
+    .tag.status-ended {
+      border-color: rgba(239, 68, 68, 0.3);
+      color: var(--danger);
+      background: rgba(239, 68, 68, 0.08);
+    }
+
+    .tag a {
+      color: var(--accent-bright);
+      text-decoration: none;
       display: inline-flex;
       align-items: center;
-      padding: 0.18rem 0.55rem;
-      color: #f3c974;
-      text-decoration: none;
     }
 
-    .tag.link a:hover {
+    .tag a:hover {
       text-decoration: underline;
     }
 
-    .status-running {
-      color: var(--running);
-      border-color: rgba(110, 211, 164, 0.45);
+    .show-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
     }
 
-    .status-ended {
-      color: var(--ended);
-      border-color: rgba(137, 147, 161, 0.45);
+    .checkbox-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      accent-color: var(--accent);
     }
 
     .rss-btn {
-      border: 0;
-      border-radius: 10px;
-      padding: 0.62rem 0.95rem;
-      cursor: pointer;
-      background: var(--button);
-      color: var(--button-ink);
+      padding: 0.6rem 1.25rem;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+      color: white;
       font-weight: 600;
-      transition: transform 0.15s ease, background 0.2s ease;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
     }
 
     .rss-btn:hover {
-      transform: translateY(-1px);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(124, 58, 237, 0.3);
     }
 
     .rss-btn.copied {
-      background: var(--copied);
+      background: linear-gradient(135deg, var(--success), #34d399);
     }
 
-    .how {
-      margin-top: 1.7rem;
-      padding: 1rem 1.1rem;
-      border-left: 3px solid var(--button);
-      background: rgba(39, 48, 58, 0.55);
-      border-radius: 8px;
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      color: var(--text-muted);
     }
 
-    .how h2 {
-      margin: 0 0 0.5rem;
-      font-size: 1.45rem;
-    }
-
-    .how p {
+    .empty-state p {
       margin: 0;
-      color: var(--muted);
     }
 
+    /* Information Sections */
+    .info-section {
+      background: rgba(21, 29, 59, 0.5);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+    }
+
+    .info-section h2 {
+      margin: 0 0 1rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .info-section p {
+      margin: 0 0 1rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .info-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .cta-group {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .cta-card {
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(15, 20, 40, 0.4);
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .cta-card:hover {
+      border-color: var(--accent);
+      background: rgba(124, 58, 237, 0.08);
+    }
+
+    .cta-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .cta-card p {
+      margin: 0 0 1rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 1px solid var(--accent);
+    }
+
+    .cta-button:hover {
+      background: var(--accent-bright);
+      border-color: var(--accent-bright);
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
     footer {
-      margin-top: 2.2rem;
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
       display: flex;
       flex-wrap: wrap;
-      gap: 0.8rem;
-      color: var(--muted);
+      gap: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
     }
 
-    a {
-      color: #f3c974;
-      text-underline-offset: 2px;
+    footer a {
+      color: var(--accent-bright);
+      text-decoration: none;
     }
 
-    .empty {
-      border: 1px dashed var(--line);
-      border-radius: 10px;
-      padding: 0.9rem;
-      color: var(--muted);
+    footer a:hover {
+      text-decoration: underline;
     }
 
-    @media (max-width: 720px) {
-      .bulk {
-        align-items: flex-start;
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 2rem 1rem;
+      }
+
+      h1 {
+        font-size: clamp(1.5rem, 4vw, 2.5rem);
+      }
+
+      .main-panel {
+        padding: 1.5rem;
+      }
+
+      .show-card {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .show-actions {
+        width: 100%;
         flex-direction: column;
+      }
+
+      .rss-btn {
+        width: 100%;
+      }
+
+      .bulk-section {
+        flex-direction: column;
+        align-items: stretch;
       }
 
       .bulk-actions {
@@ -282,53 +457,81 @@
         text-align: center;
       }
 
-      .card {
-        align-items: flex-start;
+      .cta-group {
+        grid-template-columns: 1fr;
+      }
+
+      footer {
         flex-direction: column;
-      }
-
-      .card-actions {
-        width: 100%;
-      }
-
-      .rss-btn {
-        flex: 1;
+        gap: 1rem;
       }
     }
   </style>
 </head>
 <body>
-  <main class="wrap">
+  <div class="container">
     <header>
-      <p class="chrome">TV season tracker</p>
-      <h1>Subscribe to season drops, one show at a time.</h1>
-      <p class="subtitle">Each show has its own RSS feed. Pick only what you care about.</p>
+      <a href="#" class="logo">
+        <div class="logo-icon">📺</div>
+        <span>TV Season Tracker</span>
+      </a>
+      <h1>Never miss a season drop</h1>
+      <p class="subtitle">Get personalized RSS feeds for your favorite TV shows. Stay updated the moment new seasons are announced on TVmaze.</p>
     </header>
 
-    <section class="panel">
-      <input id="filter" type="text" placeholder="Filter by show or status">
-      <p id="count" class="chrome">0 shows</p>
-      <div class="bulk chrome">
+    <section class="main-panel">
+      <div class="search-container">
+        <label class="filter-label" for="filter">Search Shows</label>
+        <input id="filter" type="text" placeholder="Find your favorite show or filter by status...">
+      </div>
+      <p id="count">0 shows available</p>
+
+      <div class="bulk-section">
         <span id="selected-count">0 selected</span>
         <div class="bulk-actions">
-          <button id="select-visible" class="bulk-btn chrome" type="button">Select visible</button>
-          <button id="clear-selected" class="bulk-btn chrome" type="button">Clear selection</button>
-          <button id="export-opml" class="bulk-btn chrome" type="button" disabled>Export OPML</button>
+          <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
+          <button id="clear-selected" class="bulk-btn" type="button">Clear Selection</button>
+          <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
         </div>
       </div>
-      <div id="list" class="cards" aria-live="polite"></div>
+
+      <div id="list" class="shows-list" aria-live="polite"></div>
     </section>
 
-    <section class="how">
+    <section class="info-section">
       <h2>How it works</h2>
-      <p>Tap RSS on any show to copy its feed URL, then paste that URL into your RSS reader. You will receive updates when new seasons appear in TVmaze data.</p>
+      <p>Click the <strong>RSS</strong> button on any show to copy its feed URL. Paste it into your favorite RSS reader (Feedly, NetNewsWire, etc.) to get notifications whenever new seasons appear.</p>
+      <p><strong>Updates come from TVmaze data</strong> – typically announced before or around official air dates. We respect their API rate limits and check for updates regularly.</p>
     </section>
 
-    <footer class="chrome">
-      <span><a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">Data from TVmaze</a></span>
-      <span><a id="repo-link" href="#" target="_blank" rel="noopener">GitHub</a></span>
+    <section class="info-section">
+      <h2>✨ Missing a show?</h2>
+      <p>We can't include every show, but you have several options to get your favorite series added:</p>
+      <div class="cta-group">
+        <div class="cta-card">
+          <h3>Open an Issue</h3>
+          <p>Request a show to be added to the tracker.</p>
+          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Create Request</a>
+        </div>
+        <div class="cta-card">
+          <h3>Submit a Pull Request</h3>
+          <p>Contribute directly by adding shows to shows.json.</p>
+          <a href="#" id="pr-link" class="cta-button" target="_blank" rel="noopener">Create Pull Request</a>
+        </div>
+        <div class="cta-card">
+          <h3>Fork & Customize</h3>
+          <p>Create your own version with all your shows. The project is MIT licensed.</p>
+          <a href="#" id="fork-link" class="cta-button" target="_blank" rel="noopener">Fork on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>📡 <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">Data provided by TVmaze</a></span>
+      <span>💻 <a id="repo-link" href="#" target="_blank" rel="noopener">View on GitHub</a></span>
+      <span>📄 <a href="https://github.com/joetul/TV-Season-Tracker-RSS/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></span>
     </footer>
-  </main>
+  </div>
 
   <script>
     const listEl = document.getElementById("list");
@@ -443,42 +646,53 @@
 
     function render() {
       listEl.textContent = "";
-      countEl.textContent = `${state.filtered.length} shows`;
+      countEl.textContent = `${state.filtered.length} shows available`;
 
       if (!state.filtered.length) {
-        const empty = document.createElement("p");
-        empty.className = "empty";
-        empty.textContent = "No shows match this filter.";
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.innerHTML = "<p>No shows match your search. Try a different filter or add one you love! →</p>";
         listEl.appendChild(empty);
         return;
       }
 
       for (const show of state.filtered) {
         const card = document.createElement("article");
-        card.className = "card";
+        card.className = "show-card";
 
         const info = document.createElement("div");
+        info.className = "show-info";
 
-        const name = document.createElement("p");
+        const name = document.createElement("h3");
         name.className = "show-name";
         name.textContent = show.name;
         info.appendChild(name);
 
         const meta = document.createElement("div");
-        meta.className = "meta chrome";
+        meta.className = "show-meta";
+
+        const status = document.createElement("span");
+        status.className = `tag ${statusClass(show.status)}`.trim();
+        status.textContent = show.status || "Unknown Status";
+        meta.appendChild(status);
+
+        const latest = document.createElement("span");
+        latest.className = "tag";
+        latest.textContent = `Season ${show.latest_season || 0}`;
+        meta.appendChild(latest);
 
         const availability = document.createElement("span");
-        availability.className = "tag link";
+        availability.className = "tag";
         const availabilityLink = document.createElement("a");
         availabilityLink.href = watchSearchUrl(show);
         availabilityLink.target = "_blank";
         availabilityLink.rel = "noopener noreferrer";
-        availabilityLink.textContent = "Search Where to Watch";
+        availabilityLink.textContent = "Where to Watch";
         availability.appendChild(availabilityLink);
         meta.appendChild(availability);
 
         const tvmaze = document.createElement("span");
-        tvmaze.className = "tag link";
+        tvmaze.className = "tag";
         const tvmazeLink = document.createElement("a");
         tvmazeLink.href = tvmazeUrl(show);
         tvmazeLink.target = "_blank";
@@ -487,23 +701,13 @@
         tvmaze.appendChild(tvmazeLink);
         meta.appendChild(tvmaze);
 
-        const status = document.createElement("span");
-        status.className = `tag ${statusClass(show.status)}`.trim();
-        status.textContent = show.status || "Unknown";
-        meta.appendChild(status);
-
-        const latest = document.createElement("span");
-        latest.className = "tag";
-        latest.textContent = `Season ${show.latest_season || 0}`;
-        meta.appendChild(latest);
-
         info.appendChild(meta);
 
         const actions = document.createElement("div");
-        actions.className = "card-actions";
+        actions.className = "show-actions";
 
         const selectWrap = document.createElement("label");
-        selectWrap.className = "select-wrap chrome";
+        selectWrap.className = "checkbox-wrapper";
         const selectInput = document.createElement("input");
         selectInput.type = "checkbox";
         const key = showKey(show);
@@ -515,20 +719,18 @@
           updateSelectionUi();
         });
 
-        const selectText = document.createElement("span");
-        selectText.textContent = "Select";
         selectWrap.appendChild(selectInput);
-        selectWrap.appendChild(selectText);
+        selectWrap.appendChild(document.createTextNode("Select"));
 
         const button = document.createElement("button");
         button.type = "button";
-        button.className = "rss-btn chrome";
+        button.className = "rss-btn";
         button.textContent = "RSS";
         button.addEventListener("click", async () => {
           try {
             await navigator.clipboard.writeText(show.feed_url);
             button.classList.add("copied");
-            button.textContent = "Copied!";
+            button.textContent = "✓ Copied!";
             setTimeout(() => {
               button.classList.remove("copied");
               button.textContent = "RSS";
@@ -538,9 +740,10 @@
           }
         });
 
-        card.appendChild(info);
         actions.appendChild(selectWrap);
         actions.appendChild(button);
+
+        card.appendChild(info);
         card.appendChild(actions);
         listEl.appendChild(card);
       }
@@ -573,10 +776,25 @@
       return `https://github.com/${owner}/${repo}`;
     }
 
-    async function init() {
+    function setupGitHubLinks(repoUrl) {
+      if (!repoUrl) return;
+
       const repoLink = document.getElementById("repo-link");
+      const issueLink = document.getElementById("issue-link");
+      const prLink = document.getElementById("pr-link");
+      const forkLink = document.getElementById("fork-link");
+
+      repoLink.href = repoUrl;
+      issueLink.href = `${repoUrl}/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]`;
+      prLink.href = `${repoUrl}#how-to-contribute`;
+      forkLink.href = `${repoUrl}/fork`;
+    }
+
+    async function init() {
       const detected = autoRepoUrl();
-      if (detected) repoLink.href = detected;
+      if (detected) {
+        setupGitHubLinks(detected);
+      }
 
       try {
         const response = await fetch("./feeds/index.json", { cache: "no-store" });
@@ -590,9 +808,9 @@
         render();
       } catch (error) {
         listEl.textContent = "";
-        const empty = document.createElement("p");
-        empty.className = "empty";
-        empty.textContent = "Feeds are not available yet. Run the GitHub Action to generate them.";
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.innerHTML = "<p>🔄 Feeds are being generated. Please check back in a moment!</p>";
         listEl.appendChild(empty);
       }
     }
