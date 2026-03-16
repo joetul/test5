@@ -3,30 +3,30 @@
   <channel>
     <title>Marvel's Daredevil Season Alerts</title>
     <description>New season notifications for Marvel's Daredevil from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/1369/marvels-daredevil</link>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Marvel%27s%20Daredevil</link>
     <language>en</language>
     <lastBuildDate>Tue, 03 Dec 2024 23:56:24 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/marvel-s-daredevil.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 3 — Premieres 2018-10-19</title>
-      <description>Premiere: 2018-10-19 | Finale: 2018-10-19 | Episodes: 13 | Network: Netflix</description>
+      <description>Premiere: 2018-10-19 | Finale: 2018-10-19 | Episodes: 13 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/1369/marvels-daredevil</description>
       <guid isPermaLink="false">tv-season-rss:marvel-s-daredevil:s3</guid>
       <pubDate>Fri, 19 Oct 2018 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/1369/marvels-daredevil</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Marvel%27s%20Daredevil</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2016-03-18</title>
-      <description>Premiere: 2016-03-18 | Finale: 2016-03-18 | Episodes: 13 | Network: Netflix</description>
+      <description>Premiere: 2016-03-18 | Finale: 2016-03-18 | Episodes: 13 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/1369/marvels-daredevil</description>
       <guid isPermaLink="false">tv-season-rss:marvel-s-daredevil:s2</guid>
       <pubDate>Fri, 18 Mar 2016 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/1369/marvels-daredevil</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Marvel%27s%20Daredevil</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2015-04-10</title>
-      <description>Premiere: 2015-04-10 | Finale: 2015-04-10 | Episodes: 13 | Network: Netflix</description>
+      <description>Premiere: 2015-04-10 | Finale: 2015-04-10 | Episodes: 13 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/1369/marvels-daredevil</description>
       <guid isPermaLink="false">tv-season-rss:marvel-s-daredevil:s1</guid>
       <pubDate>Fri, 10 Apr 2015 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/1369/marvels-daredevil</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Marvel%27s%20Daredevil</link>
     </item>
   </channel>
 </rss>

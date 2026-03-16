@@ -3,30 +3,30 @@
   <channel>
     <title>Mr Inbetween Season Alerts</title>
     <description>New season notifications for Mr Inbetween from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/34268/mr-inbetween</link>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Mr%20Inbetween</link>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jan 2024 01:15:27 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/mr-inbetween.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 3 — Premieres 2021-05-25</title>
-      <description>Premiere: 2021-05-25 | Finale: 2021-07-13 | Episodes: 9 | Network: FX</description>
+      <description>Premiere: 2021-05-25 | Finale: 2021-07-13 | Episodes: 9 | Network: FX | TVmaze: https://www.tvmaze.com/shows/34268/mr-inbetween</description>
       <guid isPermaLink="false">tv-season-rss:mr-inbetween:s3</guid>
       <pubDate>Tue, 25 May 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/34268/mr-inbetween</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Mr%20Inbetween</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2019-09-12</title>
-      <description>Premiere: 2019-09-12 | Finale: 2019-11-21 | Episodes: 11 | Network: FX</description>
+      <description>Premiere: 2019-09-12 | Finale: 2019-11-21 | Episodes: 11 | Network: FX | TVmaze: https://www.tvmaze.com/shows/34268/mr-inbetween</description>
       <guid isPermaLink="false">tv-season-rss:mr-inbetween:s2</guid>
       <pubDate>Thu, 12 Sep 2019 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/34268/mr-inbetween</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Mr%20Inbetween</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2018-09-25</title>
-      <description>Premiere: 2018-09-25 | Finale: 2018-10-09 | Episodes: 6 | Network: FX</description>
+      <description>Premiere: 2018-09-25 | Finale: 2018-10-09 | Episodes: 6 | Network: FX | TVmaze: https://www.tvmaze.com/shows/34268/mr-inbetween</description>
       <guid isPermaLink="false">tv-season-rss:mr-inbetween:s1</guid>
       <pubDate>Tue, 25 Sep 2018 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/34268/mr-inbetween</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Mr%20Inbetween</link>
     </item>
   </channel>
 </rss>

@@ -3,37 +3,37 @@
   <channel>
     <title>Raising Hope Season Alerts</title>
     <description>New season notifications for Raising Hope from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Raising%20Hope</link>
     <language>en</language>
     <lastBuildDate>Thu, 21 Nov 2024 12:46:24 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/raising-hope.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 4 — Premieres 2013-11-15</title>
-      <description>Premiere: 2013-11-15 | Finale: 2014-04-04 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2013-11-15 | Finale: 2014-04-04 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/580/raising-hope</description>
       <guid isPermaLink="false">tv-season-rss:raising-hope:s4</guid>
       <pubDate>Fri, 15 Nov 2013 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Raising%20Hope</link>
     </item>
     <item>
       <title>Season 3 — Premieres 2012-10-02</title>
-      <description>Premiere: 2012-10-02 | Finale: 2013-03-28 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2012-10-02 | Finale: 2013-03-28 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/580/raising-hope</description>
       <guid isPermaLink="false">tv-season-rss:raising-hope:s3</guid>
       <pubDate>Tue, 02 Oct 2012 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Raising%20Hope</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2011-09-20</title>
-      <description>Premiere: 2011-09-20 | Finale: 2012-04-17 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2011-09-20 | Finale: 2012-04-17 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/580/raising-hope</description>
       <guid isPermaLink="false">tv-season-rss:raising-hope:s2</guid>
       <pubDate>Tue, 20 Sep 2011 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Raising%20Hope</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2010-09-21</title>
-      <description>Premiere: 2010-09-21 | Finale: 2011-05-17 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2010-09-21 | Finale: 2011-05-17 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/580/raising-hope</description>
       <guid isPermaLink="false">tv-season-rss:raising-hope:s1</guid>
       <pubDate>Tue, 21 Sep 2010 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Raising%20Hope</link>
     </item>
   </channel>
 </rss>

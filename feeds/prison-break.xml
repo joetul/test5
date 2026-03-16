@@ -3,44 +3,44 @@
   <channel>
     <title>Prison Break Season Alerts</title>
     <description>New season notifications for Prison Break from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/541/prison-break</link>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     <language>en</language>
     <lastBuildDate>Sat, 08 Nov 2025 15:40:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/prison-break.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 5 — Premieres 2017-04-04</title>
-      <description>Premiere: 2017-04-04 | Finale: 2017-05-30 | Episodes: 9 | Network: FOX</description>
+      <description>Premiere: 2017-04-04 | Finale: 2017-05-30 | Episodes: 9 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/541/prison-break</description>
       <guid isPermaLink="false">tv-season-rss:prison-break:s5</guid>
       <pubDate>Tue, 04 Apr 2017 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/541/prison-break</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     </item>
     <item>
       <title>Season 4 — Premieres 2008-09-01</title>
-      <description>Premiere: 2008-09-01 | Finale: 2009-05-27 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2008-09-01 | Finale: 2009-05-27 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/541/prison-break</description>
       <guid isPermaLink="false">tv-season-rss:prison-break:s4</guid>
       <pubDate>Mon, 01 Sep 2008 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/541/prison-break</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     </item>
     <item>
       <title>Season 3 — Premieres 2007-09-17</title>
-      <description>Premiere: 2007-09-17 | Finale: 2008-02-18 | Episodes: 13 | Network: FOX</description>
+      <description>Premiere: 2007-09-17 | Finale: 2008-02-18 | Episodes: 13 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/541/prison-break</description>
       <guid isPermaLink="false">tv-season-rss:prison-break:s3</guid>
       <pubDate>Mon, 17 Sep 2007 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/541/prison-break</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2006-08-21</title>
-      <description>Premiere: 2006-08-21 | Finale: 2007-04-02 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2006-08-21 | Finale: 2007-04-02 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/541/prison-break</description>
       <guid isPermaLink="false">tv-season-rss:prison-break:s2</guid>
       <pubDate>Mon, 21 Aug 2006 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/541/prison-break</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2005-08-29</title>
-      <description>Premiere: 2005-08-29 | Finale: 2006-05-15 | Episodes: 22 | Network: FOX</description>
+      <description>Premiere: 2005-08-29 | Finale: 2006-05-15 | Episodes: 22 | Network: FOX | TVmaze: https://www.tvmaze.com/shows/541/prison-break</description>
       <guid isPermaLink="false">tv-season-rss:prison-break:s1</guid>
       <pubDate>Mon, 29 Aug 2005 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/541/prison-break</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Prison%20Break</link>
     </item>
   </channel>
 </rss>

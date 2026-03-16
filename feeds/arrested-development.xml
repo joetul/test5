@@ -3,44 +3,44 @@
   <channel>
     <title>Arrested Development Season Alerts</title>
     <description>New season notifications for Arrested Development from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     <language>en</language>
     <lastBuildDate>Wed, 07 Aug 2024 13:03:50 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/arrested-development.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 5 — Premieres 2018-05-29</title>
-      <description>Premiere: 2018-05-29 | Finale: 2019-03-15 | Episodes: 16 | Network: Netflix</description>
+      <description>Premiere: 2018-05-29 | Finale: 2019-03-15 | Episodes: 16 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/321/arrested-development</description>
       <guid isPermaLink="false">tv-season-rss:arrested-development:s5</guid>
       <pubDate>Tue, 29 May 2018 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     </item>
     <item>
       <title>Season 4 — Premieres 2013-05-26</title>
-      <description>Premiere: 2013-05-26 | Finale: 2013-05-26 | Episodes: 15 | Network: Netflix</description>
+      <description>Premiere: 2013-05-26 | Finale: 2013-05-26 | Episodes: 15 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/321/arrested-development</description>
       <guid isPermaLink="false">tv-season-rss:arrested-development:s4</guid>
       <pubDate>Sun, 26 May 2013 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     </item>
     <item>
       <title>Season 3 — Premieres 2005-09-19</title>
-      <description>Premiere: 2005-09-19 | Finale: 2006-02-10 | Episodes: 13 | Network: Netflix</description>
+      <description>Premiere: 2005-09-19 | Finale: 2006-02-10 | Episodes: 13 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/321/arrested-development</description>
       <guid isPermaLink="false">tv-season-rss:arrested-development:s3</guid>
       <pubDate>Mon, 19 Sep 2005 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2004-11-07</title>
-      <description>Premiere: 2004-11-07 | Finale: 2005-04-17 | Episodes: 18 | Network: Netflix</description>
+      <description>Premiere: 2004-11-07 | Finale: 2005-04-17 | Episodes: 18 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/321/arrested-development</description>
       <guid isPermaLink="false">tv-season-rss:arrested-development:s2</guid>
       <pubDate>Sun, 07 Nov 2004 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2003-11-02</title>
-      <description>Premiere: 2003-11-02 | Finale: 2004-06-06 | Episodes: 22 | Network: Netflix</description>
+      <description>Premiere: 2003-11-02 | Finale: 2004-06-06 | Episodes: 22 | Network: Netflix | TVmaze: https://www.tvmaze.com/shows/321/arrested-development</description>
       <guid isPermaLink="false">tv-season-rss:arrested-development:s1</guid>
       <pubDate>Sun, 02 Nov 2003 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/321/arrested-development</link>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Arrested%20Development</link>
     </item>
   </channel>
 </rss>

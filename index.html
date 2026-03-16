@@ -274,13 +274,10 @@
       return String(value || "").toLowerCase();
     }
 
-    function justWatchUrl(show) {
-      const base = "https://www.justwatch.com";
+    function watchSearchUrl(show) {
       const query = String(show.name || "").trim();
-      if (!query) return base;
-
-      const encodedQuery = encodeURIComponent(query);
-      return `${base}/search?q=${encodedQuery}`;
+      if (!query) return "https://www.google.com";
+      return `https://www.google.com/search?q=${encodeURIComponent(`${query} where to watch`)}`;
     }
 
     function render() {
@@ -312,10 +309,10 @@
         const availability = document.createElement("span");
         availability.className = "tag link";
         const availabilityLink = document.createElement("a");
-        availabilityLink.href = justWatchUrl(show);
+        availabilityLink.href = watchSearchUrl(show);
         availabilityLink.target = "_blank";
         availabilityLink.rel = "noopener noreferrer";
-        availabilityLink.textContent = "Search on JustWatch";
+        availabilityLink.textContent = "Search Where to Watch";
         availability.appendChild(availabilityLink);
         meta.appendChild(availability);
 
