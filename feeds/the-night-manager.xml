@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Night Manager Season Alerts</title>
+    <description>New season notifications for The Night Manager from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/2285/the-night-manager</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Feb 2026 10:08:42 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-night-manager.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: 6 | Network: BBC iPlayer</description>
+      <guid isPermaLink="false">tv-season-rss:the-night-manager:s3</guid>
+      <pubDate>Mon, 16 Mar 2026 00:44:53 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/2285/the-night-manager</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2026-01-01</title>
+      <description>Premiere: 2026-01-01 | Finale: 2026-02-01 | Episodes: 6 | Network: BBC iPlayer</description>
+      <guid isPermaLink="false">tv-season-rss:the-night-manager:s2</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/2285/the-night-manager</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2016-02-21</title>
+      <description>Premiere: 2016-02-21 | Finale: 2016-03-27 | Episodes: 6 | Network: BBC iPlayer</description>
+      <guid isPermaLink="false">tv-season-rss:the-night-manager:s1</guid>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/2285/the-night-manager</link>
+    </item>
+  </channel>
+</rss>

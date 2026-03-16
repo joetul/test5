@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Shōgun Season Alerts</title>
+    <description>New season notifications for Shōgun from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/37336/shogun</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Jun 2025 12:49:21 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/sh-gun.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Hulu</description>
+      <guid isPermaLink="false">tv-season-rss:sh-gun:s3</guid>
+      <pubDate>Mon, 16 Mar 2026 00:44:32 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/37336/shogun</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Hulu</description>
+      <guid isPermaLink="false">tv-season-rss:sh-gun:s2</guid>
+      <pubDate>Mon, 16 Mar 2026 00:44:32 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/37336/shogun</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2024-02-27</title>
+      <description>Premiere: 2024-02-27 | Finale: 2024-04-23 | Episodes: 10 | Network: Hulu</description>
+      <guid isPermaLink="false">tv-season-rss:sh-gun:s1</guid>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/37336/shogun</link>
+    </item>
+  </channel>
+</rss>

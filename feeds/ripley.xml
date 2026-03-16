@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Ripley Season Alerts</title>
+    <description>New season notifications for Ripley from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/44042/ripley</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Aug 2025 01:05:45 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ripley.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2024-04-04</title>
+      <description>Premiere: 2024-04-04 | Finale: 2024-04-04 | Episodes: 8 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:ripley:s1</guid>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/44042/ripley</link>
+    </item>
+  </channel>
+</rss>

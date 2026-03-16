@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Dark Season Alerts</title>
+    <description>New season notifications for Dark from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/17861/dark</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Feb 2024 15:45:54 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dark.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2020-06-27</title>
+      <description>Premiere: 2020-06-27 | Finale: 2020-06-27 | Episodes: 8 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:dark:s3</guid>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/17861/dark</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2019-06-21</title>
+      <description>Premiere: 2019-06-21 | Finale: 2019-06-21 | Episodes: 8 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:dark:s2</guid>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/17861/dark</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2017-12-01</title>
+      <description>Premiere: 2017-12-01 | Finale: 2017-12-01 | Episodes: 10 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:dark:s1</guid>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/17861/dark</link>
+    </item>
+  </channel>
+</rss>

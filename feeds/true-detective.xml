@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>True Detective Season Alerts</title>
+    <description>New season notifications for True Detective from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Oct 2025 19:00:03 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/true-detective.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 5 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:true-detective:s5</guid>
+      <pubDate>Mon, 16 Mar 2026 00:45:01 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2024-01-14</title>
+      <description>Premiere: 2024-01-14 | Finale: 2024-02-18 | Episodes: 6 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:true-detective:s4</guid>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2019-01-13</title>
+      <description>Premiere: 2019-01-13 | Finale: 2019-02-24 | Episodes: 8 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:true-detective:s3</guid>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2015-06-21</title>
+      <description>Premiere: 2015-06-21 | Finale: 2015-08-09 | Episodes: 8 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:true-detective:s2</guid>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2014-01-12</title>
+      <description>Premiere: 2014-01-12 | Finale: 2014-03-09 | Episodes: 8 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:true-detective:s1</guid>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    </item>
+  </channel>
+</rss>

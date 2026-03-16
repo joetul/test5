@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Your Honor Season Alerts</title>
+    <description>New season notifications for Your Honor from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/32791/your-honor</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Mar 2023 21:42:34 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/your-honor.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2023-01-13</title>
+      <description>Premiere: 2023-01-13 | Finale: 2023-03-17 | Episodes: 10 | Network: Showtime on Demand</description>
+      <guid isPermaLink="false">tv-season-rss:your-honor:s2</guid>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/32791/your-honor</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2020-12-06</title>
+      <description>Premiere: 2020-12-06 | Finale: 2021-02-14 | Episodes: 10 | Network: Showtime on Demand</description>
+      <guid isPermaLink="false">tv-season-rss:your-honor:s1</guid>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/32791/your-honor</link>
+    </item>
+  </channel>
+</rss>

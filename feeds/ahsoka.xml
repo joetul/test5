@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Ahsoka Season Alerts</title>
+    <description>New season notifications for Ahsoka from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/52343/ahsoka</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Jun 2025 14:45:54 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ahsoka.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: 8 | Network: Disney+</description>
+      <guid isPermaLink="false">tv-season-rss:ahsoka:s2</guid>
+      <pubDate>Mon, 16 Mar 2026 00:44:37 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/52343/ahsoka</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2023-08-22</title>
+      <description>Premiere: 2023-08-22 | Finale: 2023-10-03 | Episodes: 8 | Network: Disney+</description>
+      <guid isPermaLink="false">tv-season-rss:ahsoka:s1</guid>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/52343/ahsoka</link>
+    </item>
+  </channel>
+</rss>
