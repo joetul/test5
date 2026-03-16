@@ -132,6 +132,23 @@
       background: rgba(15, 19, 24, 0.7);
     }
 
+    .tag.link {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .tag.link a {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.18rem 0.55rem;
+      color: #f3c974;
+      text-decoration: none;
+    }
+
+    .tag.link a:hover {
+      text-decoration: underline;
+    }
+
     .status-running {
       color: var(--running);
       border-color: rgba(110, 211, 164, 0.45);
@@ -220,7 +237,7 @@
     </header>
 
     <section class="panel">
-      <input id="filter" type="text" placeholder="Filter by show or network">
+      <input id="filter" type="text" placeholder="Filter by show or status">
       <p id="count" class="chrome">0 shows</p>
       <div id="list" class="cards" aria-live="polite"></div>
     </section>
@@ -257,6 +274,51 @@
       return String(value || "").toLowerCase();
     }
 
+    function detectCountryCode() {
+      const localeCandidates = [];
+      if (Array.isArray(navigator.languages)) localeCandidates.push(...navigator.languages);
+      if (navigator.language) localeCandidates.push(navigator.language);
+
+      for (const localeValue of localeCandidates) {
+        if (!localeValue) continue;
+        const locale = String(localeValue);
+
+        if (typeof Intl !== "undefined" && typeof Intl.Locale === "function") {
+          try {
+            const region = new Intl.Locale(locale).maximize().region;
+            if (region && /^[A-Z]{2}$/.test(region)) return region.toLowerCase();
+          } catch (error) {
+            // Fall through to regex parsing.
+          }
+        }
+
+        const match = locale.match(/[-_]([A-Za-z]{2})(?:$|[-_])/);
+        if (match) return match[1].toLowerCase();
+      }
+
+      return "";
+    }
+
+    function fallbackSlug(name) {
+      return String(name || "")
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+    }
+
+    function justWatchUrl(show) {
+      const base = "https://www.justwatch.com";
+      const slug = show.slug || fallbackSlug(show.name);
+      if (!slug) return base;
+
+      const country = detectCountryCode();
+      if (country) return `${base}/${country}/tv-series/${slug}`;
+
+      // Countryless URLs are geo-redirected by JustWatch.
+      return `${base}/tv-series/${slug}`;
+    }
+
     function render() {
       listEl.textContent = "";
       countEl.textContent = `${state.filtered.length} shows`;
@@ -283,10 +345,15 @@
         const meta = document.createElement("div");
         meta.className = "meta chrome";
 
-        const network = document.createElement("span");
-        network.className = "tag";
-        network.textContent = show.network || "Unknown network";
-        meta.appendChild(network);
+        const availability = document.createElement("span");
+        availability.className = "tag link";
+        const availabilityLink = document.createElement("a");
+        availabilityLink.href = justWatchUrl(show);
+        availabilityLink.target = "_blank";
+        availabilityLink.rel = "noopener noreferrer";
+        availabilityLink.textContent = "Watch options";
+        availability.appendChild(availabilityLink);
+        meta.appendChild(availability);
 
         const status = document.createElement("span");
         status.className = `tag ${statusClass(show.status)}`.trim();
@@ -333,7 +400,7 @@
       }
 
       state.filtered = state.allShows.filter((show) => {
-        return normalize(show.name).includes(query) || normalize(show.network).includes(query);
+        return normalize(show.name).includes(query) || normalize(show.status).includes(query);
       });
       render();
     }
