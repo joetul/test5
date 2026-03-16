@@ -17,7 +17,7 @@ Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.co
 
 ## Missing a show?
 
-SeasonFeed is a community-maintained list. We can't simply add every show on TVmaze — only shows that are manually added and reviewed are included. This keeps the list focused and the feeds reliable.
+SeasonFeed is a community-maintained list. Only shows that are manually added and reviewed are included. This keeps the list focused and the feeds reliable.
 
 You can help grow the list in two ways:
 
