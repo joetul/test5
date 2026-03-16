@@ -200,6 +200,16 @@
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/504/1262352.jpg"
   },
   {
+    "name": "Dark Matter",
+    "slug": "dark-matter",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dark-matter.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/61315/dark-matter",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/513/1284551.jpg"
+  },
+  {
     "name": "Dexter",
     "slug": "dexter",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dexter.xml",
