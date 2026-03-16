@@ -4,68 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cobra Kai Season 4 Update</title>
+    <meta name="description" content="Cobra Kai Season 4 update with premiere, finale, and episode count.">
     <style>
-        :root {
-            --bg: #0f1318;
-            --surface: #1a232e;
-            --text: #f2efe8;
-            --muted: #bac2cb;
-            --line: #314257;
-            --accent: #f0c164;
-        }
         * { box-sizing: border-box; }
         body {
             margin: 0;
-            min-height: 100vh;
-            font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
-            color: var(--text);
-            background:
-                radial-gradient(circle at 12% 15%, rgba(240, 193, 100, 0.12), transparent 35%),
-                radial-gradient(circle at 88% 8%, rgba(118, 200, 172, 0.11), transparent 32%),
-                var(--bg);
-            padding: 1.4rem;
+            font-family: Georgia, "Times New Roman", serif;
+            color: #1f2328;
+            background: #f7f7f6;
+            line-height: 1.6;
         }
-        .card {
+        main {
             max-width: 760px;
             margin: 0 auto;
-            background: linear-gradient(155deg, rgba(26, 35, 46, 0.95), rgba(16, 22, 29, 0.95));
-            border: 1px solid var(--line);
-            border-radius: 16px;
-            padding: 1.2rem 1.2rem 1rem;
+            background: #ffffff;
+            border: 1px solid #e2e5e8;
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-top: 1.2rem;
+            margin-bottom: 1.2rem;
         }
-        h1 { margin: 0 0 0.35rem; font-size: clamp(1.35rem, 3.5vw, 1.95rem); }
-        .sub { margin: 0 0 1rem; color: var(--muted); }
-        dl { margin: 0; display: grid; grid-template-columns: 120px 1fr; gap: 0.45rem 0.8rem; }
-        dt { color: var(--muted); }
-        dd { margin: 0; }
-        .actions { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.55rem; }
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            border: 1px solid var(--line);
-            border-radius: 999px;
-            padding: 0.42rem 0.75rem;
-            color: var(--text);
-            text-decoration: none;
-            background: rgba(18, 24, 33, 0.72);
-        }
-        .btn.primary { border-color: rgba(240, 193, 100, 0.7); color: var(--accent); }
+        h1 { margin: 0 0 0.25rem; font-size: 1.9rem; line-height: 1.25; }
+        .meta { color: #5b6470; margin: 0 0 1rem; font-family: "Segoe UI", sans-serif; }
+        p { margin: 0 0 0.8rem; }
+        ul { margin: 0 0 1rem 1.1rem; }
+        a { color: #0450a3; text-underline-offset: 2px; }
     </style>
 </head>
 <body>
-    <article class="card">
-        <h1>Cobra Kai Season 4</h1>
-        <p class="sub">Season update from TV Season Tracker RSS</p>
-        <dl>
-            <dt>Premiere</dt><dd>2021-12-31</dd>
-            <dt>Finale</dt><dd>2021-12-31</dd>
-            <dt>Episodes</dt><dd>10</dd>
-        </dl>
-        <div class="actions">
-            <a class="btn primary" href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/cobra-kai.xml">Open RSS feed</a>
-            <a class="btn" href="https://www.google.com/search?q=Cobra%20Kai%20where%20to%20watch">Where to watch</a>
-            <a class="btn" href="https://www.tvmaze.com/seasons/114904/cobra-kai-season-4">TVmaze season page</a>
-        </div>
-    </article>
+    <main>
+        <article>
+            <header>
+                <h1>Cobra Kai Season 4 Update</h1>
+                <p class="meta">TV Season Tracker RSS</p>
+            </header>
+            <p>This page summarizes the latest season information for <strong>Cobra Kai</strong>.</p>
+            <ul>
+                <li><strong>Premiere date:</strong> 2021-12-31</li>
+                <li><strong>Finale date:</strong> 2021-12-31</li>
+                <li><strong>Episode count:</strong> 10</li>
+            </ul>
+            <p><a href="https://www.google.com/search?q=Cobra%20Kai%20where%20to%20watch">Where to watch (Google search)</a></p>
+            <p><a href="https://www.tvmaze.com/seasons/114904/cobra-kai-season-4">Open season details on TVmaze</a></p>
+            <p><a href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/cobra-kai.xml">Back to this show's RSS feed</a></p>
+        </article>
+    </main>
 </body>
 </html>
