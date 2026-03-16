@@ -3,7 +3,7 @@
   <channel>
     <title>Wednesday Season Alerts</title>
     <description>New season notifications for Wednesday from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/53647/wednesday</link>
+    <link>https://www.google.com/search?q=Wednesday%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Wed, 07 Jan 2026 20:01:38 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/wednesday.xml" rel="self" type="application/rss+xml" />
@@ -11,22 +11,22 @@
       <title>Season 3 — Premieres TBD</title>
       <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:wednesday:s3</guid>
-      <pubDate>Mon, 16 Mar 2026 04:02:40 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/53647/wednesday</link>
+      <pubDate>Mon, 16 Mar 2026 12:32:06 GMT</pubDate>
+      <link>https://www.google.com/search?q=Wednesday%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2025-08-06</title>
       <description>Premiere: 2025-08-06 | Finale: 2025-09-03 | Episodes: 8 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:wednesday:s2</guid>
       <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/53647/wednesday</link>
+      <link>https://www.google.com/search?q=Wednesday%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2022-11-23</title>
       <description>Premiere: 2022-11-23 | Finale: 2022-11-23 | Episodes: 8 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:wednesday:s1</guid>
       <pubDate>Wed, 23 Nov 2022 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/53647/wednesday</link>
+      <link>https://www.google.com/search?q=Wednesday%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

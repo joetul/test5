@@ -3,30 +3,30 @@
   <channel>
     <title>Severance Season Alerts</title>
     <description>New season notifications for Severance from TVmaze metadata.</description>
-    <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Severance</link>
+    <link>https://www.google.com/search?q=Severance%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Sat, 22 Mar 2025 14:55:48 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/severance.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Season 3 — Premieres TBD</title>
-      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Apple TV | TVmaze: https://www.tvmaze.com/shows/44933/severance</description>
+      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:severance:s3</guid>
-      <pubDate>Mon, 16 Mar 2026 12:23:58 GMT</pubDate>
-      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Severance</link>
+      <pubDate>Mon, 16 Mar 2026 12:31:12 GMT</pubDate>
+      <link>https://www.google.com/search?q=Severance%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2025-01-17</title>
-      <description>Premiere: 2025-01-17 | Finale: 2025-03-21 | Episodes: 10 | Network: Apple TV | TVmaze: https://www.tvmaze.com/shows/44933/severance</description>
+      <description>Premiere: 2025-01-17 | Finale: 2025-03-21 | Episodes: 10 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:severance:s2</guid>
       <pubDate>Fri, 17 Jan 2025 00:00:00 GMT</pubDate>
-      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Severance</link>
+      <link>https://www.google.com/search?q=Severance%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2022-02-18</title>
-      <description>Premiere: 2022-02-18 | Finale: 2022-04-08 | Episodes: 9 | Network: Apple TV | TVmaze: https://www.tvmaze.com/shows/44933/severance</description>
+      <description>Premiere: 2022-02-18 | Finale: 2022-04-08 | Episodes: 9 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:severance:s1</guid>
       <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
-      <link>https://joetul.github.io/TV-Season-Tracker-RSS/justwatch.html?q=Severance</link>
+      <link>https://www.google.com/search?q=Severance%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

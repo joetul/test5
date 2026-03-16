@@ -100,6 +100,14 @@ def network_name(show_data):
     return network.get("name") or web_channel.get("name") or "Unknown"
 
 
+def watch_search_url(show_name):
+    query = f"{(show_name or '').strip()} where to watch".strip()
+    if not query:
+        return "https://www.google.com"
+    encoded_query = urllib.parse.quote(query, safe="")
+    return f"https://www.google.com/search?q={encoded_query}"
+
+
 class TVmazeClient:
     def __init__(self):
         self.last_request_time = 0.0
@@ -205,15 +213,17 @@ def compute_last_build_date(show_data, seasons):
 
 def build_feed(show_data, seasons, slug, site_url):
     tvmaze_url = show_data.get("url") or f"https://www.tvmaze.com/shows/{show_data.get('id')}"
+    show_name = show_data.get("name", "Unknown Show")
+    search_url = watch_search_url(show_name)
 
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
 
-    ET.SubElement(channel, "title").text = f"{show_data.get('name', 'Unknown Show')} Season Alerts"
+    ET.SubElement(channel, "title").text = f"{show_name} Season Alerts"
     ET.SubElement(channel, "description").text = (
-        f"New season notifications for {show_data.get('name', 'this show')} from TVmaze metadata."
+        f"New season notifications for {show_name} from TVmaze metadata."
     )
-    ET.SubElement(channel, "link").text = tvmaze_url
+    ET.SubElement(channel, "link").text = search_url
     ET.SubElement(channel, "language").text = "en"
     ET.SubElement(channel, "lastBuildDate").text = compute_last_build_date(show_data, seasons)
 
@@ -247,7 +257,7 @@ def build_feed(show_data, seasons, slug, site_url):
         guid.text = f"tv-season-rss:{slug}:s{number}"
 
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
-        ET.SubElement(item, "link").text = tvmaze_url
+        ET.SubElement(item, "link").text = search_url
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")

@@ -3,7 +3,7 @@
   <channel>
     <title>Lost Season Alerts</title>
     <description>New season notifications for Lost from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/123/lost</link>
+    <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Sun, 11 Jan 2026 11:39:29 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lost.xml" rel="self" type="application/rss+xml" />
@@ -12,42 +12,42 @@
       <description>Premiere: 2010-02-02 | Finale: 2010-05-23 | Episodes: 18 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s6</guid>
       <pubDate>Tue, 02 Feb 2010 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 5 — Premieres 2009-01-21</title>
       <description>Premiere: 2009-01-21 | Finale: 2009-05-13 | Episodes: 17 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s5</guid>
       <pubDate>Wed, 21 Jan 2009 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 4 — Premieres 2008-01-31</title>
       <description>Premiere: 2008-01-31 | Finale: 2008-05-29 | Episodes: 14 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s4</guid>
       <pubDate>Thu, 31 Jan 2008 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 3 — Premieres 2006-10-04</title>
       <description>Premiere: 2006-10-04 | Finale: 2007-05-23 | Episodes: 23 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s3</guid>
       <pubDate>Wed, 04 Oct 2006 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2005-09-21</title>
       <description>Premiere: 2005-09-21 | Finale: 2006-05-24 | Episodes: 24 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s2</guid>
       <pubDate>Wed, 21 Sep 2005 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2004-09-22</title>
       <description>Premiere: 2004-09-22 | Finale: 2005-05-25 | Episodes: 25 | Network: ABC</description>
       <guid isPermaLink="false">tv-season-rss:lost:s1</guid>
       <pubDate>Wed, 22 Sep 2004 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/123/lost</link>
+      <link>https://www.google.com/search?q=Lost%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <channel>
     <title>Hijack Season Alerts</title>
     <description>New season notifications for Hijack from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/61739/hijack</link>
+    <link>https://www.google.com/search?q=Hijack%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Sat, 07 Mar 2026 12:43:37 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/hijack.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,14 @@
       <description>Premiere: 2026-01-14 | Finale: 2026-03-04 | Episodes: 8 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:hijack:s2</guid>
       <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/61739/hijack</link>
+      <link>https://www.google.com/search?q=Hijack%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2023-06-28</title>
       <description>Premiere: 2023-06-28 | Finale: 2023-08-02 | Episodes: 7 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:hijack:s1</guid>
       <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/61739/hijack</link>
+      <link>https://www.google.com/search?q=Hijack%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <channel>
     <title>MINDHUNTER Season Alerts</title>
     <description>New season notifications for MINDHUNTER from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/10822/mindhunter</link>
+    <link>https://www.google.com/search?q=MINDHUNTER%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Wed, 27 Mar 2024 06:34:36 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/mindhunter.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,14 @@
       <description>Premiere: 2019-08-16 | Finale: 2019-08-16 | Episodes: 9 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:mindhunter:s2</guid>
       <pubDate>Fri, 16 Aug 2019 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/10822/mindhunter</link>
+      <link>https://www.google.com/search?q=MINDHUNTER%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2017-10-13</title>
       <description>Premiere: 2017-10-13 | Finale: 2017-10-13 | Episodes: 10 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:mindhunter:s1</guid>
       <pubDate>Fri, 13 Oct 2017 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/10822/mindhunter</link>
+      <link>https://www.google.com/search?q=MINDHUNTER%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <channel>
     <title>The Gentlemen Season Alerts</title>
     <description>New season notifications for The Gentlemen from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/64992/the-gentlemen</link>
+    <link>https://www.google.com/search?q=The%20Gentlemen%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Sat, 24 Aug 2024 13:45:08 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-gentlemen.xml" rel="self" type="application/rss+xml" />
@@ -11,15 +11,15 @@
       <title>Season 2 — Premieres TBD</title>
       <description>Premiere: TBD | Finale: TBD | Episodes: 8 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:the-gentlemen:s2</guid>
-      <pubDate>Mon, 16 Mar 2026 04:04:19 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/64992/the-gentlemen</link>
+      <pubDate>Mon, 16 Mar 2026 12:33:17 GMT</pubDate>
+      <link>https://www.google.com/search?q=The%20Gentlemen%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2024-03-07</title>
       <description>Premiere: 2024-03-07 | Finale: 2024-03-07 | Episodes: 8 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:the-gentlemen:s1</guid>
       <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/64992/the-gentlemen</link>
+      <link>https://www.google.com/search?q=The%20Gentlemen%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>

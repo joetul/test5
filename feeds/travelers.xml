@@ -3,7 +3,7 @@
   <channel>
     <title>Travelers Season Alerts</title>
     <description>New season notifications for Travelers from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/15996/travelers</link>
+    <link>https://www.google.com/search?q=Travelers%20where%20to%20watch</link>
     <language>en</language>
     <lastBuildDate>Wed, 10 Sep 2025 04:44:36 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/travelers.xml" rel="self" type="application/rss+xml" />
@@ -12,21 +12,21 @@
       <description>Premiere: 2018-12-14 | Finale: 2018-12-14 | Episodes: 10 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:travelers:s3</guid>
       <pubDate>Fri, 14 Dec 2018 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/15996/travelers</link>
+      <link>https://www.google.com/search?q=Travelers%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 2 — Premieres 2017-10-16</title>
       <description>Premiere: 2017-10-16 | Finale: 2017-12-18 | Episodes: 12 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:travelers:s2</guid>
       <pubDate>Mon, 16 Oct 2017 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/15996/travelers</link>
+      <link>https://www.google.com/search?q=Travelers%20where%20to%20watch</link>
     </item>
     <item>
       <title>Season 1 — Premieres 2016-10-17</title>
       <description>Premiere: 2016-10-17 | Finale: 2017-01-02 | Episodes: 12 | Network: Netflix</description>
       <guid isPermaLink="false">tv-season-rss:travelers:s1</guid>
       <pubDate>Mon, 17 Oct 2016 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/shows/15996/travelers</link>
+      <link>https://www.google.com/search?q=Travelers%20where%20to%20watch</link>
     </item>
   </channel>
 </rss>
