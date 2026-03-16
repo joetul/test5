@@ -8,13 +8,6 @@
     <lastBuildDate>Fri, 26 Dec 2025 19:42:44 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/pluribus.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Season 2 — Premieres TBD</title>
-      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Apple TV</description>
-      <guid isPermaLink="false">tv-season-rss:pluribus:s2</guid>
-      <pubDate>Mon, 16 Mar 2026 12:33:02 GMT</pubDate>
-      <link>https://www.google.com/search?q=Pluribus%20where%20to%20watch</link>
-    </item>
-    <item>
       <title>Season 1 — Premieres 2025-11-07</title>
       <description>Premiere: 2025-11-07 | Finale: 2025-12-24 | Episodes: 9 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:pluribus:s1</guid>

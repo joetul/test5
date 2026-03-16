@@ -8,20 +8,6 @@
     <lastBuildDate>Mon, 20 Oct 2025 21:22:56 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/silo.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Season 4 — Premieres TBD</title>
-      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Apple TV</description>
-      <guid isPermaLink="false">tv-season-rss:silo:s4</guid>
-      <pubDate>Mon, 16 Mar 2026 12:31:16 GMT</pubDate>
-      <link>https://www.google.com/search?q=Silo%20where%20to%20watch</link>
-    </item>
-    <item>
-      <title>Season 3 — Premieres TBD</title>
-      <description>Premiere: TBD | Finale: TBD | Episodes: 10 | Network: Apple TV</description>
-      <guid isPermaLink="false">tv-season-rss:silo:s3</guid>
-      <pubDate>Mon, 16 Mar 2026 12:31:16 GMT</pubDate>
-      <link>https://www.google.com/search?q=Silo%20where%20to%20watch</link>
-    </item>
-    <item>
       <title>Season 2 — Premieres 2024-11-15</title>
       <description>Premiere: 2024-11-15 | Finale: 2025-01-17 | Episodes: 10 | Network: Apple TV</description>
       <guid isPermaLink="false">tv-season-rss:silo:s2</guid>

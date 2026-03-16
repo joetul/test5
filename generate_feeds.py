@@ -72,6 +72,17 @@ def date_to_rfc822(date_text):
         return "Thu, 01 Jan 1970 00:00:00 GMT"
 
 
+def has_valid_premiere_date(season):
+    date_text = season.get("premiereDate")
+    if not date_text:
+        return False
+    try:
+        datetime.strptime(date_text, "%Y-%m-%d")
+        return True
+    except ValueError:
+        return False
+
+
 def unix_to_rfc822(unix_value):
     try:
         value = int(unix_value)
@@ -237,7 +248,8 @@ def build_feed(show_data, seasons, slug, site_url):
         },
     )
 
-    sorted_seasons = sorted(seasons, key=season_sort_key, reverse=True)
+    dated_seasons = [season for season in seasons if has_valid_premiere_date(season)]
+    sorted_seasons = sorted(dated_seasons, key=season_sort_key, reverse=True)
     show_network = network_name(show_data)
 
     for season in sorted_seasons:
