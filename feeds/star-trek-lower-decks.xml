@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Star Trek: Lower Decks Season Alerts</title>
+    <description>New season notifications for Star Trek: Lower Decks from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-lower-decks.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Mar 2025 07:09:31 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-lower-decks.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 5 — Premieres 2024-10-24</title>
+      <description>Premiere: 2024-10-24 | Finale: 2024-12-19 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Star%20Trek%3A%20Lower%20Decks%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s5.html</guid>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s5.html</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2023-09-07</title>
+      <description>Premiere: 2023-09-07 | Finale: 2023-11-02 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Star%20Trek%3A%20Lower%20Decks%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s4.html</guid>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s4.html</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2022-08-25</title>
+      <description>Premiere: 2022-08-25 | Finale: 2022-10-27 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Star%20Trek%3A%20Lower%20Decks%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s3.html</guid>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2021-08-12</title>
+      <description>Premiere: 2021-08-12 | Finale: 2021-10-14 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Star%20Trek%3A%20Lower%20Decks%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s2.html</guid>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2020-08-06</title>
+      <description>Premiere: 2020-08-06 | Finale: 2020-10-08 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Star%20Trek%3A%20Lower%20Decks%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s1.html</guid>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-trek-lower-decks-s1.html</link>
+    </item>
+  </channel>
+</rss>

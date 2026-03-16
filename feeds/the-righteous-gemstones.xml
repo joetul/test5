@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Righteous Gemstones Season Alerts</title>
+    <description>New season notifications for The Righteous Gemstones from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-righteous-gemstones.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 May 2025 16:28:44 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-righteous-gemstones.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 4 — Premieres 2025-03-09</title>
+      <description>Premiere: 2025-03-09 | Finale: 2025-05-04 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=The%20Righteous%20Gemstones%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s4.html</guid>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s4.html</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2023-06-18</title>
+      <description>Premiere: 2023-06-18 | Finale: 2023-07-30 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=The%20Righteous%20Gemstones%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s3.html</guid>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2022-01-09</title>
+      <description>Premiere: 2022-01-09 | Finale: 2022-02-27 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=The%20Righteous%20Gemstones%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s2.html</guid>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2019-08-18</title>
+      <description>Premiere: 2019-08-18 | Finale: 2019-10-13 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=The%20Righteous%20Gemstones%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s1.html</guid>
+      <pubDate>Sun, 18 Aug 2019 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-righteous-gemstones-s1.html</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Shadow and Bone Season Alerts</title>
+    <description>New season notifications for Shadow and Bone from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/shadow-and-bone.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Feb 2025 22:59:33 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/shadow-and-bone.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2023-03-16</title>
+      <description>Premiere: 2023-03-16 | Finale: 2023-03-16 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Shadow%20and%20Bone%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/shadow-and-bone-s2.html</guid>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/shadow-and-bone-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-04-23</title>
+      <description>Premiere: 2021-04-23 | Finale: 2021-04-23 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Shadow%20and%20Bone%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/shadow-and-bone-s1.html</guid>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/shadow-and-bone-s1.html</link>
+    </item>
+  </channel>
+</rss>

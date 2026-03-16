@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Wheel of Time Season Alerts</title>
+    <description>New season notifications for The Wheel of Time from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-wheel-of-time.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 May 2025 19:07:16 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-wheel-of-time.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2025-03-13</title>
+      <description>Premiere: 2025-03-13 | Finale: 2025-04-17 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Wheel%20of%20Time%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s3.html</guid>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-09-01</title>
+      <description>Premiere: 2023-09-01 | Finale: 2023-10-06 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Wheel%20of%20Time%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s2.html</guid>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-11-19</title>
+      <description>Premiere: 2021-11-19 | Finale: 2021-12-24 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Wheel%20of%20Time%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s1.html</guid>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-wheel-of-time-s1.html</link>
+    </item>
+  </channel>
+</rss>

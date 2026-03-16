@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Agatha All Along Season Alerts</title>
+    <description>New season notifications for Agatha All Along from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/agatha-all-along.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Jan 2026 10:35:41 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/agatha-all-along.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2024-09-18</title>
+      <description>Premiere: 2024-09-18 | Finale: 2024-10-30 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=Agatha%20All%20Along%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/agatha-all-along-s1.html</guid>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/agatha-all-along-s1.html</link>
+    </item>
+  </channel>
+</rss>

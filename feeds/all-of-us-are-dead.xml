@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>All of Us Are Dead Season Alerts</title>
+    <description>New season notifications for All of Us Are Dead from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/all-of-us-are-dead.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Jan 2026 17:47:01 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/all-of-us-are-dead.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2022-01-28</title>
+      <description>Premiere: 2022-01-28 | Finale: 2022-01-28 | Episodes: 12</description>
+      <comments>https://www.google.com/search?q=All%20of%20Us%20Are%20Dead%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/all-of-us-are-dead-s1.html</guid>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/all-of-us-are-dead-s1.html</link>
+    </item>
+  </channel>
+</rss>

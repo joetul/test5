@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Yellowjackets Season Alerts</title>
+    <description>New season notifications for Yellowjackets from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/yellowjackets.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Feb 2026 18:18:23 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/yellowjackets.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2025-02-14</title>
+      <description>Premiere: 2025-02-14 | Finale: 2025-04-11 | Episodes: Unknown</description>
+      <comments>https://www.google.com/search?q=Yellowjackets%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s3.html</guid>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-03-24</title>
+      <description>Premiere: 2023-03-24 | Finale: 2023-05-26 | Episodes: 9</description>
+      <comments>https://www.google.com/search?q=Yellowjackets%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s2.html</guid>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-11-14</title>
+      <description>Premiere: 2021-11-14 | Finale: 2022-01-16 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Yellowjackets%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s1.html</guid>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/yellowjackets-s1.html</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Witcher Season Alerts</title>
+    <description>New season notifications for The Witcher from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-witcher.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 02:57:35 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-witcher.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 4 — Premieres 2025-10-30</title>
+      <description>Premiere: 2025-10-30 | Finale: 2025-10-30 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Witcher%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s4.html</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s4.html</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2023-06-29</title>
+      <description>Premiere: 2023-06-29 | Finale: 2023-07-27 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Witcher%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s3.html</guid>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2021-12-17</title>
+      <description>Premiere: 2021-12-17 | Finale: 2021-12-17 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Witcher%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s2.html</guid>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2019-12-20</title>
+      <description>Premiere: 2019-12-20 | Finale: 2019-12-20 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Witcher%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s1.html</guid>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-witcher-s1.html</link>
+    </item>
+  </channel>
+</rss>

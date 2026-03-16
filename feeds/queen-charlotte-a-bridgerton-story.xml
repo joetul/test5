@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Queen Charlotte: A Bridgerton Story Season Alerts</title>
+    <description>New season notifications for Queen Charlotte: A Bridgerton Story from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/queen-charlotte-a-bridgerton-story.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Jul 2023 08:59:14 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/queen-charlotte-a-bridgerton-story.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2023-05-04</title>
+      <description>Premiere: 2023-05-04 | Finale: 2023-05-04 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Queen%20Charlotte%3A%20A%20Bridgerton%20Story%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/queen-charlotte-a-bridgerton-story-s1.html</guid>
+      <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/queen-charlotte-a-bridgerton-story-s1.html</link>
+    </item>
+  </channel>
+</rss>

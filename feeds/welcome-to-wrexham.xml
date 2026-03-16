@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Welcome to Wrexham Season Alerts</title>
+    <description>New season notifications for Welcome to Wrexham from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/welcome-to-wrexham.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Jun 2025 19:25:30 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/welcome-to-wrexham.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 4 — Premieres 2025-05-15</title>
+      <description>Premiere: 2025-05-15 | Finale: 2025-06-26 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Welcome%20to%20Wrexham%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s4.html</guid>
+      <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s4.html</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2024-05-02</title>
+      <description>Premiere: 2024-05-02 | Finale: 2024-06-13 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Welcome%20to%20Wrexham%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s3.html</guid>
+      <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-09-12</title>
+      <description>Premiere: 2023-09-12 | Finale: 2023-11-14 | Episodes: 15</description>
+      <comments>https://www.google.com/search?q=Welcome%20to%20Wrexham%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s2.html</guid>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2022-08-24</title>
+      <description>Premiere: 2022-08-24 | Finale: 2022-10-12 | Episodes: 18</description>
+      <comments>https://www.google.com/search?q=Welcome%20to%20Wrexham%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s1.html</guid>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/welcome-to-wrexham-s1.html</link>
+    </item>
+  </channel>
+</rss>

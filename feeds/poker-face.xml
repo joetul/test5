@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Poker Face Season Alerts</title>
+    <description>New season notifications for Poker Face from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/poker-face.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Nov 2025 17:06:19 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/poker-face.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2025-05-08</title>
+      <description>Premiere: 2025-05-08 | Finale: 2025-07-10 | Episodes: 12</description>
+      <comments>https://www.google.com/search?q=Poker%20Face%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/poker-face-s2.html</guid>
+      <pubDate>Thu, 08 May 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/poker-face-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2023-01-26</title>
+      <description>Premiere: 2023-01-26 | Finale: 2023-03-09 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Poker%20Face%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/poker-face-s1.html</guid>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/poker-face-s1.html</link>
+    </item>
+  </channel>
+</rss>

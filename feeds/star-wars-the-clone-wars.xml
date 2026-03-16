@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Star Wars: The Clone Wars Season Alerts</title>
+    <description>New season notifications for Star Wars: The Clone Wars from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-clone-wars.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Jan 2024 15:38:38 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-clone-wars.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 7 — Premieres 2020-02-21</title>
+      <description>Premiere: 2020-02-21 | Finale: 2020-05-04 | Episodes: 12</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s7.html</guid>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s7.html</link>
+    </item>
+    <item>
+      <title>Season 6 — Premieres 2014-03-07</title>
+      <description>Premiere: 2014-03-07 | Finale: 2015-04-29 | Episodes: 13</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s6.html</guid>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s6.html</link>
+    </item>
+    <item>
+      <title>Season 5 — Premieres 2012-09-29</title>
+      <description>Premiere: 2012-09-29 | Finale: 2013-03-02 | Episodes: 20</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s5.html</guid>
+      <pubDate>Sat, 29 Sep 2012 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s5.html</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2011-09-16</title>
+      <description>Premiere: 2011-09-16 | Finale: 2012-03-16 | Episodes: 22</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s4.html</guid>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s4.html</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2010-09-17</title>
+      <description>Premiere: 2010-09-17 | Finale: 2011-04-01 | Episodes: 22</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s3.html</guid>
+      <pubDate>Fri, 17 Sep 2010 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2009-10-02</title>
+      <description>Premiere: 2009-10-02 | Finale: 2010-04-30 | Episodes: 22</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s2.html</guid>
+      <pubDate>Fri, 02 Oct 2009 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2008-10-03</title>
+      <description>Premiere: 2008-10-03 | Finale: 2009-03-20 | Episodes: 22</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Clone%20Wars%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s1.html</guid>
+      <pubDate>Fri, 03 Oct 2008 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-clone-wars-s1.html</link>
+    </item>
+  </channel>
+</rss>

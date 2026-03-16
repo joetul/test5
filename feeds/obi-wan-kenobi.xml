@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Obi-Wan Kenobi Season Alerts</title>
+    <description>New season notifications for Obi-Wan Kenobi from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/obi-wan-kenobi.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Jul 2025 14:24:13 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/obi-wan-kenobi.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2022-05-27</title>
+      <description>Premiere: 2022-05-27 | Finale: 2022-06-22 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Obi-Wan%20Kenobi%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/obi-wan-kenobi-s1.html</guid>
+      <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/obi-wan-kenobi-s1.html</link>
+    </item>
+  </channel>
+</rss>

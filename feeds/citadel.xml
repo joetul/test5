@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Citadel Season Alerts</title>
+    <description>New season notifications for Citadel from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/citadel.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Mar 2025 11:37:40 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/citadel.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2023-04-28</title>
+      <description>Premiere: 2023-04-28 | Finale: 2023-05-26 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Citadel%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/citadel-s1.html</guid>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/citadel-s1.html</link>
+    </item>
+  </channel>
+</rss>

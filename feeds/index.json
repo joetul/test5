@@ -33,6 +33,39 @@
     "premiered": "2024-03-21"
   },
   {
+    "name": "Abbott Elementary",
+    "slug": "abbott-elementary",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/abbott-elementary.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/55350/abbott-elementary",
+    "network": "ABC",
+    "status": "Running",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1467109.jpg",
+    "premiered": "2021-12-07"
+  },
+  {
+    "name": "Adolescence",
+    "slug": "adolescence",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/adolescence.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/78570/adolescence",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/558/1395109.jpg",
+    "premiered": "2025-03-13"
+  },
+  {
+    "name": "Agatha All Along",
+    "slug": "agatha-all-along",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/agatha-all-along.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58948/agatha-all-along",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/536/1340567.jpg",
+    "premiered": "2024-09-18"
+  },
+  {
     "name": "Ahsoka",
     "slug": "ahsoka",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ahsoka.xml",
@@ -55,6 +88,28 @@
     "premiered": "2020-12-10"
   },
   {
+    "name": "Alien: Earth",
+    "slug": "alien-earth",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/alien-earth.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52336/alien-earth",
+    "network": "Hulu",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466409.jpg",
+    "premiered": "2025-08-12"
+  },
+  {
+    "name": "All of Us Are Dead",
+    "slug": "all-of-us-are-dead",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/all-of-us-are-dead.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/47199/all-of-us-are-dead",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/394/985544.jpg",
+    "premiered": "2022-01-28"
+  },
+  {
     "name": "Alone",
     "slug": "alone",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/alone.xml",
@@ -64,6 +119,17 @@
     "latest_season": 12,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/561/1403637.jpg",
     "premiered": "2015-06-18"
+  },
+  {
+    "name": "And Just Like That...",
+    "slug": "and-just-like-that",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/and-just-like-that.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52904/and-just-like-that",
+    "network": "HBO Max",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/581/1453808.jpg",
+    "premiered": "2021-12-09"
   },
   {
     "name": "Andor",
@@ -110,6 +176,17 @@
     "premiered": "2012-10-10"
   },
   {
+    "name": "Bad Sisters",
+    "slug": "bad-sisters",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/bad-sisters.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/61235/bad-sisters",
+    "network": "Apple TV",
+    "status": "To Be Determined",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/540/1351090.jpg",
+    "premiered": "2022-08-19"
+  },
+  {
     "name": "Barry",
     "slug": "barry",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/barry.xml",
@@ -130,6 +207,28 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/455/1139179.jpg",
     "premiered": "2023-04-06"
+  },
+  {
+    "name": "Bel-Air",
+    "slug": "bel-air",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/bel-air.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/50270/bel-air",
+    "network": "Peacock",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/599/1499439.jpg",
+    "premiered": "2022-02-13"
+  },
+  {
+    "name": "Berlín",
+    "slug": "berl-n",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/berl-n.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/59241/berlin",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/497/1243972.jpg",
+    "premiered": "2023-12-29"
   },
   {
     "name": "Better Call Saul",
@@ -154,6 +253,28 @@
     "premiered": "2011-12-04"
   },
   {
+    "name": "Bosch",
+    "slug": "bosch",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/bosch.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1216/bosch",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215644.jpg",
+    "premiered": "2015-02-13"
+  },
+  {
+    "name": "Bosch: Legacy",
+    "slug": "bosch-legacy",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/bosch-legacy.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60175/bosch-legacy",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411768.jpg",
+    "premiered": "2022-05-06"
+  },
+  {
     "name": "Breaking Bad",
     "slug": "breaking-bad",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/breaking-bad.xml",
@@ -165,6 +286,17 @@
     "premiered": "2008-01-20"
   },
   {
+    "name": "Bridgerton",
+    "slug": "bridgerton",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/bridgerton.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/42966/bridgerton",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/614/1535959.jpg",
+    "premiered": "2020-12-25"
+  },
+  {
     "name": "Brooklyn Nine-Nine",
     "slug": "brooklyn-nine-nine",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/brooklyn-nine-nine.xml",
@@ -174,6 +306,50 @@
     "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007484.jpg",
     "premiered": "2013-09-17"
+  },
+  {
+    "name": "Chicago Fire",
+    "slug": "chicago-fire",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/chicago-fire.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/59/chicago-fire",
+    "network": "NBC",
+    "status": "Running",
+    "latest_season": 14,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475640.jpg",
+    "premiered": "2012-10-10"
+  },
+  {
+    "name": "Chicago Med",
+    "slug": "chicago-med",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/chicago-med.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/2246/chicago-med",
+    "network": "NBC",
+    "status": "Running",
+    "latest_season": 11,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/588/1471713.jpg",
+    "premiered": "2015-11-17"
+  },
+  {
+    "name": "Chicago P.D.",
+    "slug": "chicago-p-d",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/chicago-p-d.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/56/chicago-pd",
+    "network": "NBC",
+    "status": "Running",
+    "latest_season": 13,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475641.jpg",
+    "premiered": "2014-01-08"
+  },
+  {
+    "name": "Citadel",
+    "slug": "citadel",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/citadel.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/45834/citadel",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/459/1148348.jpg",
+    "premiered": "2023-04-28"
   },
   {
     "name": "Cobra Kai",
@@ -196,6 +372,17 @@
     "latest_season": 6,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5134.jpg",
     "premiered": "2009-09-17"
+  },
+  {
+    "name": "DAHMER - Monster: The Jeffrey Dahmer Story",
+    "slug": "dahmer---monster-the-jeffrey-dahmer-story",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dahmer---monster-the-jeffrey-dahmer-story.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/50907/dahmer-monster-the-jeffrey-dahmer-story",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1245246.jpg",
+    "premiered": "2022-09-21"
   },
   {
     "name": "Daredevil: Born Again",
@@ -264,6 +451,28 @@
     "premiered": "2025-07-11"
   },
   {
+    "name": "Disclaimer",
+    "slug": "disclaimer",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/disclaimer.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/59248/disclaimer",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/538/1347291.jpg",
+    "premiered": "2024-10-11"
+  },
+  {
+    "name": "Dopesick",
+    "slug": "dopesick",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dopesick.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/48731/dopesick",
+    "network": "Hulu",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480209.jpg",
+    "premiered": "2021-10-13"
+  },
+  {
     "name": "Dune: Prophecy",
     "slug": "dune-prophecy",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/dune-prophecy.xml",
@@ -273,6 +482,50 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/543/1358056.jpg",
     "premiered": "2024-11-17"
+  },
+  {
+    "name": "Echo",
+    "slug": "echo",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/echo.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58950/echo",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/499/1247624.jpg",
+    "premiered": "2024-01-09"
+  },
+  {
+    "name": "Elsbeth",
+    "slug": "elsbeth",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/elsbeth.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/66869/elsbeth",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
+    "premiered": "2024-02-29"
+  },
+  {
+    "name": "Emily in Paris",
+    "slug": "emily-in-paris",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/emily-in-paris.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41632/emily-in-paris",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/604/1510920.jpg",
+    "premiered": "2020-10-02"
+  },
+  {
+    "name": "Euphoria",
+    "slug": "euphoria",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/euphoria.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/28826/euphoria",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/601/1504779.jpg",
+    "premiered": "2019-06-16"
   },
   {
     "name": "Fallout",
@@ -295,6 +548,28 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/487/1219631.jpg",
     "premiered": "2014-04-15"
+  },
+  {
+    "name": "FBI",
+    "slug": "fbi",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/fbi.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/32158/fbi",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479841.jpg",
+    "premiered": "2018-09-25"
+  },
+  {
+    "name": "Fleabag",
+    "slug": "fleabag",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/fleabag.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/16149/fleabag",
+    "network": "BBC Three",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/192/482341.jpg",
+    "premiered": "2016-07-21"
   },
   {
     "name": "For All Mankind",
@@ -330,6 +605,17 @@
     "premiered": "2008-09-09"
   },
   {
+    "name": "FROM",
+    "slug": "from",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/from.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/54723/from",
+    "network": "MGM+",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/536/1340940.jpg",
+    "premiered": "2022-02-20"
+  },
+  {
     "name": "Game of Thrones",
     "slug": "game-of-thrones",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/game-of-thrones.xml",
@@ -352,6 +638,17 @@
     "premiered": "2023-09-29"
   },
   {
+    "name": "Ghosts",
+    "slug": "ghosts",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ghosts.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/46573/ghosts",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475093.jpg",
+    "premiered": "2021-10-07"
+  },
+  {
     "name": "Ginny & Georgia",
     "slug": "ginny-georgia",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ginny-georgia.xml",
@@ -361,6 +658,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/570/1427139.jpg",
     "premiered": "2021-02-24"
+  },
+  {
+    "name": "Good Omens",
+    "slug": "good-omens",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/good-omens.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/28717/good-omens",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215656.jpg",
+    "premiered": "2019-05-31"
   },
   {
     "name": "Gotham",
@@ -374,6 +682,17 @@
     "premiered": "2014-09-22"
   },
   {
+    "name": "Grey's Anatomy",
+    "slug": "grey-s-anatomy",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/grey-s-anatomy.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/67/greys-anatomy",
+    "network": "ABC",
+    "status": "Running",
+    "latest_season": 22,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1501061.jpg",
+    "premiered": "2005-03-27"
+  },
+  {
     "name": "Hacks",
     "slug": "hacks",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/hacks.xml",
@@ -383,6 +702,39 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1502121.jpg",
     "premiered": "2021-05-13"
+  },
+  {
+    "name": "Halo",
+    "slug": "halo",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/halo.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/35158/halo",
+    "network": "Paramount+",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/502/1256105.jpg",
+    "premiered": "2022-03-24"
+  },
+  {
+    "name": "Hawkeye",
+    "slug": "hawkeye",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/hawkeye.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43102/hawkeye",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/383/959105.jpg",
+    "premiered": "2021-11-24"
+  },
+  {
+    "name": "Heartstopper",
+    "slug": "heartstopper",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/heartstopper.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/53269/heartstopper",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/576/1441173.jpg",
+    "premiered": "2022-04-22"
   },
   {
     "name": "Hijack",
@@ -407,6 +759,17 @@
     "premiered": "2011-10-02"
   },
   {
+    "name": "House of Ninjas",
+    "slug": "house-of-ninjas",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/house-of-ninjas.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/64015/house-of-ninjas",
+    "network": "Netflix",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/500/1250804.jpg",
+    "premiered": "2024-02-15"
+  },
+  {
     "name": "House of the Dragon",
     "slug": "house-of-the-dragon",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/house-of-the-dragon.xml",
@@ -416,6 +779,39 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/530/1325279.jpg",
     "premiered": "2022-08-21"
+  },
+  {
+    "name": "Industry",
+    "slug": "industry",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/industry.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/45501/industry",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/608/1521293.jpg",
+    "premiered": "2020-11-09"
+  },
+  {
+    "name": "Interior Chinatown",
+    "slug": "interior-chinatown",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/interior-chinatown.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/64626/interior-chinatown",
+    "network": "Hulu",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/544/1360849.jpg",
+    "premiered": "2024-11-19"
+  },
+  {
+    "name": "Invasion",
+    "slug": "invasion",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/invasion.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/49964/invasion",
+    "network": "Apple TV",
+    "status": "To Be Determined",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1473271.jpg",
+    "premiered": "2021-10-22"
   },
   {
     "name": "Invincible",
@@ -429,6 +825,17 @@
     "premiered": "2021-03-26"
   },
   {
+    "name": "Ironheart",
+    "slug": "ironheart",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ironheart.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/47859/ironheart",
+    "network": "Disney+",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/571/1428213.jpg",
+    "premiered": "2025-06-24"
+  },
+  {
     "name": "Kim's Convenience",
     "slug": "kim-s-convenience",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/kim-s-convenience.xml",
@@ -438,6 +845,50 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/177/442900.jpg",
     "premiered": "2016-10-11"
+  },
+  {
+    "name": "Landman",
+    "slug": "landman",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/landman.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/53777/landman",
+    "network": "Paramount+",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/598/1495770.jpg",
+    "premiered": "2024-11-17"
+  },
+  {
+    "name": "Law & Order: Special Victims Unit",
+    "slug": "law-order-special-victims-unit",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/law-order-special-victims-unit.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
+    "network": "NBC",
+    "status": "Running",
+    "latest_season": 27,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1472924.jpg",
+    "premiered": "1999-09-20"
+  },
+  {
+    "name": "Lawmen: Bass Reeves",
+    "slug": "lawmen-bass-reeves",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lawmen-bass-reeves.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/66544/lawmen-bass-reeves",
+    "network": "Paramount+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/485/1214376.jpg",
+    "premiered": "2023-11-05"
+  },
+  {
+    "name": "Lessons in Chemistry",
+    "slug": "lessons-in-chemistry",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lessons-in-chemistry.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/53079/lessons-in-chemistry",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/480/1202302.jpg",
+    "premiered": "2023-10-13"
   },
   {
     "name": "Lioness",
@@ -482,6 +933,17 @@
     "latest_season": 6,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/346/865655.jpg",
     "premiered": "2016-01-25"
+  },
+  {
+    "name": "Lupin",
+    "slug": "lupin",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lupin.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/50701/lupin",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/603/1507749.jpg",
+    "premiered": "2021-01-08"
   },
   {
     "name": "Mare of Easttown",
@@ -539,6 +1001,17 @@
     "premiered": "2017-10-13"
   },
   {
+    "name": "Monarch: Legacy of Monsters",
+    "slug": "monarch-legacy-of-monsters",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/monarch-legacy-of-monsters.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60090/monarch-legacy-of-monsters",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/612/1530034.jpg",
+    "premiered": "2023-11-17"
+  },
+  {
     "name": "Money Heist: Korea - Joint Economic Area",
     "slug": "money-heist-korea---joint-economic-area",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/money-heist-korea---joint-economic-area.xml",
@@ -583,6 +1056,17 @@
     "premiered": "2018-09-25"
   },
   {
+    "name": "Mr. & Mrs. Smith",
+    "slug": "mr-mrs-smith",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/mr-mrs-smith.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/53541/mr-mrs-smith",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/502/1256101.jpg",
+    "premiered": "2024-02-02"
+  },
+  {
     "name": "Mr. Robot",
     "slug": "mr-robot",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/mr-robot.xml",
@@ -592,6 +1076,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/211/528026.jpg",
     "premiered": "2015-06-24"
+  },
+  {
+    "name": "Ms. Marvel",
+    "slug": "ms-marvel",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ms-marvel.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43519/ms-marvel",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/405/1013952.jpg",
+    "premiered": "2022-06-08"
   },
   {
     "name": "Murderbot",
@@ -625,6 +1120,39 @@
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246087.jpg",
     "premiered": "2015-08-28"
+  },
+  {
+    "name": "NCIS",
+    "slug": "ncis",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ncis.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60/ncis",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 23,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479851.jpg",
+    "premiered": "2003-09-23"
+  },
+  {
+    "name": "Nobody Wants This",
+    "slug": "nobody-wants-this",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/nobody-wants-this.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/77060/nobody-wants-this",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485603.jpg",
+    "premiered": "2024-09-26"
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "slug": "obi-wan-kenobi",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/obi-wan-kenobi.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52260/obi-wan-kenobi",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246074.jpg",
+    "premiered": "2022-05-27"
   },
   {
     "name": "One Piece",
@@ -671,6 +1199,17 @@
     "premiered": "2017-07-21"
   },
   {
+    "name": "Pachinko",
+    "slug": "pachinko",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/pachinko.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41375/pachinko",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/532/1330795.jpg",
+    "premiered": "2022-03-25"
+  },
+  {
     "name": "Paradise",
     "slug": "paradise",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/paradise.xml",
@@ -693,6 +1232,17 @@
     "premiered": "2009-04-09"
   },
   {
+    "name": "Peacemaker",
+    "slug": "peacemaker",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/peacemaker.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/50603/peacemaker",
+    "network": "HBO Max",
+    "status": "To Be Determined",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466413.jpg",
+    "premiered": "2022-01-13"
+  },
+  {
     "name": "Peaky Blinders",
     "slug": "peaky-blinders",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/peaky-blinders.xml",
@@ -702,6 +1252,17 @@
     "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/48/122213.jpg",
     "premiered": "2013-09-12"
+  },
+  {
+    "name": "Percy Jackson and the Olympians",
+    "slug": "percy-jackson-and-the-olympians",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/percy-jackson-and-the-olympians.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians",
+    "network": "Disney+",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/602/1505524.jpg",
+    "premiered": "2023-12-19"
   },
   {
     "name": "Person of Interest",
@@ -724,6 +1285,17 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1481086.jpg",
     "premiered": "2025-11-07"
+  },
+  {
+    "name": "Poker Face",
+    "slug": "poker-face",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/poker-face.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/54128/poker-face",
+    "network": "Peacock",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/567/1419482.jpg",
+    "premiered": "2023-01-26"
   },
   {
     "name": "Presumed Innocent",
@@ -757,6 +1329,17 @@
     "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11255.jpg",
     "premiered": "2006-07-07"
+  },
+  {
+    "name": "Queen Charlotte: A Bridgerton Story",
+    "slug": "queen-charlotte-a-bridgerton-story",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/queen-charlotte-a-bridgerton-story.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60126/queen-charlotte-a-bridgerton-story",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1133575.jpg",
+    "premiered": "2023-05-04"
   },
   {
     "name": "Raising Hope",
@@ -803,6 +1386,28 @@
     "premiered": "2024-04-04"
   },
   {
+    "name": "Secret Invasion",
+    "slug": "secret-invasion",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/secret-invasion.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52352/secret-invasion",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/465/1163819.jpg",
+    "premiered": "2023-06-21"
+  },
+  {
+    "name": "See",
+    "slug": "see",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/see.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/34345/see",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/416/1042167.jpg",
+    "premiered": "2019-11-01"
+  },
+  {
     "name": "Severance",
     "slug": "severance",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/severance.xml",
@@ -812,6 +1417,28 @@
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/548/1371406.jpg",
     "premiered": "2022-02-18"
+  },
+  {
+    "name": "Shadow and Bone",
+    "slug": "shadow-and-bone",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/shadow-and-bone.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/40370/shadow-and-bone",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/447/1118982.jpg",
+    "premiered": "2021-04-23"
+  },
+  {
+    "name": "She-Hulk: Attorney at Law",
+    "slug": "she-hulk-attorney-at-law",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/she-hulk-attorney-at-law.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43517/she-hulk-attorney-at-law",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215646.jpg",
+    "premiered": "2022-08-18"
   },
   {
     "name": "Shrinking",
@@ -869,6 +1496,116 @@
     "premiered": "2021-09-17"
   },
   {
+    "name": "Star Trek: Discovery",
+    "slug": "star-trek-discovery",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-discovery.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/7480/star-trek-discovery",
+    "network": "Paramount+",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/504/1260637.jpg",
+    "premiered": "2017-09-24"
+  },
+  {
+    "name": "Star Trek: Lower Decks",
+    "slug": "star-trek-lower-decks",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-lower-decks.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/39323/star-trek-lower-decks",
+    "network": "Paramount+",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/539/1348218.jpg",
+    "premiered": "2020-08-06"
+  },
+  {
+    "name": "Star Trek: Picard",
+    "slug": "star-trek-picard",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-picard.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/42193/star-trek-picard",
+    "network": "Paramount+",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/452/1131219.jpg",
+    "premiered": "2020-01-23"
+  },
+  {
+    "name": "Star Trek: Strange New Worlds",
+    "slug": "star-trek-strange-new-worlds",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-trek-strange-new-worlds.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/48090/star-trek-strange-new-worlds",
+    "network": "Paramount+",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/581/1452526.jpg",
+    "premiered": "2022-05-05"
+  },
+  {
+    "name": "Star Wars: Rebels",
+    "slug": "star-wars-rebels",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-rebels.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/117/star-wars-rebels",
+    "network": "Disney XD",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/353/884619.jpg",
+    "premiered": "2014-09-29"
+  },
+  {
+    "name": "Star Wars: Skeleton Crew",
+    "slug": "star-wars-skeleton-crew",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-skeleton-crew.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/62271/star-wars-skeleton-crew",
+    "network": "Disney+",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365559.jpg",
+    "premiered": "2024-12-02"
+  },
+  {
+    "name": "Star Wars: Tales of the Jedi",
+    "slug": "star-wars-tales-of-the-jedi",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-tales-of-the-jedi.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/61886/star-wars-tales-of-the-jedi",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/424/1062183.jpg",
+    "premiered": "2022-10-26"
+  },
+  {
+    "name": "Star Wars: The Bad Batch",
+    "slug": "star-wars-the-bad-batch",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-bad-batch.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/49190/star-wars-the-bad-batch",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/505/1264860.jpg",
+    "premiered": "2021-05-04"
+  },
+  {
+    "name": "Star Wars: The Clone Wars",
+    "slug": "star-wars-the-clone-wars",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-clone-wars.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/563/star-wars-the-clone-wars",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/237/593387.jpg",
+    "premiered": "2008-10-03"
+  },
+  {
+    "name": "Star Wars: Visions",
+    "slug": "star-wars-visions",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-visions.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52340/star-wars-visions",
+    "network": "Disney+",
+    "status": "To Be Determined",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/595/1487926.jpg",
+    "premiered": "2021-09-22"
+  },
+  {
     "name": "Stranger Things",
     "slug": "stranger-things",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/stranger-things.xml",
@@ -913,6 +1650,28 @@
     "premiered": "2015-11-30"
   },
   {
+    "name": "Survivor",
+    "slug": "survivor",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/survivor.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/114/survivor",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 51,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538081.jpg",
+    "premiered": "2000-05-31"
+  },
+  {
+    "name": "Sweet Tooth",
+    "slug": "sweet-tooth",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/sweet-tooth.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/39764/sweet-tooth",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/520/1300773.jpg",
+    "premiered": "2021-06-04"
+  },
+  {
     "name": "Ted Lasso",
     "slug": "ted-lasso",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/ted-lasso.xml",
@@ -922,6 +1681,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/457/1142533.jpg",
     "premiered": "2020-08-14"
+  },
+  {
+    "name": "The Acolyte",
+    "slug": "the-acolyte",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-acolyte.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52339/the-acolyte",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1465997.jpg",
+    "premiered": "2024-06-04"
   },
   {
     "name": "The Bear",
@@ -946,6 +1716,17 @@
     "premiered": "2013-09-23"
   },
   {
+    "name": "The Book of Boba Fett",
+    "slug": "the-book-of-boba-fett",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-book-of-boba-fett.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52523/the-book-of-boba-fett",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253027.jpg",
+    "premiered": "2021-12-29"
+  },
+  {
     "name": "The Boys",
     "slug": "the-boys",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-boys.xml",
@@ -955,6 +1736,39 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1541588.jpg",
     "premiered": "2019-07-26"
+  },
+  {
+    "name": "The Continental: From the World of John Wick",
+    "slug": "the-continental-from-the-world-of-john-wick",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-continental-from-the-world-of-john-wick.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/34364/the-continental-from-the-world-of-john-wick",
+    "network": "Peacock",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/474/1185464.jpg",
+    "premiered": "2023-09-22"
+  },
+  {
+    "name": "The Crown",
+    "slug": "the-crown",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-crown.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/3594/the-crown",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/480/1201097.jpg",
+    "premiered": "2016-11-04"
+  },
+  {
+    "name": "The Curse",
+    "slug": "the-curse",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-curse.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/46334/the-curse",
+    "network": "Showtime on Demand",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/485/1214662.jpg",
+    "premiered": "2023-11-10"
   },
   {
     "name": "The Day of the Jackal",
@@ -979,6 +1793,17 @@
     "premiered": "2023-04-20"
   },
   {
+    "name": "The Falcon and The Winter Soldier",
+    "slug": "the-falcon-and-the-winter-soldier",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-falcon-and-the-winter-soldier.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41749/the-falcon-and-the-winter-soldier",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/295/739854.jpg",
+    "premiered": "2021-03-19"
+  },
+  {
     "name": "The Gentlemen",
     "slug": "the-gentlemen",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-gentlemen.xml",
@@ -990,6 +1815,28 @@
     "premiered": "2024-03-07"
   },
   {
+    "name": "The Gilded Age",
+    "slug": "the-gilded-age",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-gilded-age.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/34685/the-gilded-age",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/572/1431317.jpg",
+    "premiered": "2022-01-24"
+  },
+  {
+    "name": "The Good Doctor",
+    "slug": "the-good-doctor",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-good-doctor.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/21845/the-good-doctor",
+    "network": "ABC",
+    "status": "Ended",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/507/1269854.jpg",
+    "premiered": "2017-09-25"
+  },
+  {
     "name": "The Good Place",
     "slug": "the-good-place",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-good-place.xml",
@@ -999,6 +1846,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/395/989291.jpg",
     "premiered": "2016-09-19"
+  },
+  {
+    "name": "The Great",
+    "slug": "the-great",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-great.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/38412/the-great",
+    "network": "Hulu",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/460/1151199.jpg",
+    "premiered": "2020-05-15"
   },
   {
     "name": "The Handmaid's Tale",
@@ -1034,6 +1892,28 @@
     "premiered": "2023-01-15"
   },
   {
+    "name": "The Lincoln Lawyer",
+    "slug": "the-lincoln-lawyer",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-lincoln-lawyer.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52910/the-lincoln-lawyer",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/613/1532917.jpg",
+    "premiered": "2022-05-13"
+  },
+  {
+    "name": "The Lord of the Rings: The Rings of Power",
+    "slug": "the-lord-of-the-rings-the-rings-of-power",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-lord-of-the-rings-the-rings-of-power.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/33352/the-lord-of-the-rings-the-rings-of-power",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/538/1346107.jpg",
+    "premiered": "2022-09-02"
+  },
+  {
     "name": "The Mandalorian",
     "slug": "the-mandalorian",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-mandalorian.xml",
@@ -1045,6 +1925,17 @@
     "premiered": "2019-11-12"
   },
   {
+    "name": "The Marvelous Mrs. Maisel",
+    "slug": "the-marvelous-mrs-maisel",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-marvelous-mrs-maisel.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/19807/the-marvelous-mrs-maisel",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/456/1141825.jpg",
+    "premiered": "2017-03-17"
+  },
+  {
     "name": "The Mentalist",
     "slug": "the-mentalist",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-mentalist.xml",
@@ -1054,6 +1945,17 @@
     "latest_season": 7,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1239.jpg",
     "premiered": "2008-09-23"
+  },
+  {
+    "name": "The Morning Show",
+    "slug": "the-morning-show",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-morning-show.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41524/the-morning-show",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485135.jpg",
+    "premiered": "2019-11-01"
   },
   {
     "name": "The Night Agent",
@@ -1111,6 +2013,61 @@
     "premiered": "2024-09-19"
   },
   {
+    "name": "The Peripheral",
+    "slug": "the-peripheral",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-peripheral.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/37781/the-peripheral",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1112626.jpg",
+    "premiered": "2022-10-21"
+  },
+  {
+    "name": "The Pitt",
+    "slug": "the-pitt",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-pitt.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/75632/the-pitt",
+    "network": "HBO Max",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/606/1516776.jpg",
+    "premiered": "2025-01-09"
+  },
+  {
+    "name": "The Recruit",
+    "slug": "the-recruit",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-recruit.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60522/the-recruit",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/550/1376612.jpg",
+    "premiered": "2022-12-16"
+  },
+  {
+    "name": "The Righteous Gemstones",
+    "slug": "the-righteous-gemstones",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-righteous-gemstones.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/37387/the-righteous-gemstones",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/560/1401883.jpg",
+    "premiered": "2019-08-18"
+  },
+  {
+    "name": "The Rookie",
+    "slug": "the-rookie",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-rookie.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/32938/the-rookie",
+    "network": "ABC",
+    "status": "Running",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/606/1515728.jpg",
+    "premiered": "2018-10-16"
+  },
+  {
     "name": "The Sandman",
     "slug": "the-sandman",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-sandman.xml",
@@ -1120,6 +2077,17 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/360/901530.jpg",
     "premiered": "2022-08-05"
+  },
+  {
+    "name": "The Sex Lives of College Girls",
+    "slug": "the-sex-lives-of-college-girls",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-sex-lives-of-college-girls.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/51274/the-sex-lives-of-college-girls",
+    "network": "HBO Max",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/544/1361968.jpg",
+    "premiered": "2021-11-18"
   },
   {
     "name": "The Sopranos",
@@ -1144,6 +2112,17 @@
     "premiered": "2022-07-01"
   },
   {
+    "name": "The Wheel of Time",
+    "slug": "the-wheel-of-time",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-wheel-of-time.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/35083/the-wheel-of-time",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411765.jpg",
+    "premiered": "2021-11-19"
+  },
+  {
     "name": "The White Lotus",
     "slug": "the-white-lotus",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-white-lotus.xml",
@@ -1166,6 +2145,28 @@
     "premiered": "2002-06-02"
   },
   {
+    "name": "The Witcher",
+    "slug": "the-witcher",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-witcher.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/28276/the-witcher",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1486674.jpg",
+    "premiered": "2019-12-20"
+  },
+  {
+    "name": "Tokyo Vice",
+    "slug": "tokyo-vice",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/tokyo-vice.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/42847/tokyo-vice",
+    "network": "HBO Max",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/502/1256479.jpg",
+    "premiered": "2022-04-07"
+  },
+  {
     "name": "Tom Clancy's Jack Ryan",
     "slug": "tom-clancy-s-jack-ryan",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/tom-clancy-s-jack-ryan.xml",
@@ -1175,6 +2176,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215704.jpg",
     "premiered": "2018-08-31"
+  },
+  {
+    "name": "Tracker",
+    "slug": "tracker",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/tracker.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/63192/tracker",
+    "network": "CBS",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479867.jpg",
+    "premiered": "2024-02-11"
   },
   {
     "name": "Travelers",
@@ -1210,6 +2222,50 @@
     "premiered": "2022-11-13"
   },
   {
+    "name": "Twisted Metal",
+    "slug": "twisted-metal",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/twisted-metal.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60743/twisted-metal",
+    "network": "Peacock",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/581/1452707.jpg",
+    "premiered": "2023-07-27"
+  },
+  {
+    "name": "Upload",
+    "slug": "upload",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/upload.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/31732/upload",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466414.jpg",
+    "premiered": "2020-05-01"
+  },
+  {
+    "name": "Virgin River",
+    "slug": "virgin-river",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/virgin-river.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/38893/virgin-river",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/617/1544047.jpg",
+    "premiered": "2019-12-06"
+  },
+  {
+    "name": "WandaVision",
+    "slug": "wandavision",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/wandavision.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41748/wandavision",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/295/738028.jpg",
+    "premiered": "2021-01-15"
+  },
+  {
     "name": "Wednesday",
     "slug": "wednesday",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/wednesday.xml",
@@ -1219,6 +2275,39 @@
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466410.jpg",
     "premiered": "2022-11-23"
+  },
+  {
+    "name": "Welcome to Wrexham",
+    "slug": "welcome-to-wrexham",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/welcome-to-wrexham.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/55536/welcome-to-wrexham",
+    "network": "FX",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420128.jpg",
+    "premiered": "2022-08-24"
+  },
+  {
+    "name": "What If...?",
+    "slug": "what-if",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/what-if.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41750/what-if",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/543/1358372.jpg",
+    "premiered": "2021-08-11"
+  },
+  {
+    "name": "What We Do in the Shadows",
+    "slug": "what-we-do-in-the-shadows",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/what-we-do-in-the-shadows.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/34522/what-we-do-in-the-shadows",
+    "network": "FX",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/535/1337833.jpg",
+    "premiered": "2019-03-27"
   },
   {
     "name": "White Collar",
@@ -1232,6 +2321,39 @@
     "premiered": "2009-10-23"
   },
   {
+    "name": "Winning Time: The Rise of the Lakers Dynasty",
+    "slug": "winning-time-the-rise-of-the-lakers-dynasty",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/winning-time-the-rise-of-the-lakers-dynasty.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/59390/winning-time-the-rise-of-the-lakers-dynasty",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/473/1183737.jpg",
+    "premiered": "2022-03-06"
+  },
+  {
+    "name": "XO, Kitty",
+    "slug": "xo-kitty",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/xo-kitty.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60509/xo-kitty",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/617/1544833.jpg",
+    "premiered": "2023-05-18"
+  },
+  {
+    "name": "Yellowjackets",
+    "slug": "yellowjackets",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/yellowjackets.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/36672/yellowjackets",
+    "network": "Paramount+",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/554/1387457.jpg",
+    "premiered": "2021-11-14"
+  },
+  {
     "name": "Yellowstone",
     "slug": "yellowstone",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/yellowstone.xml",
@@ -1241,6 +2363,17 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/545/1362616.jpg",
     "premiered": "2018-06-20"
+  },
+  {
+    "name": "You",
+    "slug": "you",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/you.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/26856/you",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1412472.jpg",
+    "premiered": "2018-09-09"
   },
   {
     "name": "Your Honor",

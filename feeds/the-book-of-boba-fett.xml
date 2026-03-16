@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Book of Boba Fett Season Alerts</title>
+    <description>New season notifications for The Book of Boba Fett from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-book-of-boba-fett.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jan 2024 12:29:43 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/the-book-of-boba-fett.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2021-12-29</title>
+      <description>Premiere: 2021-12-29 | Finale: 2022-02-09 | Episodes: 7</description>
+      <comments>https://www.google.com/search?q=The%20Book%20of%20Boba%20Fett%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-book-of-boba-fett-s1.html</guid>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/the-book-of-boba-fett-s1.html</link>
+    </item>
+  </channel>
+</rss>

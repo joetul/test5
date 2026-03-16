@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Heartstopper Season Alerts</title>
+    <description>New season notifications for Heartstopper from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/heartstopper.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Dec 2025 05:35:46 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/heartstopper.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2024-10-03</title>
+      <description>Premiere: 2024-10-03 | Finale: 2024-10-03 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Heartstopper%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s3.html</guid>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-08-03</title>
+      <description>Premiere: 2023-08-03 | Finale: 2023-08-03 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Heartstopper%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s2.html</guid>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2022-04-22</title>
+      <description>Premiere: 2022-04-22 | Finale: 2022-04-22 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Heartstopper%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s1.html</guid>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/heartstopper-s1.html</link>
+    </item>
+  </channel>
+</rss>

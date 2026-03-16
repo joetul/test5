@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Lawmen: Bass Reeves Season Alerts</title>
+    <description>New season notifications for Lawmen: Bass Reeves from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lawmen-bass-reeves.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Dec 2023 17:08:34 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/lawmen-bass-reeves.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2023-11-05</title>
+      <description>Premiere: 2023-11-05 | Finale: 2023-12-17 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Lawmen%3A%20Bass%20Reeves%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/lawmen-bass-reeves-s1.html</guid>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/lawmen-bass-reeves-s1.html</link>
+    </item>
+  </channel>
+</rss>

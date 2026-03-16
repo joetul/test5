@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Percy Jackson and the Olympians Season Alerts</title>
+    <description>New season notifications for Percy Jackson and the Olympians from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/percy-jackson-and-the-olympians.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2026 19:26:04 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/percy-jackson-and-the-olympians.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2025-12-10</title>
+      <description>Premiere: 2025-12-10 | Finale: 2026-01-21 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Percy%20Jackson%20and%20the%20Olympians%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/percy-jackson-and-the-olympians-s2.html</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/percy-jackson-and-the-olympians-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2023-12-19</title>
+      <description>Premiere: 2023-12-19 | Finale: 2024-01-30 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Percy%20Jackson%20and%20the%20Olympians%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/percy-jackson-and-the-olympians-s1.html</guid>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/percy-jackson-and-the-olympians-s1.html</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Berlín Season Alerts</title>
+    <description>New season notifications for Berlín from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/berl-n.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Jan 2026 21:11:44 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/berl-n.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2023-12-29</title>
+      <description>Premiere: 2023-12-29 | Finale: 2023-12-29 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Berl%C3%ADn%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/berl-n-s1.html</guid>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/berl-n-s1.html</link>
+    </item>
+  </channel>
+</rss>

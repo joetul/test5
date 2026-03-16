@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tokyo Vice Season Alerts</title>
+    <description>New season notifications for Tokyo Vice from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/tokyo-vice.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Nov 2024 12:49:22 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/tokyo-vice.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2024-02-08</title>
+      <description>Premiere: 2024-02-08 | Finale: 2024-04-04 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Tokyo%20Vice%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/tokyo-vice-s2.html</guid>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/tokyo-vice-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2022-04-07</title>
+      <description>Premiere: 2022-04-07 | Finale: 2022-04-28 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Tokyo%20Vice%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/tokyo-vice-s1.html</guid>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/tokyo-vice-s1.html</link>
+    </item>
+  </channel>
+</rss>

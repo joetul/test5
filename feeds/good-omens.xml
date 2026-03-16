@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Good Omens Season Alerts</title>
+    <description>New season notifications for Good Omens from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/good-omens.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Feb 2026 09:22:49 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/good-omens.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2026-05-13</title>
+      <description>Premiere: 2026-05-13 | Finale: 2026-05-13 | Episodes: 1</description>
+      <comments>https://www.google.com/search?q=Good%20Omens%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s3.html</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-07-28</title>
+      <description>Premiere: 2023-07-28 | Finale: 2023-07-28 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Good%20Omens%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s2.html</guid>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2019-05-31</title>
+      <description>Premiere: 2019-05-31 | Finale: 2019-05-31 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Good%20Omens%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s1.html</guid>
+      <pubDate>Fri, 31 May 2019 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/good-omens-s1.html</link>
+    </item>
+  </channel>
+</rss>

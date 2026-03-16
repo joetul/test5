@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Adolescence Season Alerts</title>
+    <description>New season notifications for Adolescence from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/adolescence.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Feb 2026 19:55:23 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/adolescence.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2025-03-13</title>
+      <description>Premiere: 2025-03-13 | Finale: 2025-03-13 | Episodes: 4</description>
+      <comments>https://www.google.com/search?q=Adolescence%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/adolescence-s1.html</guid>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/adolescence-s1.html</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Star Wars: The Bad Batch Season Alerts</title>
+    <description>New season notifications for Star Wars: The Bad Batch from TVmaze metadata.</description>
+    <link>https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-bad-batch.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 May 2024 14:33:05 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/TV-Season-Tracker-RSS/feeds/star-wars-the-bad-batch.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2024-02-21</title>
+      <description>Premiere: 2024-02-21 | Finale: 2024-05-01 | Episodes: 15</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Bad%20Batch%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s3.html</guid>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-01-04</title>
+      <description>Premiere: 2023-01-04 | Finale: 2023-03-29 | Episodes: 16</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Bad%20Batch%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s2.html</guid>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-05-04</title>
+      <description>Premiere: 2021-05-04 | Finale: 2021-08-13 | Episodes: 16</description>
+      <comments>https://www.google.com/search?q=Star%20Wars%3A%20The%20Bad%20Batch%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s1.html</guid>
+      <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/TV-Season-Tracker-RSS/updates/star-wars-the-bad-batch-s1.html</link>
+    </item>
+  </channel>
+</rss>
