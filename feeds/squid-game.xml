@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Squid Game Season Alerts</title>
+    <description>New season notifications for Squid Game from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/43687/squid-game</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 19:03:27 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/squid-game.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2025-06-27</title>
+      <description>Premiere: 2025-06-27 | Finale: 2025-06-27 | Episodes: 6 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:squid-game:s3</guid>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/43687/squid-game</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2024-12-26</title>
+      <description>Premiere: 2024-12-26 | Finale: 2024-12-26 | Episodes: 7 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:squid-game:s2</guid>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/43687/squid-game</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-09-17</title>
+      <description>Premiere: 2021-09-17 | Finale: 2021-09-17 | Episodes: 9 | Network: Netflix</description>
+      <guid isPermaLink="false">tv-season-rss:squid-game:s1</guid>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/43687/squid-game</link>
+    </item>
+  </channel>
+</rss>

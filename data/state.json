@@ -1,0 +1,50 @@
+{
+  "andor": {
+    "tvmaze_id": 52341,
+    "name": "Andor",
+    "latest_season": 2,
+    "last_checked": "2026-03-15T23:48:56Z"
+  },
+  "house-of-the-dragon": {
+    "tvmaze_id": 44778,
+    "name": "House of the Dragon",
+    "latest_season": 4,
+    "last_checked": "2026-03-15T23:48:52Z"
+  },
+  "severance": {
+    "tvmaze_id": 44933,
+    "name": "Severance",
+    "latest_season": 3,
+    "last_checked": "2026-03-15T23:48:47Z"
+  },
+  "squid-game": {
+    "tvmaze_id": 43687,
+    "name": "Squid Game",
+    "latest_season": 3,
+    "last_checked": "2026-03-15T23:48:54Z"
+  },
+  "stranger-things": {
+    "tvmaze_id": 2993,
+    "name": "Stranger Things",
+    "latest_season": 5,
+    "last_checked": "2026-03-15T23:48:49Z"
+  },
+  "the-bear": {
+    "tvmaze_id": 54198,
+    "name": "The Bear",
+    "latest_season": 4,
+    "last_checked": "2026-03-15T23:48:48Z"
+  },
+  "the-last-of-us": {
+    "tvmaze_id": 46562,
+    "name": "The Last of Us",
+    "latest_season": 3,
+    "last_checked": "2026-03-15T23:48:50Z"
+  },
+  "wednesday": {
+    "tvmaze_id": 53647,
+    "name": "Wednesday",
+    "latest_season": 3,
+    "last_checked": "2026-03-15T23:48:53Z"
+  }
+}

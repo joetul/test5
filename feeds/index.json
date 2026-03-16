@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Andor",
+    "slug": "andor",
+    "feed_url": "https://joetul.github.io/test5/feeds/andor.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52341/andor",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411766.jpg"
+  },
+  {
+    "name": "House of the Dragon",
+    "slug": "house-of-the-dragon",
+    "feed_url": "https://joetul.github.io/test5/feeds/house-of-the-dragon.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/44778/house-of-the-dragon",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/530/1325279.jpg"
+  },
+  {
+    "name": "Severance",
+    "slug": "severance",
+    "feed_url": "https://joetul.github.io/test5/feeds/severance.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/44933/severance",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/548/1371406.jpg"
+  },
+  {
+    "name": "Squid Game",
+    "slug": "squid-game",
+    "feed_url": "https://joetul.github.io/test5/feeds/squid-game.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43687/squid-game",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/576/1440521.jpg"
+  },
+  {
+    "name": "Stranger Things",
+    "slug": "stranger-things",
+    "feed_url": "https://joetul.github.io/test5/feeds/stranger-things.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/2993/stranger-things",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/595/1489169.jpg"
+  },
+  {
+    "name": "The Bear",
+    "slug": "the-bear",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-bear.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/54198/the-bear",
+    "network": "Hulu",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480192.jpg"
+  },
+  {
+    "name": "The Last of Us",
+    "slug": "the-last-of-us",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-last-of-us.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/46562/the-last-of-us",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/563/1409008.jpg"
+  },
+  {
+    "name": "Wednesday",
+    "slug": "wednesday",
+    "feed_url": "https://joetul.github.io/test5/feeds/wednesday.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/53647/wednesday",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466410.jpg"
+  }
+]

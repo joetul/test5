@@ -1,0 +1,42 @@
+name: Update TV Season Feeds
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - shows.json
+
+permissions:
+  contents: write
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate feeds
+        run: python generate_feeds.py
+
+      - name: Commit updates when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add feeds/ data/
+
+          if git diff --staged --quiet; then
+            echo "No feed changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update feeds — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

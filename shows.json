@@ -1,0 +1,13 @@
+{
+  "_comment": "Add shows you want to track. Use a plain string or {\"name\": \"...\", \"tvmaze_id\": 12345} for exact matching.",
+  "shows": [
+    "Severance",
+    "The Bear",
+    "Stranger Things",
+    "The Last of Us",
+    "House of the Dragon",
+    "Wednesday",
+    "Squid Game",
+    "Andor"
+  ]
+}
