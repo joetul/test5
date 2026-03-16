@@ -25,9 +25,12 @@ INDEX_PATH = FEEDS_DIR / "index.json"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 API_BASE = "https://api.tvmaze.com"
 USER_AGENT = "tv-season-rss/1.0"
-REQUEST_DELAY_SECONDS = 1.0
-RETRY_429_DELAY_SECONDS = 20
-MAX_429_RETRIES = 8
+# TVmaze allows at least 20 calls / 10 seconds per IP. A 0.6s interval keeps
+# us below that baseline while avoiding unnecessary passive waiting.
+MIN_REQUEST_INTERVAL_SECONDS = float(os.getenv("TVMAZE_MIN_REQUEST_INTERVAL_SECONDS", "0.6"))
+RETRY_429_MIN_SECONDS = float(os.getenv("TVMAZE_RETRY_429_MIN_SECONDS", "4"))
+RETRY_429_MAX_SECONDS = float(os.getenv("TVMAZE_RETRY_429_MAX_SECONDS", "20"))
+MAX_429_RETRIES = int(os.getenv("TVMAZE_MAX_429_RETRIES", "6"))
 
 
 ET.register_namespace("atom", ATOM_NS)
@@ -200,8 +203,21 @@ class TVmazeClient:
 
     def _respect_rate_limit(self):
         elapsed = time.monotonic() - self.last_request_time
-        if elapsed < REQUEST_DELAY_SECONDS:
-            time.sleep(REQUEST_DELAY_SECONDS - elapsed)
+        if elapsed < MIN_REQUEST_INTERVAL_SECONDS:
+            time.sleep(MIN_REQUEST_INTERVAL_SECONDS - elapsed)
+
+    @staticmethod
+    def _retry_after_delay(exc, attempt_number):
+        retry_after = exc.headers.get("Retry-After") if exc.headers else None
+        if retry_after:
+            try:
+                header_delay = float(retry_after)
+                return max(RETRY_429_MIN_SECONDS, min(RETRY_429_MAX_SECONDS, header_delay))
+            except ValueError:
+                pass
+
+        exponential_delay = RETRY_429_MIN_SECONDS * (2 ** max(0, attempt_number - 1))
+        return min(RETRY_429_MAX_SECONDS, exponential_delay)
 
     def get_json(self, url):
         retries = 0
@@ -221,8 +237,9 @@ class TVmazeClient:
                     if retries > MAX_429_RETRIES:
                         print(f"Too many 429 retries for {url}. Skipping.")
                         return None
-                    print(f"429 from TVmaze for {url}. Waiting {RETRY_429_DELAY_SECONDS}s and retrying.")
-                    time.sleep(RETRY_429_DELAY_SECONDS)
+                    retry_delay = self._retry_after_delay(exc, retries)
+                    print(f"429 from TVmaze for {url}. Waiting {retry_delay:.1f}s and retrying.")
+                    time.sleep(retry_delay)
                     continue
                 if exc.code == 404:
                     return None

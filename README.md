@@ -45,6 +45,20 @@ Example:
 - Per-show RSS files are written to `feeds/<show-slug>.xml`.
 - The landing page reads `feeds/index.json`.
 
+## TVmaze API Pacing
+
+This generator follows TVmaze's public guidance of at least `20 calls / 10 seconds` per IP by default.
+
+- Default pacing: `0.6s` between requests (about `16.7 calls / 10s`).
+- On HTTP `429`, retries are backed off adaptively (uses `Retry-After` header when provided, otherwise exponential backoff).
+
+Optional environment variables:
+
+- `TVMAZE_MIN_REQUEST_INTERVAL_SECONDS` (default: `0.6`)
+- `TVMAZE_RETRY_429_MIN_SECONDS` (default: `4`)
+- `TVMAZE_RETRY_429_MAX_SECONDS` (default: `20`)
+- `TVMAZE_MAX_429_RETRIES` (default: `6`)
+
 ## License
 
 MIT. See `LICENSE`.
