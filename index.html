@@ -869,7 +869,8 @@
 
         const name = document.createElement("h3");
         name.className = "show-name";
-        name.textContent = show.name;
+        const year = show.premiered ? show.premiered.slice(0, 4) : null;
+        name.textContent = year ? `${show.name} (${year})` : show.name;
         info.appendChild(name);
 
         const meta = document.createElement("div");

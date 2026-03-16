@@ -472,6 +472,7 @@ def main():
                 "status": show_data.get("status") or "Unknown",
                 "latest_season": latest,
                 "image": image_data.get("medium"),
+                "premiered": show_data.get("premiered"),
             }
         )
 
