@@ -570,6 +570,16 @@
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246087.jpg"
   },
   {
+    "name": "One Piece",
+    "slug": "one-piece",
+    "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/one-piece.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/46065/one-piece",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/617/1543011.jpg"
+  },
+  {
     "name": "Only Murders in the Building",
     "slug": "only-murders-in-the-building",
     "feed_url": "https://joetul.github.io/TV-Season-Tracker-RSS/feeds/only-murders-in-the-building.xml",
