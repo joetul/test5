@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Sopranos Season Alerts</title>
+    <description>New season notifications for The Sopranos from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Nov 2025 15:39:19 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/the-sopranos.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 6 — Premieres 2006-03-12</title>
+      <description>Premiere: 2006-03-12 | Finale: 2007-06-10 | Episodes: 21 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s6</guid>
+      <pubDate>Sun, 12 Mar 2006 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+    <item>
+      <title>Season 5 — Premieres 2004-03-07</title>
+      <description>Premiere: 2004-03-07 | Finale: 2004-06-06 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s5</guid>
+      <pubDate>Sun, 07 Mar 2004 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2002-09-15</title>
+      <description>Premiere: 2002-09-15 | Finale: 2002-12-08 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s4</guid>
+      <pubDate>Sun, 15 Sep 2002 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2001-03-04</title>
+      <description>Premiere: 2001-03-04 | Finale: 2001-05-20 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s3</guid>
+      <pubDate>Sun, 04 Mar 2001 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2000-01-16</title>
+      <description>Premiere: 2000-01-16 | Finale: 2000-04-09 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s2</guid>
+      <pubDate>Sun, 16 Jan 2000 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 1999-01-10</title>
+      <description>Premiere: 1999-01-10 | Finale: 1999-04-04 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-sopranos:s1</guid>
+      <pubDate>Sun, 10 Jan 1999 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/527/the-sopranos</link>
+    </item>
+  </channel>
+</rss>

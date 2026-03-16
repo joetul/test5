@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Office Season Alerts</title>
+    <description>New season notifications for The Office from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/526/the-office</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Dec 2025 03:01:41 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/the-office.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 9 — Premieres 2012-09-20</title>
+      <description>Premiere: 2012-09-20 | Finale: 2013-05-16 | Episodes: 27 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s9</guid>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 8 — Premieres 2011-09-22</title>
+      <description>Premiere: 2011-09-22 | Finale: 2012-05-10 | Episodes: 24 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s8</guid>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 7 — Premieres 2010-09-23</title>
+      <description>Premiere: 2010-09-23 | Finale: 2011-05-19 | Episodes: 26 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s7</guid>
+      <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 6 — Premieres 2009-09-17</title>
+      <description>Premiere: 2009-09-17 | Finale: 2010-05-20 | Episodes: 26 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s6</guid>
+      <pubDate>Thu, 17 Sep 2009 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 5 — Premieres 2008-09-25</title>
+      <description>Premiere: 2008-09-25 | Finale: 2009-05-14 | Episodes: 28 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s5</guid>
+      <pubDate>Thu, 25 Sep 2008 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2007-09-27</title>
+      <description>Premiere: 2007-09-27 | Finale: 2008-05-15 | Episodes: 19 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s4</guid>
+      <pubDate>Thu, 27 Sep 2007 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2006-09-21</title>
+      <description>Premiere: 2006-09-21 | Finale: 2007-05-17 | Episodes: 25 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s3</guid>
+      <pubDate>Thu, 21 Sep 2006 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2005-09-20</title>
+      <description>Premiere: 2005-09-20 | Finale: 2006-05-11 | Episodes: 22 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s2</guid>
+      <pubDate>Tue, 20 Sep 2005 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2005-03-24</title>
+      <description>Premiere: 2005-03-24 | Finale: 2005-04-26 | Episodes: 6 | Network: NBC</description>
+      <guid isPermaLink="false">tv-season-rss:the-office:s1</guid>
+      <pubDate>Thu, 24 Mar 2005 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/526/the-office</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Homeland Season Alerts</title>
+    <description>New season notifications for Homeland from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/7/homeland</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jan 2025 21:21:18 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/homeland.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 8 — Premieres 2020-02-09</title>
+      <description>Premiere: 2020-02-09 | Finale: 2020-04-26 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s8</guid>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 7 — Premieres 2018-02-11</title>
+      <description>Premiere: 2018-02-11 | Finale: 2018-04-29 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s7</guid>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 6 — Premieres 2017-01-15</title>
+      <description>Premiere: 2017-01-15 | Finale: 2017-04-09 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s6</guid>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 5 — Premieres 2015-10-04</title>
+      <description>Premiere: 2015-10-04 | Finale: 2015-12-20 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s5</guid>
+      <pubDate>Sun, 04 Oct 2015 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2014-10-05</title>
+      <description>Premiere: 2014-10-05 | Finale: 2014-12-21 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s4</guid>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2013-09-29</title>
+      <description>Premiere: 2013-09-29 | Finale: 2013-12-15 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s3</guid>
+      <pubDate>Sun, 29 Sep 2013 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2012-09-30</title>
+      <description>Premiere: 2012-09-30 | Finale: 2012-12-16 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s2</guid>
+      <pubDate>Sun, 30 Sep 2012 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2011-10-02</title>
+      <description>Premiere: 2011-10-02 | Finale: 2011-12-18 | Episodes: 12 | Network: Paramount+ with Showtime</description>
+      <guid isPermaLink="false">tv-season-rss:homeland:s1</guid>
+      <pubDate>Sun, 02 Oct 2011 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/7/homeland</link>
+    </item>
+  </channel>
+</rss>

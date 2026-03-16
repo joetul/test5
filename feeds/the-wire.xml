@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Wire Season Alerts</title>
+    <description>New season notifications for The Wire from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Oct 2025 08:41:27 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/the-wire.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 5 — Premieres 2008-01-06</title>
+      <description>Premiere: 2008-01-06 | Finale: 2008-03-09 | Episodes: 10 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-wire:s5</guid>
+      <pubDate>Sun, 06 Jan 2008 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2006-09-10</title>
+      <description>Premiere: 2006-09-10 | Finale: 2006-12-10 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-wire:s4</guid>
+      <pubDate>Sun, 10 Sep 2006 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2004-09-19</title>
+      <description>Premiere: 2004-09-19 | Finale: 2004-12-19 | Episodes: 12 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-wire:s3</guid>
+      <pubDate>Sun, 19 Sep 2004 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2003-06-01</title>
+      <description>Premiere: 2003-06-01 | Finale: 2003-08-24 | Episodes: 12 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-wire:s2</guid>
+      <pubDate>Sun, 01 Jun 2003 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2002-06-02</title>
+      <description>Premiere: 2002-06-02 | Finale: 2002-09-08 | Episodes: 13 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:the-wire:s1</guid>
+      <pubDate>Sun, 02 Jun 2002 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/179/the-wire</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Succession Season Alerts</title>
+    <description>New season notifications for Succession from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/23470/succession</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Apr 2025 17:27:03 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/succession.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 4 — Premieres 2023-03-26</title>
+      <description>Premiere: 2023-03-26 | Finale: 2023-05-28 | Episodes: 10 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:succession:s4</guid>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/23470/succession</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2021-10-17</title>
+      <description>Premiere: 2021-10-17 | Finale: 2021-12-12 | Episodes: 9 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:succession:s3</guid>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/23470/succession</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2019-08-11</title>
+      <description>Premiere: 2019-08-11 | Finale: 2019-10-13 | Episodes: 10 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:succession:s2</guid>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/23470/succession</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2018-06-03</title>
+      <description>Premiere: 2018-06-03 | Finale: 2018-08-05 | Episodes: 10 | Network: HBO</description>
+      <guid isPermaLink="false">tv-season-rss:succession:s1</guid>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/23470/succession</link>
+    </item>
+  </channel>
+</rss>

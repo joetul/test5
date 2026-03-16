@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Paradise Season Alerts</title>
+    <description>New season notifications for Paradise from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/75030/paradise</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Mar 2026 23:01:11 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/paradise.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2026-02-23</title>
+      <description>Premiere: 2026-02-23 | Finale: 2026-03-30 | Episodes: 8 | Network: Hulu</description>
+      <guid isPermaLink="false">tv-season-rss:paradise:s2</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/75030/paradise</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2025-01-26</title>
+      <description>Premiere: 2025-01-26 | Finale: 2025-03-04 | Episodes: 8 | Network: Hulu</description>
+      <guid isPermaLink="false">tv-season-rss:paradise:s1</guid>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/75030/paradise</link>
+    </item>
+  </channel>
+</rss>

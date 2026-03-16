@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Murderbot Season Alerts</title>
+    <description>New season notifications for Murderbot from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/73453/murderbot</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jul 2025 14:40:16 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/murderbot.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres TBD</title>
+      <description>Premiere: TBD | Finale: TBD | Episodes: Unknown | Network: Apple TV</description>
+      <guid isPermaLink="false">tv-season-rss:murderbot:s2</guid>
+      <pubDate>Mon, 16 Mar 2026 00:21:25 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/73453/murderbot</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2025-05-16</title>
+      <description>Premiere: 2025-05-16 | Finale: 2025-07-11 | Episodes: 10 | Network: Apple TV</description>
+      <guid isPermaLink="false">tv-season-rss:murderbot:s1</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/73453/murderbot</link>
+    </item>
+  </channel>
+</rss>

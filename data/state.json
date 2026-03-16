@@ -1,9 +1,129 @@
 {
+  "alice-in-borderland": {
+    "tvmaze_id": 50036,
+    "name": "Alice in Borderland",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:20:31Z"
+  },
+  "alone": {
+    "tvmaze_id": 1869,
+    "name": "Alone",
+    "latest_season": 12,
+    "last_checked": "2026-03-16T00:20:29Z"
+  },
   "andor": {
     "tvmaze_id": 52341,
     "name": "Andor",
     "latest_season": 2,
     "last_checked": "2026-03-15T23:48:56Z"
+  },
+  "arrested-development": {
+    "tvmaze_id": 321,
+    "name": "Arrested Development",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:20:34Z"
+  },
+  "arrow": {
+    "tvmaze_id": 4,
+    "name": "Arrow",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:20:36Z"
+  },
+  "barry": {
+    "tvmaze_id": 11538,
+    "name": "Barry",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:20:38Z"
+  },
+  "better-call-saul": {
+    "tvmaze_id": 618,
+    "name": "Better Call Saul",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:20:39Z"
+  },
+  "breaking-bad": {
+    "tvmaze_id": 169,
+    "name": "Breaking Bad",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:20:41Z"
+  },
+  "brooklyn-nine-nine": {
+    "tvmaze_id": 49,
+    "name": "Brooklyn Nine-Nine",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:20:43Z"
+  },
+  "cobra-kai": {
+    "tvmaze_id": 30960,
+    "name": "Cobra Kai",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:20:45Z"
+  },
+  "community": {
+    "tvmaze_id": 318,
+    "name": "Community",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:20:47Z"
+  },
+  "daredevil-born-again": {
+    "tvmaze_id": 63234,
+    "name": "Daredevil: Born Again",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:20:50Z"
+  },
+  "dexter": {
+    "tvmaze_id": 161,
+    "name": "Dexter",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:20:53Z"
+  },
+  "dexter-new-blood": {
+    "tvmaze_id": 58846,
+    "name": "Dexter: New Blood",
+    "latest_season": 1,
+    "last_checked": "2026-03-16T00:20:55Z"
+  },
+  "dexter-resurrection": {
+    "tvmaze_id": 78665,
+    "name": "Dexter: Resurrection",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:20:56Z"
+  },
+  "dune-prophecy": {
+    "tvmaze_id": 42846,
+    "name": "Dune: Prophecy",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:20:58Z"
+  },
+  "fallout": {
+    "tvmaze_id": 49041,
+    "name": "Fallout",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:21:00Z"
+  },
+  "foundation": {
+    "tvmaze_id": 35951,
+    "name": "Foundation",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:02Z"
+  },
+  "fringe": {
+    "tvmaze_id": 158,
+    "name": "Fringe",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:21:04Z"
+  },
+  "gotham": {
+    "tvmaze_id": 11,
+    "name": "Gotham",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:21:05Z"
+  },
+  "homeland": {
+    "tvmaze_id": 7,
+    "name": "Homeland",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:21:07Z"
   },
   "house-of-the-dragon": {
     "tvmaze_id": 44778,
@@ -11,11 +131,155 @@
     "latest_season": 4,
     "last_checked": "2026-03-15T23:48:52Z"
   },
+  "kim-s-convenience": {
+    "tvmaze_id": 17312,
+    "name": "Kim's Convenience",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:21:13Z"
+  },
+  "lucifer": {
+    "tvmaze_id": 1859,
+    "name": "Lucifer",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:21:14Z"
+  },
+  "marvel-s-daredevil": {
+    "tvmaze_id": 1369,
+    "name": "Marvel's Daredevil",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:20:48Z"
+  },
+  "marvel-s-the-punisher": {
+    "tvmaze_id": 16544,
+    "name": "Marvel's The Punisher",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:22:24Z"
+  },
+  "money-heist-korea---joint-economic-area": {
+    "tvmaze_id": 59307,
+    "name": "Money Heist: Korea - Joint Economic Area",
+    "latest_season": 1,
+    "last_checked": "2026-03-16T00:21:18Z"
+  },
+  "monk": {
+    "tvmaze_id": 543,
+    "name": "Monk",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:21:16Z"
+  },
+  "moon-knight": {
+    "tvmaze_id": 43518,
+    "name": "Moon Knight",
+    "latest_season": 1,
+    "last_checked": "2026-03-16T00:21:20Z"
+  },
+  "mr-inbetween": {
+    "tvmaze_id": 34268,
+    "name": "Mr Inbetween",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:21:21Z"
+  },
+  "mr-robot": {
+    "tvmaze_id": 1871,
+    "name": "Mr. Robot",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:23Z"
+  },
+  "murderbot": {
+    "tvmaze_id": 73453,
+    "name": "Murderbot",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:21:25Z"
+  },
+  "my-name-is-earl": {
+    "tvmaze_id": 678,
+    "name": "My Name Is Earl",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:27Z"
+  },
+  "ozark": {
+    "tvmaze_id": 13417,
+    "name": "Ozark",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:29Z"
+  },
+  "paradise": {
+    "tvmaze_id": 75030,
+    "name": "Paradise",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:21:30Z"
+  },
+  "parks-and-recreation": {
+    "tvmaze_id": 174,
+    "name": "Parks and Recreation",
+    "latest_season": 7,
+    "last_checked": "2026-03-16T00:21:32Z"
+  },
+  "peaky-blinders": {
+    "tvmaze_id": 269,
+    "name": "Peaky Blinders",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:21:34Z"
+  },
+  "person-of-interest": {
+    "tvmaze_id": 2,
+    "name": "Person of Interest",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:21:36Z"
+  },
+  "prison-break": {
+    "tvmaze_id": 541,
+    "name": "Prison Break",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:21:38Z"
+  },
+  "psych": {
+    "tvmaze_id": 517,
+    "name": "Psych",
+    "latest_season": 8,
+    "last_checked": "2026-03-16T00:21:39Z"
+  },
+  "raising-hope": {
+    "tvmaze_id": 580,
+    "name": "Raising Hope",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:41Z"
+  },
+  "reacher": {
+    "tvmaze_id": 43031,
+    "name": "Reacher",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:43Z"
+  },
+  "resident-alien": {
+    "tvmaze_id": 36947,
+    "name": "Resident Alien",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:45Z"
+  },
   "severance": {
     "tvmaze_id": 44933,
     "name": "Severance",
     "latest_season": 3,
     "last_checked": "2026-03-15T23:48:47Z"
+  },
+  "shrinking": {
+    "tvmaze_id": 58323,
+    "name": "Shrinking",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:21:48Z"
+  },
+  "silo": {
+    "tvmaze_id": 38052,
+    "name": "Silo",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:50Z"
+  },
+  "slow-horses": {
+    "tvmaze_id": 45039,
+    "name": "Slow Horses",
+    "latest_season": 7,
+    "last_checked": "2026-03-16T00:21:52Z"
   },
   "squid-game": {
     "tvmaze_id": 43687,
@@ -29,11 +293,65 @@
     "latest_season": 5,
     "last_checked": "2026-03-15T23:48:49Z"
   },
+  "succession": {
+    "tvmaze_id": 23470,
+    "name": "Succession",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:57Z"
+  },
+  "suits": {
+    "tvmaze_id": 172,
+    "name": "Suits",
+    "latest_season": 9,
+    "last_checked": "2026-03-16T00:21:59Z"
+  },
+  "superstore": {
+    "tvmaze_id": 1864,
+    "name": "Superstore",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:22:01Z"
+  },
+  "ted-lasso": {
+    "tvmaze_id": 44458,
+    "name": "Ted Lasso",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:22:03Z"
+  },
   "the-bear": {
     "tvmaze_id": 54198,
     "name": "The Bear",
     "latest_season": 4,
     "last_checked": "2026-03-15T23:48:48Z"
+  },
+  "the-blacklist": {
+    "tvmaze_id": 69,
+    "name": "The Blacklist",
+    "latest_season": 10,
+    "last_checked": "2026-03-16T00:22:06Z"
+  },
+  "the-boys": {
+    "tvmaze_id": 15299,
+    "name": "The Boys",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:22:08Z"
+  },
+  "the-day-of-the-jackal": {
+    "tvmaze_id": 64977,
+    "name": "The Day of the Jackal",
+    "latest_season": 1,
+    "last_checked": "2026-03-16T00:22:10Z"
+  },
+  "the-good-place": {
+    "tvmaze_id": 2790,
+    "name": "The Good Place",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:22:12Z"
+  },
+  "the-kominsky-method": {
+    "tvmaze_id": 31169,
+    "name": "The Kominsky Method",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:22:13Z"
   },
   "the-last-of-us": {
     "tvmaze_id": 46562,
@@ -41,10 +359,76 @@
     "latest_season": 3,
     "last_checked": "2026-03-15T23:48:50Z"
   },
+  "the-mentalist": {
+    "tvmaze_id": 116,
+    "name": "The Mentalist",
+    "latest_season": 7,
+    "last_checked": "2026-03-16T00:22:17Z"
+  },
+  "the-office": {
+    "tvmaze_id": 526,
+    "name": "The Office",
+    "latest_season": 9,
+    "last_checked": "2026-03-16T00:22:19Z"
+  },
+  "the-old-man": {
+    "tvmaze_id": 43155,
+    "name": "The Old Man",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:22:21Z"
+  },
+  "the-penguin": {
+    "tvmaze_id": 60920,
+    "name": "The Penguin",
+    "latest_season": 1,
+    "last_checked": "2026-03-16T00:22:22Z"
+  },
+  "the-sopranos": {
+    "tvmaze_id": 527,
+    "name": "The Sopranos",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:22:26Z"
+  },
+  "the-terminal-list": {
+    "tvmaze_id": 47856,
+    "name": "The Terminal List",
+    "latest_season": 2,
+    "last_checked": "2026-03-16T00:22:28Z"
+  },
+  "the-wire": {
+    "tvmaze_id": 179,
+    "name": "The Wire",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:22:29Z"
+  },
+  "tom-clancy-s-jack-ryan": {
+    "tvmaze_id": 5079,
+    "name": "Tom Clancy's Jack Ryan",
+    "latest_season": 4,
+    "last_checked": "2026-03-16T00:21:11Z"
+  },
+  "travelers": {
+    "tvmaze_id": 15996,
+    "name": "Travelers",
+    "latest_season": 3,
+    "last_checked": "2026-03-16T00:22:31Z"
+  },
   "wednesday": {
     "tvmaze_id": 53647,
     "name": "Wednesday",
     "latest_season": 3,
     "last_checked": "2026-03-15T23:48:53Z"
+  },
+  "white-collar": {
+    "tvmaze_id": 323,
+    "name": "White Collar",
+    "latest_season": 6,
+    "last_checked": "2026-03-16T00:22:35Z"
+  },
+  "yellowstone": {
+    "tvmaze_id": 27848,
+    "name": "Yellowstone",
+    "latest_season": 5,
+    "last_checked": "2026-03-16T00:22:37Z"
   }
 }

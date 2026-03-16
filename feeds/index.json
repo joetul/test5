@@ -1,5 +1,25 @@
 [
   {
+    "name": "Alice in Borderland",
+    "slug": "alice-in-borderland",
+    "feed_url": "https://joetul.github.io/test5/feeds/alice-in-borderland.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/50036/alice-in-borderland",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1473249.jpg"
+  },
+  {
+    "name": "Alone",
+    "slug": "alone",
+    "feed_url": "https://joetul.github.io/test5/feeds/alone.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1869/alone",
+    "network": "History",
+    "status": "To Be Determined",
+    "latest_season": 12,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/561/1403637.jpg"
+  },
+  {
     "name": "Andor",
     "slug": "andor",
     "feed_url": "https://joetul.github.io/test5/feeds/andor.xml",
@@ -8,6 +28,186 @@
     "status": "Ended",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411766.jpg"
+  },
+  {
+    "name": "Arrested Development",
+    "slug": "arrested-development",
+    "feed_url": "https://joetul.github.io/test5/feeds/arrested-development.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/321/arrested-development",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/338/846049.jpg"
+  },
+  {
+    "name": "Arrow",
+    "slug": "arrow",
+    "feed_url": "https://joetul.github.io/test5/feeds/arrow.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/4/arrow",
+    "network": "The CW",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/143/358967.jpg"
+  },
+  {
+    "name": "Barry",
+    "slug": "barry",
+    "feed_url": "https://joetul.github.io/test5/feeds/barry.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/11538/barry",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/455/1138151.jpg"
+  },
+  {
+    "name": "Better Call Saul",
+    "slug": "better-call-saul",
+    "feed_url": "https://joetul.github.io/test5/feeds/better-call-saul.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/618/better-call-saul",
+    "network": "AMC",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253515.jpg"
+  },
+  {
+    "name": "Breaking Bad",
+    "slug": "breaking-bad",
+    "feed_url": "https://joetul.github.io/test5/feeds/breaking-bad.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/169/breaking-bad",
+    "network": "AMC",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253519.jpg"
+  },
+  {
+    "name": "Brooklyn Nine-Nine",
+    "slug": "brooklyn-nine-nine",
+    "feed_url": "https://joetul.github.io/test5/feeds/brooklyn-nine-nine.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007484.jpg"
+  },
+  {
+    "name": "Cobra Kai",
+    "slug": "cobra-kai",
+    "feed_url": "https://joetul.github.io/test5/feeds/cobra-kai.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/30960/cobra-kai",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/536/1340290.jpg"
+  },
+  {
+    "name": "Community",
+    "slug": "community",
+    "feed_url": "https://joetul.github.io/test5/feeds/community.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/318/community",
+    "network": "Yahoo! View",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5134.jpg"
+  },
+  {
+    "name": "Daredevil: Born Again",
+    "slug": "daredevil-born-again",
+    "feed_url": "https://joetul.github.io/test5/feeds/daredevil-born-again.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/63234/daredevil-born-again",
+    "network": "Disney+",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1540605.jpg"
+  },
+  {
+    "name": "Dexter",
+    "slug": "dexter",
+    "feed_url": "https://joetul.github.io/test5/feeds/dexter.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/161/dexter",
+    "network": "Paramount+ with Showtime",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246067.jpg"
+  },
+  {
+    "name": "Dexter: New Blood",
+    "slug": "dexter-new-blood",
+    "feed_url": "https://joetul.github.io/test5/feeds/dexter-new-blood.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58846/dexter-new-blood",
+    "network": "Paramount+ with Showtime",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1245284.jpg"
+  },
+  {
+    "name": "Dexter: Resurrection",
+    "slug": "dexter-resurrection",
+    "feed_url": "https://joetul.github.io/test5/feeds/dexter-resurrection.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/78665/dexter-resurrection",
+    "network": "Paramount+",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/577/1443218.jpg"
+  },
+  {
+    "name": "Dune: Prophecy",
+    "slug": "dune-prophecy",
+    "feed_url": "https://joetul.github.io/test5/feeds/dune-prophecy.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/42846/dune-prophecy",
+    "network": "HBO",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/543/1358056.jpg"
+  },
+  {
+    "name": "Fallout",
+    "slug": "fallout",
+    "feed_url": "https://joetul.github.io/test5/feeds/fallout.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/49041/fallout",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/599/1499142.jpg"
+  },
+  {
+    "name": "Foundation",
+    "slug": "foundation",
+    "feed_url": "https://joetul.github.io/test5/feeds/foundation.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/35951/foundation",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/573/1433544.jpg"
+  },
+  {
+    "name": "Fringe",
+    "slug": "fringe",
+    "feed_url": "https://joetul.github.io/test5/feeds/fringe.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/158/fringe",
+    "network": "FOX",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/2245.jpg"
+  },
+  {
+    "name": "Gotham",
+    "slug": "gotham",
+    "feed_url": "https://joetul.github.io/test5/feeds/gotham.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/11/gotham",
+    "network": "FOX",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/189/474715.jpg"
+  },
+  {
+    "name": "Homeland",
+    "slug": "homeland",
+    "feed_url": "https://joetul.github.io/test5/feeds/homeland.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/7/homeland",
+    "network": "Paramount+ with Showtime",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1245275.jpg"
   },
   {
     "name": "House of the Dragon",
@@ -20,6 +220,216 @@
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/530/1325279.jpg"
   },
   {
+    "name": "Kim's Convenience",
+    "slug": "kim-s-convenience",
+    "feed_url": "https://joetul.github.io/test5/feeds/kim-s-convenience.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/17312/kims-convenience",
+    "network": "CBC",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/177/442900.jpg"
+  },
+  {
+    "name": "Lucifer",
+    "slug": "lucifer",
+    "feed_url": "https://joetul.github.io/test5/feeds/lucifer.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1859/lucifer",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/346/865655.jpg"
+  },
+  {
+    "name": "Marvel's Daredevil",
+    "slug": "marvel-s-daredevil",
+    "feed_url": "https://joetul.github.io/test5/feeds/marvel-s-daredevil.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1369/marvels-daredevil",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/171/429391.jpg"
+  },
+  {
+    "name": "Marvel's The Punisher",
+    "slug": "marvel-s-the-punisher",
+    "feed_url": "https://joetul.github.io/test5/feeds/marvel-s-the-punisher.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/16544/marvels-the-punisher",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/500/1250736.jpg"
+  },
+  {
+    "name": "Money Heist: Korea - Joint Economic Area",
+    "slug": "money-heist-korea---joint-economic-area",
+    "feed_url": "https://joetul.github.io/test5/feeds/money-heist-korea---joint-economic-area.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/59307/money-heist-korea-joint-economic-area",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/430/1076004.jpg"
+  },
+  {
+    "name": "Monk",
+    "slug": "monk",
+    "feed_url": "https://joetul.github.io/test5/feeds/monk.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/543/monk",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11451.jpg"
+  },
+  {
+    "name": "Moon Knight",
+    "slug": "moon-knight",
+    "feed_url": "https://joetul.github.io/test5/feeds/moon-knight.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43518/moon-knight",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/407/1019370.jpg"
+  },
+  {
+    "name": "Mr Inbetween",
+    "slug": "mr-inbetween",
+    "feed_url": "https://joetul.github.io/test5/feeds/mr-inbetween.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/34268/mr-inbetween",
+    "network": "FX",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/311/778637.jpg"
+  },
+  {
+    "name": "Mr. Robot",
+    "slug": "mr-robot",
+    "feed_url": "https://joetul.github.io/test5/feeds/mr-robot.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1871/mr-robot",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/211/528026.jpg"
+  },
+  {
+    "name": "Murderbot",
+    "slug": "murderbot",
+    "feed_url": "https://joetul.github.io/test5/feeds/murderbot.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/73453/murderbot",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/563/1408093.jpg"
+  },
+  {
+    "name": "My Name Is Earl",
+    "slug": "my-name-is-earl",
+    "feed_url": "https://joetul.github.io/test5/feeds/my-name-is-earl.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/678/my-name-is-earl",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/5/14824.jpg"
+  },
+  {
+    "name": "Ozark",
+    "slug": "ozark",
+    "feed_url": "https://joetul.github.io/test5/feeds/ozark.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/13417/ozark",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/398/996611.jpg"
+  },
+  {
+    "name": "Paradise",
+    "slug": "paradise",
+    "feed_url": "https://joetul.github.io/test5/feeds/paradise.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/75030/paradise",
+    "network": "Hulu",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/614/1536865.jpg"
+  },
+  {
+    "name": "Parks and Recreation",
+    "slug": "parks-and-recreation",
+    "feed_url": "https://joetul.github.io/test5/feeds/parks-and-recreation.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/174/parks-and-recreation",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/481/1204341.jpg"
+  },
+  {
+    "name": "Peaky Blinders",
+    "slug": "peaky-blinders",
+    "feed_url": "https://joetul.github.io/test5/feeds/peaky-blinders.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/269/peaky-blinders",
+    "network": "BBC One",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/48/122213.jpg"
+  },
+  {
+    "name": "Person of Interest",
+    "slug": "person-of-interest",
+    "feed_url": "https://joetul.github.io/test5/feeds/person-of-interest.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/2/person-of-interest",
+    "network": "CBS",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg"
+  },
+  {
+    "name": "Prison Break",
+    "slug": "prison-break",
+    "feed_url": "https://joetul.github.io/test5/feeds/prison-break.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/541/prison-break",
+    "network": "FOX",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/104/261034.jpg"
+  },
+  {
+    "name": "Psych",
+    "slug": "psych",
+    "feed_url": "https://joetul.github.io/test5/feeds/psych.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/517/psych",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 8,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11255.jpg"
+  },
+  {
+    "name": "Raising Hope",
+    "slug": "raising-hope",
+    "feed_url": "https://joetul.github.io/test5/feeds/raising-hope.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/580/raising-hope",
+    "network": "FOX",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11870.jpg"
+  },
+  {
+    "name": "Reacher",
+    "slug": "reacher",
+    "feed_url": "https://joetul.github.io/test5/feeds/reacher.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43031/reacher",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1392929.jpg"
+  },
+  {
+    "name": "Resident Alien",
+    "slug": "resident-alien",
+    "feed_url": "https://joetul.github.io/test5/feeds/resident-alien.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/36947/resident-alien",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/566/1416495.jpg"
+  },
+  {
     "name": "Severance",
     "slug": "severance",
     "feed_url": "https://joetul.github.io/test5/feeds/severance.xml",
@@ -28,6 +438,36 @@
     "status": "Running",
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/548/1371406.jpg"
+  },
+  {
+    "name": "Shrinking",
+    "slug": "shrinking",
+    "feed_url": "https://joetul.github.io/test5/feeds/shrinking.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58323/shrinking",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/610/1527402.jpg"
+  },
+  {
+    "name": "Silo",
+    "slug": "silo",
+    "feed_url": "https://joetul.github.io/test5/feeds/silo.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/38052/silo",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365594.jpg"
+  },
+  {
+    "name": "Slow Horses",
+    "slug": "slow-horses",
+    "feed_url": "https://joetul.github.io/test5/feeds/slow-horses.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/45039/slow-horses",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/593/1484384.jpg"
   },
   {
     "name": "Squid Game",
@@ -50,6 +490,46 @@
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/595/1489169.jpg"
   },
   {
+    "name": "Succession",
+    "slug": "succession",
+    "feed_url": "https://joetul.github.io/test5/feeds/succession.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/23470/succession",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1134275.jpg"
+  },
+  {
+    "name": "Suits",
+    "slug": "suits",
+    "feed_url": "https://joetul.github.io/test5/feeds/suits.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/172/suits",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 9,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/393/983536.jpg"
+  },
+  {
+    "name": "Superstore",
+    "slug": "superstore",
+    "feed_url": "https://joetul.github.io/test5/feeds/superstore.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/1864/superstore",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007462.jpg"
+  },
+  {
+    "name": "Ted Lasso",
+    "slug": "ted-lasso",
+    "feed_url": "https://joetul.github.io/test5/feeds/ted-lasso.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/44458/ted-lasso",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/457/1142533.jpg"
+  },
+  {
     "name": "The Bear",
     "slug": "the-bear",
     "feed_url": "https://joetul.github.io/test5/feeds/the-bear.xml",
@@ -58,6 +538,56 @@
     "status": "Running",
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480192.jpg"
+  },
+  {
+    "name": "The Blacklist",
+    "slug": "the-blacklist",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-blacklist.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/69/the-blacklist",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 10,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1113538.jpg"
+  },
+  {
+    "name": "The Boys",
+    "slug": "the-boys",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-boys.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/15299/the-boys",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1541588.jpg"
+  },
+  {
+    "name": "The Day of the Jackal",
+    "slug": "the-day-of-the-jackal",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-day-of-the-jackal.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/64977/the-day-of-the-jackal",
+    "network": "Now",
+    "status": "Running",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/541/1352923.jpg"
+  },
+  {
+    "name": "The Good Place",
+    "slug": "the-good-place",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-good-place.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/2790/the-good-place",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/395/989291.jpg"
+  },
+  {
+    "name": "The Kominsky Method",
+    "slug": "the-kominsky-method",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-kominsky-method.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/31169/the-kominsky-method",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/312/781852.jpg"
   },
   {
     "name": "The Last of Us",
@@ -70,6 +600,96 @@
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/563/1409008.jpg"
   },
   {
+    "name": "The Mentalist",
+    "slug": "the-mentalist",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-mentalist.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/116/the-mentalist",
+    "network": "CBS",
+    "status": "Ended",
+    "latest_season": 7,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1239.jpg"
+  },
+  {
+    "name": "The Office",
+    "slug": "the-office",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-office.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/526/the-office",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 9,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/481/1204342.jpg"
+  },
+  {
+    "name": "The Old Man",
+    "slug": "the-old-man",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-old-man.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/43155/the-old-man",
+    "network": "FX",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/534/1336914.jpg"
+  },
+  {
+    "name": "The Penguin",
+    "slug": "the-penguin",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-penguin.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60920/the-penguin",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/536/1340329.jpg"
+  },
+  {
+    "name": "The Sopranos",
+    "slug": "the-sopranos",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-sopranos.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/527/the-sopranos",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg"
+  },
+  {
+    "name": "The Terminal List",
+    "slug": "the-terminal-list",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-terminal-list.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/47856/the-terminal-list",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1114091.jpg"
+  },
+  {
+    "name": "The Wire",
+    "slug": "the-wire",
+    "feed_url": "https://joetul.github.io/test5/feeds/the-wire.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/179/the-wire",
+    "network": "HBO",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/504/1260189.jpg"
+  },
+  {
+    "name": "Tom Clancy's Jack Ryan",
+    "slug": "tom-clancy-s-jack-ryan",
+    "feed_url": "https://joetul.github.io/test5/feeds/tom-clancy-s-jack-ryan.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/5079/tom-clancys-jack-ryan",
+    "network": "Prime Video",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215704.jpg"
+  },
+  {
+    "name": "Travelers",
+    "slug": "travelers",
+    "feed_url": "https://joetul.github.io/test5/feeds/travelers.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/15996/travelers",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/176/441314.jpg"
+  },
+  {
     "name": "Wednesday",
     "slug": "wednesday",
     "feed_url": "https://joetul.github.io/test5/feeds/wednesday.xml",
@@ -78,5 +698,25 @@
     "status": "Running",
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466410.jpg"
+  },
+  {
+    "name": "White Collar",
+    "slug": "white-collar",
+    "feed_url": "https://joetul.github.io/test5/feeds/white-collar.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/323/white-collar",
+    "network": "USA Network",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5238.jpg"
+  },
+  {
+    "name": "Yellowstone",
+    "slug": "yellowstone",
+    "feed_url": "https://joetul.github.io/test5/feeds/yellowstone.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/27848/yellowstone",
+    "network": "Paramount Network",
+    "status": "Ended",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/545/1362616.jpg"
   }
 ]

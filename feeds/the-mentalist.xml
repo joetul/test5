@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Mentalist Season Alerts</title>
+    <description>New season notifications for The Mentalist from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 04:56:51 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/the-mentalist.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 7 — Premieres 2014-11-30</title>
+      <description>Premiere: 2014-11-30 | Finale: 2015-02-18 | Episodes: 13 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s7</guid>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 6 — Premieres 2013-09-29</title>
+      <description>Premiere: 2013-09-29 | Finale: 2014-05-18 | Episodes: 22 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s6</guid>
+      <pubDate>Sun, 29 Sep 2013 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 5 — Premieres 2012-09-30</title>
+      <description>Premiere: 2012-09-30 | Finale: 2013-05-05 | Episodes: 22 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s5</guid>
+      <pubDate>Sun, 30 Sep 2012 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2011-09-22</title>
+      <description>Premiere: 2011-09-22 | Finale: 2012-05-17 | Episodes: 24 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s4</guid>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2010-09-23</title>
+      <description>Premiere: 2010-09-23 | Finale: 2011-05-19 | Episodes: 24 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s3</guid>
+      <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2009-09-24</title>
+      <description>Premiere: 2009-09-24 | Finale: 2010-05-20 | Episodes: 23 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s2</guid>
+      <pubDate>Thu, 24 Sep 2009 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2008-09-23</title>
+      <description>Premiere: 2008-09-23 | Finale: 2009-05-19 | Episodes: 23 | Network: CBS</description>
+      <guid isPermaLink="false">tv-season-rss:the-mentalist:s1</guid>
+      <pubDate>Tue, 23 Sep 2008 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/116/the-mentalist</link>
+    </item>
+  </channel>
+</rss>

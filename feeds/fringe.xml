@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Fringe Season Alerts</title>
+    <description>New season notifications for Fringe from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/158/fringe</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jan 2024 09:52:24 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/fringe.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 5 — Premieres 2012-09-28</title>
+      <description>Premiere: 2012-09-28 | Finale: 2013-01-18 | Episodes: 13 | Network: FOX</description>
+      <guid isPermaLink="false">tv-season-rss:fringe:s5</guid>
+      <pubDate>Fri, 28 Sep 2012 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/158/fringe</link>
+    </item>
+    <item>
+      <title>Season 4 — Premieres 2011-09-23</title>
+      <description>Premiere: 2011-09-23 | Finale: 2012-05-11 | Episodes: 22 | Network: FOX</description>
+      <guid isPermaLink="false">tv-season-rss:fringe:s4</guid>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/158/fringe</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2010-09-23</title>
+      <description>Premiere: 2010-09-23 | Finale: 2011-05-06 | Episodes: 22 | Network: FOX</description>
+      <guid isPermaLink="false">tv-season-rss:fringe:s3</guid>
+      <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/158/fringe</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2009-09-17</title>
+      <description>Premiere: 2009-09-17 | Finale: 2010-05-20 | Episodes: 23 | Network: FOX</description>
+      <guid isPermaLink="false">tv-season-rss:fringe:s2</guid>
+      <pubDate>Thu, 17 Sep 2009 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/158/fringe</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2008-09-09</title>
+      <description>Premiere: 2008-09-09 | Finale: 2009-05-12 | Episodes: 20 | Network: FOX</description>
+      <guid isPermaLink="false">tv-season-rss:fringe:s1</guid>
+      <pubDate>Tue, 09 Sep 2008 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/158/fringe</link>
+    </item>
+  </channel>
+</rss>

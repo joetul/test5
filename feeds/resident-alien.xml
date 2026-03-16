@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Resident Alien Season Alerts</title>
+    <description>New season notifications for Resident Alien from TVmaze metadata.</description>
+    <link>https://www.tvmaze.com/shows/36947/resident-alien</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Sep 2025 17:10:45 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/test5/feeds/resident-alien.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 4 — Premieres 2025-06-06</title>
+      <description>Premiere: 2025-06-06 | Finale: 2025-08-08 | Episodes: 10 | Network: USA Network</description>
+      <guid isPermaLink="false">tv-season-rss:resident-alien:s4</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/36947/resident-alien</link>
+    </item>
+    <item>
+      <title>Season 3 — Premieres 2024-02-14</title>
+      <description>Premiere: 2024-02-14 | Finale: 2024-04-03 | Episodes: 8 | Network: USA Network</description>
+      <guid isPermaLink="false">tv-season-rss:resident-alien:s3</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/36947/resident-alien</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2022-01-26</title>
+      <description>Premiere: 2022-01-26 | Finale: 2022-09-28 | Episodes: 16 | Network: USA Network</description>
+      <guid isPermaLink="false">tv-season-rss:resident-alien:s2</guid>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/36947/resident-alien</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2021-01-27</title>
+      <description>Premiere: 2021-01-27 | Finale: 2021-03-31 | Episodes: 10 | Network: USA Network</description>
+      <guid isPermaLink="false">tv-season-rss:resident-alien:s1</guid>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
+      <link>https://www.tvmaze.com/shows/36947/resident-alien</link>
+    </item>
+  </channel>
+</rss>
