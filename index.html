@@ -3,20 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TV Season Tracker - RSS Feeds for Your Favorite Shows</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>TV Season Tracker - RSS Feeds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Dracula Theme Definitions */
     :root {
       --bg: #282a36;
-      --bg-darker: #21222c;
-      --bg-lighter: #2d2f3d;
-      --current: #44475a;
-      --current-hover: #515473;
+      --bg-alt: #44475a;
       --fg: #f8f8f2;
-      --fg-muted: #9da0b3;
-      --fg-dim: #6272a4;
       --comment: #6272a4;
       --cyan: #8be9fd;
       --green: #50fa7b;
@@ -25,1017 +19,492 @@
       --purple: #bd93f9;
       --red: #ff5555;
       --yellow: #f1fa8c;
-      --border: #44475a;
-      --border-hover: #6272a4;
-      --radius-sm: 8px;
-      --radius-md: 12px;
-      --radius-lg: 16px;
-      --glow-purple: 0 0 20px rgba(189, 147, 249, 0.15);
-      --glow-pink: 0 0 20px rgba(255, 121, 198, 0.1);
-      --glow-cyan: 0 0 15px rgba(139, 233, 253, 0.1);
-      --shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-      --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+      --border-radius: 8px;
+      --transition: 0.2s ease;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html, body {
+    * { box-sizing: border-box; }
+    
+    body {
       margin: 0;
       padding: 0;
-    }
-
-    body {
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
+      font-family: "Inter", sans-serif;
+      background-color: var(--bg);
       color: var(--fg);
-      min-height: 100vh;
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    /* subtle gradient orbs in the background */
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 600px 400px at 10% 10%, rgba(189, 147, 249, 0.08), transparent),
-        radial-gradient(ellipse 500px 350px at 85% 20%, rgba(255, 121, 198, 0.06), transparent),
-        radial-gradient(ellipse 400px 300px at 50% 80%, rgba(139, 233, 253, 0.04), transparent);
-      pointer-events: none;
-      z-index: 0;
+      line-height: 1.5;
     }
 
     .container {
-      width: 100%;
-      max-width: 960px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 3rem 1.5rem 5rem;
-      position: relative;
-      z-index: 1;
-      animation: enter 500ms ease-out;
-    }
-
-    /* === HERO === */
-    .hero {
-      margin-bottom: 2.5rem;
       padding: 2rem;
-      background: var(--bg-darker);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow), var(--glow-purple);
     }
 
-    .hero-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.75rem;
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid var(--bg-alt);
     }
 
-    .logo {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.65rem;
-      text-decoration: none;
-      color: var(--fg);
-    }
-
-    .logo-badge {
-      width: 2.1rem;
-      height: 2.1rem;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: var(--radius-sm);
-      background: linear-gradient(135deg, var(--purple), var(--pink));
-      color: var(--bg);
-      font-family: "JetBrains Mono", monospace;
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      box-shadow: 0 4px 12px rgba(189, 147, 249, 0.3);
-    }
-
-    .logo span:last-child {
-      font-weight: 700;
-      font-size: 0.95rem;
-      letter-spacing: -0.01em;
-    }
-
-    .mini-pill {
-      font-family: "JetBrains Mono", monospace;
-      font-size: 0.68rem;
-      font-weight: 500;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+    header h1 {
       color: var(--purple);
-      border: 1px solid rgba(189, 147, 249, 0.3);
-      border-radius: 999px;
-      padding: 0.35rem 0.75rem;
-      background: rgba(189, 147, 249, 0.08);
-      text-decoration: none;
-      transition: background var(--transition), border-color var(--transition);
-    }
-
-    .mini-pill:hover {
-      background: rgba(189, 147, 249, 0.18);
-      border-color: var(--purple);
-    }
-
-    h1 {
-      font-size: clamp(2.2rem, 5.5vw, 3.4rem);
-      line-height: 1.1;
-      letter-spacing: -0.03em;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
       font-weight: 700;
-      margin: 0 0 0.9rem;
-      max-width: 650px;
-      background: linear-gradient(135deg, var(--fg) 0%, var(--purple) 50%, var(--pink) 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
     }
 
-    .subtitle {
-      margin: 0;
-      max-width: 520px;
-      color: var(--fg-muted);
-      font-size: 1rem;
-      line-height: 1.65;
-    }
-
-    .hero-stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-top: 1.5rem;
-    }
-
-    .stat-chip {
-      font-family: "JetBrains Mono", monospace;
-      font-size: 0.72rem;
-      font-weight: 500;
-      color: var(--cyan);
-      background: rgba(139, 233, 253, 0.07);
-      border: 1px solid rgba(139, 233, 253, 0.15);
-      border-radius: 999px;
-      padding: 0.38rem 0.7rem;
-    }
-
-    /* === MAIN PANEL === */
-    .main-panel {
-      margin-bottom: 2.5rem;
-    }
-
-    .toolbar-title {
-      display: block;
-      font-family: "JetBrains Mono", monospace;
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
+    header p {
       color: var(--comment);
-      margin-bottom: 0.75rem;
+      font-size: 1.1rem;
     }
 
-    .toolbar {
-      display: grid;
-      grid-template-columns: 1fr auto;
+    .controls {
+      display: flex;
+      flex-direction: column;
       gap: 1rem;
-      align-items: end;
-      margin-bottom: 0.9rem;
+      margin-bottom: 2rem;
+      background: var(--bg-alt);
+      padding: 1.5rem;
+      border-radius: var(--border-radius);
     }
 
-    #filter {
-      width: 100%;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      background: var(--bg-darker);
+    .search-wrapper {
+      display: flex;
+      gap: 1rem;
+    }
+
+    #search {
+      flex: 1;
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: 2px solid var(--comment);
+      border-radius: var(--border-radius);
+      background: var(--bg);
       color: var(--fg);
-      padding: 0.7rem 0.9rem;
-      font-size: 0.9rem;
-      font-family: inherit;
-      transition: border-color var(--transition), box-shadow var(--transition);
-    }
-
-    #filter::placeholder {
-      color: var(--comment);
-    }
-
-    #filter:focus-visible {
       outline: none;
-      border-color: var(--purple);
-      box-shadow: 0 0 0 3px rgba(189, 147, 249, 0.15);
+      transition: var(--transition);
     }
 
-    #count {
-      margin: 0;
-      color: var(--fg-muted);
-      font-size: 0.85rem;
-      font-weight: 500;
-      white-space: nowrap;
+    #search:focus {
+      border-color: var(--pink);
+      box-shadow: 0 0 10px rgba(255, 121, 198, 0.2);
     }
 
-    .bulk-section {
+    .actions {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 0.75rem;
+      align-items: center;
       flex-wrap: wrap;
-      padding: 0.7rem 1rem;
-      background: var(--bg-darker);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      margin-bottom: 0.9rem;
+      gap: 1rem;
     }
 
-    #selected-count {
-      color: var(--fg-muted);
-      font-size: 0.82rem;
+    .stats {
+      color: var(--cyan);
       font-weight: 500;
     }
 
-    .bulk-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-
-    .bulk-btn,
-    .rss-btn,
-    .cta-button {
-      font-family: inherit;
+    .btn {
+      padding: 0.75rem 1.25rem;
+      border: none;
+      border-radius: var(--border-radius);
+      font-size: 0.9rem;
       font-weight: 600;
-      font-size: 0.8rem;
       cursor: pointer;
-      transition: all var(--transition);
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: var(--radius-sm);
-    }
-
-    .bulk-btn {
-      border: 1px solid var(--border);
-      color: var(--fg-muted);
-      background: var(--current);
-      padding: 0.45rem 0.75rem;
-    }
-
-    .bulk-btn:hover:not(:disabled) {
-      background: var(--current-hover);
-      border-color: var(--border-hover);
+      transition: var(--transition);
+      background: var(--comment);
       color: var(--fg);
     }
 
-    .bulk-btn:disabled {
-      opacity: 0.35;
+    .btn:hover:not(:disabled) {
+      background: var(--purple);
+    }
+
+    .btn-primary {
+      background: var(--pink);
+      color: var(--bg);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background: #ff92d0;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
       cursor: not-allowed;
     }
 
-    /* === SHOW CARDS === */
-    .shows-list {
+    /* Grid layout for shows */
+    .shows-grid {
       display: grid;
-      gap: 1px;
-      background: rgba(68, 71, 90, 0.5);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      overflow: hidden;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
     }
 
     .show-card {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: center;
-      gap: 1rem;
-      background: var(--bg-darker);
-      padding: 0.85rem 1rem;
-      transition: background var(--transition);
-      animation: fade-in 300ms ease both;
+      background: var(--bg-alt);
+      border: 1px solid var(--comment);
+      border-radius: var(--border-radius);
+      padding: 1.5rem;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
     }
 
     .show-card:hover {
-      background: var(--bg-lighter);
+      border-color: var(--cyan);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
 
-    .show-info {
-      display: grid;
-      gap: 0.4rem;
-      min-width: 0;
+    .show-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
     }
 
-    .show-name {
-      margin: 0;
-      font-size: 0.95rem;
+    .show-title {
+      font-size: 1.25rem;
       font-weight: 600;
-      letter-spacing: -0.01em;
-      line-height: 1.3;
+      color: var(--fg);
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .show-badges {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .bg-green { background: rgba(80, 250, 123, 0.2); color: var(--green); }
+    .bg-red { background: rgba(255, 85, 85, 0.2); color: var(--red); border: 1px solid rgba(255, 85, 85, 0.3); }
+    .bg-cyan { background: rgba(139, 233, 253, 0.2); color: var(--cyan); border: 1px solid rgba(139, 233, 253, 0.3); }
+
+    .show-footer {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .rss-copy-btn {
+      flex: 1;
+      background: var(--purple);
+      color: var(--fg);
+      padding: 0.5rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .rss-copy-btn:hover {
+      background: var(--pink);
+    }
+    
+    .rss-copy-btn.copied {
+      background: var(--green);
+      color: var(--bg);
+    }
+
+    .checkbox-lbl {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      color: var(--comment);
+      font-size: 0.9rem;
+    }
+    
+    .checkbox-lbl:hover {
       color: var(--fg);
     }
-
-    .show-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-    }
-
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      border-radius: 999px;
-      padding: 0.18rem 0.55rem;
-      font-size: 0.72rem;
-      font-weight: 600;
-      color: var(--fg-muted);
-      background: var(--current);
-    }
-
-    .tag.status-running {
-      color: var(--green);
-      background: rgba(80, 250, 123, 0.1);
-      border: 1px solid rgba(80, 250, 123, 0.2);
-    }
-
-    .tag.status-ended {
-      color: var(--red);
-      background: rgba(255, 85, 85, 0.1);
-      border: 1px solid rgba(255, 85, 85, 0.2);
-    }
-
-    .tag a {
-      color: var(--purple);
+    
+    .links a {
+      color: var(--cyan);
       text-decoration: none;
+      font-size: 0.85rem;
     }
-
-    .tag a:hover {
-      color: var(--pink);
+    
+    .links a:hover {
       text-decoration: underline;
     }
 
-    .show-actions {
-      display: flex;
-      align-items: center;
-      gap: 0.65rem;
-    }
-
-    .checkbox-wrapper {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      color: var(--comment);
-      font-size: 0.78rem;
-      font-weight: 500;
-      white-space: nowrap;
-      cursor: pointer;
-    }
-
-    .checkbox-wrapper:hover {
-      color: var(--fg-muted);
-    }
-
-    input[type="checkbox"] {
-      width: 16px;
-      height: 16px;
-      cursor: pointer;
-      accent-color: var(--purple);
-    }
-
-    .rss-btn {
-      border: none;
-      background: linear-gradient(135deg, var(--purple), var(--pink));
-      color: var(--bg);
-      padding: calc(0.45rem + 1px) calc(0.85rem + 1px);
-      font-weight: 700;
-      min-width: 82px;
-      box-shadow: 0 2px 8px rgba(189, 147, 249, 0.2);
-    }
-
-    .rss-btn:hover {
-      box-shadow: 0 4px 16px rgba(189, 147, 249, 0.35);
-      transform: translateY(-1px);
-    }
-
-    .rss-btn.copied {
-      background: var(--green);
-      box-shadow: 0 2px 12px rgba(80, 250, 123, 0.3);
-    }
-
-    .empty-state {
+    .empty-msg {
       text-align: center;
+      padding: 3rem;
       color: var(--comment);
-      padding: 3rem 1rem;
-      background: var(--bg-darker);
+      grid-column: 1 / -1;
+      font-size: 1.2rem;
     }
 
-    .empty-state p {
-      margin: 0;
-      font-size: 0.9rem;
-    }
-
-    /* === INFO SECTIONS === */
-    .info-section {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      background: var(--bg-darker);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-    }
-
-    .info-section h2 {
-      margin: 0 0 0.5rem;
-      font-size: 1.1rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.3;
-      color: var(--fg);
-    }
-
-    .info-section p {
-      margin: 0 0 0.6rem;
-      color: var(--fg-muted);
-      font-size: 0.9rem;
-    }
-
-    .info-section p:last-child {
-      margin-bottom: 0;
-    }
-
-    .info-section strong {
-      color: var(--orange);
-      font-weight: 600;
-    }
-
-    .reasons {
-      margin: 0;
-      padding-left: 1.1rem;
-      color: var(--fg-muted);
-      display: grid;
-      gap: 0.25rem;
-      font-size: 0.88rem;
-    }
-
-    .reasons li::marker {
-      color: var(--purple);
-    }
-
-    .cta-group {
-      margin-top: 1.25rem;
-      display: grid;
-      gap: 0.75rem;
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    .cta-card {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 1.25rem;
-      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
-      display: grid;
-      gap: 0.4rem;
-      align-content: start;
-    }
-
-    .cta-card:hover {
-      border-color: var(--border-hover);
-      box-shadow: var(--glow-purple);
-      transform: translateY(-2px);
-    }
-
-    .cta-card h3 {
-      margin: 0;
-      font-size: 0.9rem;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-      color: var(--fg);
-    }
-
-    .cta-card p {
-      margin: 0;
-      color: var(--comment);
-      font-size: 0.82rem;
-      line-height: 1.55;
-    }
-
-    .cta-button {
-      justify-self: start;
-      margin-top: 0.35rem;
-      background: var(--current);
-      border: 1px solid var(--border);
-      color: var(--fg-muted);
-      padding: 0.45rem 0.75rem;
-    }
-
-    .cta-button:hover {
-      border-color: var(--purple);
-      color: var(--purple);
-      background: rgba(189, 147, 249, 0.1);
-    }
-
-    /* === FOOTER === */
+    /* Footer */
     footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+      text-align: center;
+      padding: 2rem;
+      border-top: 2px solid var(--bg-alt);
       color: var(--comment);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      font-size: 0.82rem;
     }
 
     footer a {
       color: var(--purple);
       text-decoration: none;
-      font-weight: 500;
     }
 
     footer a:hover {
       color: var(--pink);
     }
-
-    /* === SCROLLBAR === */
-    ::-webkit-scrollbar {
-      width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: var(--bg);
-    }
-    ::-webkit-scrollbar-thumb {
-      background: var(--current);
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--current-hover);
-    }
-
-    /* === SELECTION === */
-    ::selection {
-      background: rgba(189, 147, 249, 0.3);
-      color: var(--fg);
-    }
-
-    /* === ANIMATIONS === */
-    @keyframes enter {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fade-in {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    /* === RESPONSIVE === */
-    @media (max-width: 768px) {
-      .container {
-        padding: 2rem 1rem 3rem;
-      }
-
-      .toolbar {
-        grid-template-columns: 1fr;
-      }
-
-      .show-card {
-        grid-template-columns: 1fr;
-        gap: 0.6rem;
-      }
-
-      .show-actions {
-        width: 100%;
-        justify-content: space-between;
-      }
-
-      .cta-group {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      .hero {
-        padding: 1.25rem;
-      }
-
-      .hero-top {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem;
-      }
-
-      .bulk-section {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .bulk-actions {
-        width: 100%;
-      }
-
-      .bulk-btn {
-        flex: 1;
-      }
-
-      .show-actions {
-        display: grid;
-        grid-template-columns: 1fr auto;
-      }
-
-      footer {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-    }
   </style>
 </head>
 <body>
   <div class="container">
-    <header class="hero">
-      <div class="hero-top">
-        <a href="https://github.com/joetul/TV-Season-Tracker-RSS" class="mini-pill" target="_blank" rel="noopener">GitHub</a>
-      </div>
-      <h1>Never miss a new season again.</h1>
-      <p class="subtitle">Get notified via RSS when a new season drops. Community-curated, open source, and free to use.</p>
-      <div class="hero-stats" aria-hidden="true">
-        <span class="stat-chip">TVmaze data</span>
-        <span class="stat-chip">Updated daily</span>
-        <span class="stat-chip">OPML export</span>
-      </div>
+    <header>
+      <h1>TV Season Tracker</h1>
+      <p>Never miss a new season again. Get notified via RSS.</p>
     </header>
 
-    <section class="main-panel" aria-labelledby="browse-heading">
-      <p class="toolbar-title" id="browse-heading">Browse shows</p>
-      <div class="toolbar">
-        <div class="search-container">
-          <input id="filter" type="text" placeholder="Search by title or status...">
-        </div>
-        <p id="count">0 series</p>
+    <div class="controls">
+      <div class="search-wrapper">
+        <input type="text" id="search" placeholder="Search shows (e.g., Breaking Bad)..." autofocus autocomplete="off">
       </div>
-      <div class="bulk-section">
-        <span id="selected-count">0 selected</span>
+      <div class="actions">
+        <div class="stats" id="stats">Loading shows...</div>
         <div class="bulk-actions">
-          <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
-          <button id="clear-selected" class="bulk-btn" type="button">Clear</button>
-          <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
+          <button id="btn-select-all" class="btn">Select Visible</button>
+          <button id="btn-clear" class="btn">Clear</button>
+          <button id="btn-export" class="btn btn-primary" disabled>Export OPML</button>
         </div>
       </div>
-      <div id="list" class="shows-list" aria-live="polite"></div>
-    </section>
+    </div>
 
-    <section class="info-section" aria-labelledby="how-it-works-heading">
-      <h2 id="how-it-works-heading">How it works</h2>
-      <p>Click <strong>Copy RSS</strong> on any show to grab its feed URL, then paste it into Feedly, NetNewsWire, Inoreader, or any RSS reader.</p>
-      <p>Show metadata comes from TVmaze. Feeds update daily within public API limits.</p>
-    </section>
+    <div id="shows-container" class="shows-grid"></div>
 
-    <section class="info-section" aria-labelledby="missing-show-heading">
-      <h2 id="missing-show-heading">Want to add a show?</h2>
-      <p>The list is maintained by contributors. If a show you want isn't here, you can request it or add it yourself.</p>
-      <div class="cta-group">
-        <article class="cta-card">
-          <h3>Open an issue</h3>
-          <p>Request a show to be added. Include the title and TVmaze link if you can.</p>
-          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Request</a>
-        </article>
-        <article class="cta-card">
-          <h3>Submit a PR</h3>
-          <p>Add a show yourself in shows.json and open a pull request.</p>
-          <a href="#" id="pr-link" class="cta-button" target="_blank" rel="noopener">Pull Request</a>
-        </article>
-        <article class="cta-card">
-          <h3>Fork it</h3>
-          <p>MIT licensed. Fork the repo and build your own version.</p>
-          <a href="#" id="fork-link" class="cta-button" target="_blank" rel="noopener">Fork</a>
-        </article>
+    <div style="margin-top: 3rem; background: var(--bg-alt); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--comment); text-align: center;">
+      <h2 style="color: var(--pink); margin-top: 0;">Missing a Show?</h2>
+      <p style="color: var(--fg); font-size: 1.05rem;">The list is maintained by contributors. If a show you want isn't here, you can easily request it or add it yourself.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
+        <a href="https://github.com/joetul/TV-Season-Tracker-RSS/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]" target="_blank" class="btn btn-primary" style="text-decoration: none;">Request via Issue</a>
+        <a href="https://github.com/joetul/TV-Season-Tracker-RSS/pulls" target="_blank" class="btn" style="text-decoration: none;">Submit a Pull Request</a>
       </div>
-    </section>
+    </div>
 
     <footer>
-      <span>Data: <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">TVmaze API</a></span>
-      <span>Source: <a id="repo-link" href="#" target="_blank" rel="noopener">GitHub</a></span>
-      <span>License: <a href="https://github.com/joetul/TV-Season-Tracker-RSS/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a></span>
+      <p>Data provided by <a href="https://www.tvmaze.com/api" target="_blank">TVmaze</a>. View project on <a href="https://github.com/joetul/TV-Season-Tracker-RSS" target="_blank">GitHub</a>.</p>
     </footer>
   </div>
 
   <script>
-    const listEl = document.getElementById("list");
-    const countEl = document.getElementById("count");
-    const filterEl = document.getElementById("filter");
-    const selectedCountEl = document.getElementById("selected-count");
-    const selectVisibleEl = document.getElementById("select-visible");
-    const clearSelectedEl = document.getElementById("clear-selected");
-    const exportOpmlEl = document.getElementById("export-opml");
-    const fallbackRepoUrl = "https://github.com/joetul/TV-Season-Tracker-RSS";
+    let allShows = [];
+    let selectedShows = new Set();
+    const INITIAL_LIMIT = 50;
 
-    const state = {
-      allShows: [],
-      filtered: [],
-      selected: new Set()
+    const els = {
+      search: document.getElementById("search"),
+      container: document.getElementById("shows-container"),
+      stats: document.getElementById("stats"),
+      btnSelectAll: document.getElementById("btn-select-all"),
+      btnClear: document.getElementById("btn-clear"),
+      btnExport: document.getElementById("btn-export")
     };
 
-    function showKey(show) {
-      return show.slug || show.feed_url || show.name || "";
+    function init() {
+      fetch("./feeds/index.json", { cache: "no-store" })
+        .then(res => {
+          if (!res.ok) throw new Error("HTTP error");
+          return res.json();
+        })
+        .then(data => {
+          allShows = Array.isArray(data) ? data : [];
+          render();
+        })
+        .catch(err => {
+          els.container.innerHTML = '<div class="empty-msg" style="color: var(--red);">Feeds are loading or unavailable. Check back in a moment.</div>';
+          els.stats.textContent = "Error";
+        });
+
+      els.search.addEventListener("input", render);
+      
+      els.btnSelectAll.addEventListener("click", () => {
+        const query = els.search.value.toLowerCase().trim();
+        const visible = getVisibleShows(query);
+        visible.forEach(show => selectedShows.add(getShowKey(show)));
+        updateBulkUI();
+        render(false);
+      });
+
+      els.btnClear.addEventListener("click", () => {
+        selectedShows.clear();
+        updateBulkUI();
+        render(false);
+      });
+
+      els.btnExport.addEventListener("click", exportOPML);
     }
 
-    function updateSelectionUi() {
-      const selectedCount = state.selected.size;
-      selectedCountEl.textContent = `${selectedCount} selected`;
-      exportOpmlEl.disabled = selectedCount === 0;
-      clearSelectedEl.disabled = selectedCount === 0;
+    function getShowKey(s) {
+      return s.feed_url || s.slug || s.name;
     }
 
-    function pruneSelection() {
-      const valid = new Set(state.allShows.map((show) => showKey(show)));
-      for (const key of state.selected) {
-        if (!valid.has(key)) state.selected.delete(key);
+    function getVisibleShows(query) {
+      if (!query) return allShows;
+      return allShows.filter(s => {
+        const nameMatch = (s.name || "").toLowerCase().includes(query);
+        const statusMatch = (s.status || "").toLowerCase().includes(query);
+        return nameMatch || statusMatch;
+      });
+    }
+
+    function render(resetLimit = true) {
+      const query = els.search.value.toLowerCase().trim();
+      const visible = getVisibleShows(query);
+      
+      const numSelected = selectedShows.size;
+      const total = allShows.length;
+      
+      if (query) {
+        els.stats.innerHTML = 'Found <span style="color: var(--pink)">' + visible.length + '</span> shows (out of ' + total + ')';
+      } else {
+        els.stats.innerHTML = 'Showing first <span style="color: var(--pink)">' + Math.min(INITIAL_LIMIT, visible.length) + '</span> of ' + total + ' shows. Search to find more!';
       }
-      updateSelectionUi();
+
+      els.container.innerHTML = "";
+
+      if (visible.length === 0) {
+        els.container.innerHTML = '<div class="empty-msg">No shows found matching "' + query + '".</div>';
+        return;
+      }
+
+      const displayShows = query ? visible : visible.slice(0, INITIAL_LIMIT);
+
+      const frag = document.createDocumentFragment();
+      displayShows.forEach(show => {
+        const card = document.createElement("div");
+        card.className = "show-card";
+        
+        const key = getShowKey(show);
+        const isSelected = selectedShows.has(key);
+        const year = show.premiered ? show.premiered.substring(0, 4) : "";
+        const title = year ? show.name + " (" + year + ")" : show.name;
+        
+        let statusBadge = "bg-cyan";
+        let statusTxt = show.status || "Unknown";
+        if (statusTxt.toLowerCase() === "running") statusBadge = "bg-green";
+        else if (statusTxt.toLowerCase() === "ended") statusBadge = "bg-red";
+
+        card.innerHTML = `
+          <div class="show-header">
+            <h3 class="show-title">${title}</h3>
+          </div>
+          <div class="show-badges">
+            <span class="badge ${statusBadge}">${statusTxt}</span>
+            <span class="badge" style="background: var(--bg); color: var(--comment); border: 1px solid var(--comment)">S${show.latest_season || 0}</span>
+          </div>
+          <div style="flex: 1"></div>
+          <div class="links" style="margin-bottom: 1rem;">
+            <a href="${show.tvmaze_url || '#'}" target="_blank">View on TVmaze</a>
+          </div>
+          <div class="show-footer">
+            <label class="checkbox-lbl">
+              <input type="checkbox" class="show-cb" value="${key}" ${isSelected ? "checked" : ""}>
+              Select
+            </label>
+            <button class="rss-copy-btn" data-url="${show.feed_url}">Copy RSS</button>
+          </div>
+        `;
+        frag.appendChild(card);
+      });
+
+      els.container.appendChild(frag);
+
+      document.querySelectorAll(".show-cb").forEach(cb => {
+        cb.addEventListener("change", (e) => {
+          if (e.target.checked) selectedShows.add(e.target.value);
+          else selectedShows.delete(e.target.value);
+          updateBulkUI();
+        });
+      });
+
+      document.querySelectorAll(".rss-copy-btn").forEach(btn => {
+        btn.addEventListener("click", async (e) => {
+          const url = e.target.getAttribute("data-url");
+          try {
+            await navigator.clipboard.writeText(url);
+            const originalText = e.target.textContent;
+            e.target.textContent = "Copied!";
+            e.target.classList.add("copied");
+            setTimeout(() => {
+              e.target.textContent = originalText;
+              e.target.classList.remove("copied");
+            }, 2000);
+          } catch (err) {
+            window.open(url, "_blank");
+          }
+        });
+      });
     }
 
-    function xmlEscape(value) {
-      return String(value || "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/\"/g, "&quot;")
-        .replace(/'/g, "&apos;");
+    function updateBulkUI() {
+      const num = selectedShows.size;
+      if (num > 0) {
+        els.btnExport.textContent = 'Export OPML (' + num + ')';
+        els.btnExport.disabled = false;
+        els.btnClear.disabled = false;
+      } else {
+        els.btnExport.textContent = "Export OPML";
+        els.btnExport.disabled = true;
+        els.btnClear.disabled = true;
+      }
     }
 
-    function buildOpml(shows) {
+    function exportOPML() {
+      if (selectedShows.size === 0) return;
+      
+      const toExport = allShows.filter(s => selectedShows.has(getShowKey(s)));
       const createdAt = new Date().toUTCString();
-      const sorted = [...shows].sort((a, b) => normalize(a.name).localeCompare(normalize(b.name)));
-      const outlines = sorted.map((show) => {
-        const title = xmlEscape(show.name || "Untitled Show");
-        const feedUrl = xmlEscape(show.feed_url || "");
-        const htmlUrl = xmlEscape(show.tvmaze_url || watchSearchUrl(show));
-        return `    <outline text="${title}" title="${title}" type="rss" xmlUrl="${feedUrl}" htmlUrl="${htmlUrl}"/>`;
-      }).join("\n");
+      
+      let opml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+'<opml version="2.0">\n' +
+'  <head>\n' +
+'    <title>TV Season Tracker RSS</title>\n' +
+'    <dateCreated>' + createdAt + '</dateCreated>\n' +
+'  </head>\n' +
+'  <body>\n';
 
-      return [
-        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
-        "<opml version=\"2.0\">",
-        "  <head>",
-        "    <title>TV Season Tracker RSS</title>",
-        `    <dateCreated>${xmlEscape(createdAt)}</dateCreated>`,
-        "  </head>",
-        "  <body>",
-        outlines,
-        "  </body>",
-        "</opml>",
-        ""
-      ].join("\n");
-    }
+      toExport.forEach(show => {
+        const title = (show.name || "Untitled").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+        const url = (show.feed_url || "").replace(/&/g, "&amp;");
+        opml += '    <outline text="' + title + '" title="' + title + '" type="rss" xmlUrl="' + url + '"/>\n';
+      });
 
-    function downloadOpml(content) {
-      const blob = new Blob([content], { type: "text/x-opml;charset=utf-8" });
+      opml += '  </body>\n</opml>';
+
+      const blob = new Blob([opml], { type: "text/x-opml;charset=utf-8" });
       const url = URL.createObjectURL(blob);
-      const date = new Date().toISOString().slice(0, 10);
-      const anchor = document.createElement("a");
-      anchor.href = url;
-      anchor.download = `tv-season-tracker-${date}.opml`;
-      document.body.appendChild(anchor);
-      anchor.click();
-      anchor.remove();
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `tv-shows-feeds.opml`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
       URL.revokeObjectURL(url);
     }
 
-    function exportSelectedOpml() {
-      const selectedShows = state.allShows.filter((show) => state.selected.has(showKey(show)));
-      if (!selectedShows.length) return;
-      downloadOpml(buildOpml(selectedShows));
-    }
-
-    function statusClass(status) {
-      const value = (status || "").toLowerCase();
-      if (value === "running") return "status-running";
-      if (value === "ended") return "status-ended";
-      return "";
-    }
-
-    function normalize(value) {
-      return String(value || "").toLowerCase();
-    }
-
-    function watchSearchUrl(show) {
-      const query = String(show.name || "").trim();
-      if (!query) return "https://www.google.com";
-      return `https://www.google.com/search?q=${encodeURIComponent(`${query} where to watch`)}`;
-    }
-
-    function tvmazeUrl(show) {
-      if (show.tvmaze_url) return show.tvmaze_url;
-      const query = String(show.name || "").trim();
-      if (!query) return "https://www.tvmaze.com";
-      return `https://www.tvmaze.com/search?q=${encodeURIComponent(query)}`;
-    }
-
-    function render() {
-      listEl.textContent = "";
-      const query = normalize(filterEl.value.trim());
-
-      if (!query) {
-        countEl.textContent = `${state.allShows.length} series available`;
-        const empty = document.createElement("div");
-        empty.className = "empty-state";
-        empty.innerHTML = "<p>Search for a show above to get started.</p>";
-        listEl.appendChild(empty);
-        return;
-      }
-
-      countEl.textContent = `${state.filtered.length} series`;
-
-      if (!state.filtered.length) {
-        const empty = document.createElement("div");
-        empty.className = "empty-state";
-        empty.innerHTML = "<p>No series match your search. Try another keyword or request one below.</p>";
-        listEl.appendChild(empty);
-        return;
-      }
-
-      for (const show of state.filtered) {
-        const card = document.createElement("article");
-        card.className = "show-card";
-
-        const info = document.createElement("div");
-        info.className = "show-info";
-
-        const name = document.createElement("h3");
-        name.className = "show-name";
-        const year = show.premiered ? show.premiered.slice(0, 4) : null;
-        name.textContent = year ? `${show.name} (${year})` : show.name;
-        info.appendChild(name);
-
-        const meta = document.createElement("div");
-        meta.className = "show-meta";
-
-        const status = document.createElement("span");
-        status.className = `tag ${statusClass(show.status)}`.trim();
-        status.textContent = show.status || "Unknown";
-        meta.appendChild(status);
-
-        const latest = document.createElement("span");
-        latest.className = "tag";
-        latest.textContent = `S${show.latest_season || 0}`;
-        meta.appendChild(latest);
-
-        const availability = document.createElement("span");
-        availability.className = "tag";
-        const availabilityLink = document.createElement("a");
-        availabilityLink.href = watchSearchUrl(show);
-        availabilityLink.target = "_blank";
-        availabilityLink.rel = "noopener noreferrer";
-        availabilityLink.textContent = "Where to Watch";
-        availability.appendChild(availabilityLink);
-        meta.appendChild(availability);
-
-        const tvmaze = document.createElement("span");
-        tvmaze.className = "tag";
-        const tvmazeLink = document.createElement("a");
-        tvmazeLink.href = tvmazeUrl(show);
-        tvmazeLink.target = "_blank";
-        tvmazeLink.rel = "noopener noreferrer";
-        tvmazeLink.textContent = "TVmaze";
-        tvmaze.appendChild(tvmazeLink);
-        meta.appendChild(tvmaze);
-
-        info.appendChild(meta);
-
-        const actions = document.createElement("div");
-        actions.className = "show-actions";
-
-        const selectWrap = document.createElement("label");
-        selectWrap.className = "checkbox-wrapper";
-        const selectInput = document.createElement("input");
-        selectInput.type = "checkbox";
-        const key = showKey(show);
-        selectInput.checked = state.selected.has(key);
-        selectInput.setAttribute("aria-label", `Select ${show.name}`);
-        selectInput.addEventListener("change", () => {
-          if (selectInput.checked) state.selected.add(key);
-          else state.selected.delete(key);
-          updateSelectionUi();
-        });
-
-        selectWrap.appendChild(selectInput);
-        selectWrap.appendChild(document.createTextNode("Select"));
-
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "rss-btn";
-        button.textContent = "Copy RSS";
-        button.addEventListener("click", async () => {
-          try {
-            await navigator.clipboard.writeText(show.feed_url);
-            button.classList.add("copied");
-            button.textContent = "Copied";
-            setTimeout(() => {
-              button.classList.remove("copied");
-              button.textContent = "Copy RSS";
-            }, 1800);
-          } catch (error) {
-            window.open(show.feed_url, "_blank", "noopener");
-          }
-        });
-
-        actions.appendChild(selectWrap);
-        actions.appendChild(button);
-
-        card.appendChild(info);
-        card.appendChild(actions);
-        listEl.appendChild(card);
-      }
-
-      updateSelectionUi();
-    }
-
-    function applyFilter() {
-      const query = normalize(filterEl.value.trim());
-      if (!query) {
-        state.filtered = [];
-        render();
-        return;
-      }
-
-      state.filtered = state.allShows.filter((show) => {
-        return normalize(show.name).includes(query) || normalize(show.status).includes(query);
-      });
-      render();
-    }
-
-    function autoRepoUrl() {
-      const { hostname, pathname } = window.location;
-      if (!hostname.endsWith("github.io")) return null;
-
-      const owner = hostname.split(".")[0];
-      const parts = pathname.replace(/^\/+/, "").split("/").filter(Boolean);
-      const repo = parts[0] || "";
-      if (!owner || !repo) return `https://github.com/${owner}`;
-      return `https://github.com/${owner}/${repo}`;
-    }
-
-    function setupGitHubLinks(repoUrl) {
-      if (!repoUrl) return;
-
-      const repoLink = document.getElementById("repo-link");
-      const issueLink = document.getElementById("issue-link");
-      const prLink = document.getElementById("pr-link");
-      const forkLink = document.getElementById("fork-link");
-
-      repoLink.href = repoUrl;
-      issueLink.href = `${repoUrl}/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]`;
-      prLink.href = `${repoUrl}/pulls`;
-      forkLink.href = `${repoUrl}/fork`;
-    }
-
-    async function init() {
-      const detected = autoRepoUrl();
-      setupGitHubLinks(detected || fallbackRepoUrl);
-
-      try {
-        const response = await fetch("./feeds/index.json", { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-
-        if (!Array.isArray(data)) throw new Error("Invalid index.json format");
-        state.allShows = data;
-        state.filtered = [];
-        pruneSelection();
-        render();
-      } catch (error) {
-        listEl.textContent = "";
-        const empty = document.createElement("div");
-        empty.className = "empty-state";
-        empty.innerHTML = "<p>Feeds are being generated. Please check back in a moment.</p>";
-        listEl.appendChild(empty);
-      }
-    }
-
-    filterEl.addEventListener("input", applyFilter);
-    selectVisibleEl.addEventListener("click", () => {
-      for (const show of state.filtered) state.selected.add(showKey(show));
-      render();
-    });
-    clearSelectedEl.addEventListener("click", () => {
-      state.selected.clear();
-      render();
-    });
-    exportOpmlEl.addEventListener("click", exportSelectedOpml);
-    updateSelectionUi();
+    updateBulkUI();
     init();
   </script>
 </body>
