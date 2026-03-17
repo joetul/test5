@@ -198,6 +198,17 @@
     "premiered": "2018-03-25"
   },
   {
+    "name": "Batman: Caped Crusader",
+    "slug": "batman-caped-crusader",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/batman-caped-crusader.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/55415/batman-caped-crusader",
+    "network": "Prime Video",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/529/1323819.jpg",
+    "premiered": "2024-08-01"
+  },
+  {
     "name": "BEEF",
     "slug": "beef",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/beef.xml",
@@ -240,6 +251,17 @@
     "latest_season": 6,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253515.jpg",
     "premiered": "2015-02-08"
+  },
+  {
+    "name": "Black Doves",
+    "slug": "black-doves",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/black-doves.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/68407/black-doves",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/540/1350767.jpg",
+    "premiered": "2024-12-05"
   },
   {
     "name": "Black Mirror",
@@ -308,6 +330,17 @@
     "premiered": "2013-09-17"
   },
   {
+    "name": "Castlevania: Nocturne",
+    "slug": "castlevania-nocturne",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/castlevania-nocturne.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/62483/castlevania-nocturne",
+    "network": "Netflix",
+    "status": "To Be Determined",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/470/1175984.jpg",
+    "premiered": "2023-09-28"
+  },
+  {
     "name": "Chicago Fire",
     "slug": "chicago-fire",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/chicago-fire.xml",
@@ -372,6 +405,17 @@
     "latest_season": 6,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5134.jpg",
     "premiered": "2009-09-17"
+  },
+  {
+    "name": "Creature Commandos",
+    "slug": "creature-commandos",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/creature-commandos.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/66738/creature-commandos",
+    "network": "HBO Max",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365583.jpg",
+    "premiered": "2024-12-05"
   },
   {
     "name": "DAHMER - Monster: The Jeffrey Dahmer Story",
@@ -501,7 +545,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/66869/elsbeth",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
     "premiered": "2024-02-29"
   },
@@ -526,6 +570,17 @@
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/601/1504779.jpg",
     "premiered": "2019-06-16"
+  },
+  {
+    "name": "Eyes of Wakanda",
+    "slug": "eyes-of-wakanda",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/eyes-of-wakanda.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/73415/eyes-of-wakanda",
+    "network": "Disney+",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/580/1451968.jpg",
+    "premiered": "2025-08-01"
   },
   {
     "name": "Fallout",
@@ -644,7 +699,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/46573/ghosts",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 6,
+    "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475093.jpg",
     "premiered": "2021-10-07"
   },
@@ -836,6 +891,17 @@
     "premiered": "2025-06-24"
   },
   {
+    "name": "It's Always Sunny in Philadelphia",
+    "slug": "it-s-always-sunny-in-philadelphia",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/it-s-always-sunny-in-philadelphia.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/347/its-always-sunny-in-philadelphia",
+    "network": "FXX",
+    "status": "Running",
+    "latest_season": 17,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/583/1459030.jpg",
+    "premiered": "2005-08-04"
+  },
+  {
     "name": "Kim's Convenience",
     "slug": "kim-s-convenience",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/kim-s-convenience.xml",
@@ -924,6 +990,17 @@
     "premiered": "2004-09-22"
   },
   {
+    "name": "Love, Death & Robots",
+    "slug": "love-death-robots",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/love-death-robots.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/40329/love-death-robots",
+    "network": "Netflix",
+    "status": "To Be Determined",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253559.jpg",
+    "premiered": "2019-03-15"
+  },
+  {
     "name": "Lucifer",
     "slug": "lucifer",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/lucifer.xml",
@@ -955,6 +1032,17 @@
     "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/301/753981.jpg",
     "premiered": "2021-04-18"
+  },
+  {
+    "name": "Marvel Zombies",
+    "slug": "marvel-zombies",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/marvel-zombies.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58949/marvel-zombies",
+    "network": "Disney+",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466484.jpg",
+    "premiered": "2025-09-24"
   },
   {
     "name": "Marvel's Daredevil",
@@ -1109,6 +1197,17 @@
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/5/14824.jpg",
     "premiered": "2005-09-20"
+  },
+  {
+    "name": "Mythic Quest",
+    "slug": "mythic-quest",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41530/mythic-quest",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1412475.jpg",
+    "premiered": "2020-02-07"
   },
   {
     "name": "Narcos",
@@ -1375,6 +1474,17 @@
     "premiered": "2021-01-27"
   },
   {
+    "name": "Rick and Morty",
+    "slug": "rick-and-morty",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/216/rick-and-morty",
+    "network": "Adult Swim",
+    "status": "Running",
+    "latest_season": 9,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/477/1194843.jpg",
+    "premiered": "2013-12-02"
+  },
+  {
     "name": "Ripley",
     "slug": "ripley",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/ripley.xml",
@@ -1483,6 +1593,17 @@
     "latest_season": 7,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/593/1484384.jpg",
     "premiered": "2022-04-01"
+  },
+  {
+    "name": "South Park",
+    "slug": "south-park",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/south-park.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/112/south-park",
+    "network": "Comedy Central",
+    "status": "Running",
+    "latest_season": 29,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485766.jpg",
+    "premiered": "1997-08-13"
   },
   {
     "name": "Squid Game",
@@ -1628,6 +1749,17 @@
     "premiered": "2018-06-03"
   },
   {
+    "name": "Sugar",
+    "slug": "sugar",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/sugar.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/62463/sugar",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/507/1268405.jpg",
+    "premiered": "2024-04-05"
+  },
+  {
     "name": "Suits",
     "slug": "suits",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/suits.xml",
@@ -1659,6 +1791,17 @@
     "latest_season": 51,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538081.jpg",
     "premiered": "2000-05-31"
+  },
+  {
+    "name": "Sweet Magnolias",
+    "slug": "sweet-magnolias",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/sweet-magnolias.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/38894/sweet-magnolias",
+    "network": "Netflix",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/467/1168271.jpg",
+    "premiered": "2020-05-19"
   },
   {
     "name": "Sweet Tooth",
@@ -2101,6 +2244,17 @@
     "premiered": "1999-01-10"
   },
   {
+    "name": "The Studio",
+    "slug": "the-studio",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-studio.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/75605/the-studio",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/569/1424520.jpg",
+    "premiered": "2025-03-26"
+  },
+  {
     "name": "The Terminal List",
     "slug": "the-terminal-list",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-terminal-list.xml",
@@ -2110,6 +2264,28 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1114091.jpg",
     "premiered": "2022-07-01"
+  },
+  {
+    "name": "The Walking Dead: Daryl Dixon",
+    "slug": "the-walking-dead-daryl-dixon",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-walking-dead-daryl-dixon.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/64501/the-walking-dead-daryl-dixon",
+    "network": "AMC",
+    "status": "Running",
+    "latest_season": 4,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/581/1453640.jpg",
+    "premiered": "2023-09-10"
+  },
+  {
+    "name": "The Walking Dead: Dead City",
+    "slug": "the-walking-dead-dead-city",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-walking-dead-dead-city.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/60879/the-walking-dead-dead-city",
+    "network": "AMC+",
+    "status": "Running",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420160.jpg",
+    "premiered": "2023-06-15"
   },
   {
     "name": "The Wheel of Time",
@@ -2244,6 +2420,28 @@
     "premiered": "2020-05-01"
   },
   {
+    "name": "Vikings",
+    "slug": "vikings",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/vikings.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/29/vikings",
+    "network": "History",
+    "status": "Ended",
+    "latest_season": 6,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/286/715906.jpg",
+    "premiered": "2013-03-03"
+  },
+  {
+    "name": "Vikings: Valhalla",
+    "slug": "vikings-valhalla",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/vikings-valhalla.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/45121/vikings-valhalla",
+    "network": "Netflix",
+    "status": "Ended",
+    "latest_season": 3,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/523/1308457.jpg",
+    "premiered": "2022-02-25"
+  },
+  {
     "name": "Virgin River",
     "slug": "virgin-river",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/virgin-river.xml",
@@ -2253,6 +2451,17 @@
     "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/617/1544047.jpg",
     "premiered": "2019-12-06"
+  },
+  {
+    "name": "Vision",
+    "slug": "vision",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/vision.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/72478/vision",
+    "network": "DR1",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": null,
+    "premiered": null
   },
   {
     "name": "WandaVision",
@@ -2332,6 +2541,17 @@
     "premiered": "2022-03-06"
   },
   {
+    "name": "Wonder Man",
+    "slug": "wonder-man",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/wonder-man.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/62569/wonder-man",
+    "network": "Disney+",
+    "status": "To Be Determined",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/613/1532943.jpg",
+    "premiered": "2026-01-27"
+  },
+  {
     "name": "XO, Kitty",
     "slug": "xo-kitty",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/xo-kitty.xml",
@@ -2374,6 +2594,17 @@
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1412472.jpg",
     "premiered": "2018-09-09"
+  },
+  {
+    "name": "Your Friendly Neighborhood Spider-Man",
+    "slug": "your-friendly-neighborhood-spider-man",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/your-friendly-neighborhood-spider-man.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/58952/your-friendly-neighborhood-spider-man",
+    "network": "Disney+",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/556/1391478.jpg",
+    "premiered": "2025-01-29"
   },
   {
     "name": "Your Honor",

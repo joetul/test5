@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Castlevania: Nocturne Season Alerts</title>
+    <description>New season notifications for Castlevania: Nocturne from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/castlevania-nocturne.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Mar 2025 17:49:40 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/castlevania-nocturne.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2025-01-16</title>
+      <description>Premiere: 2025-01-16 | Finale: 2025-01-16 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Castlevania%3A%20Nocturne%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/castlevania-nocturne-s2.html</guid>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/castlevania-nocturne-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2023-09-28</title>
+      <description>Premiere: 2023-09-28 | Finale: 2023-09-28 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Castlevania%3A%20Nocturne%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/castlevania-nocturne-s1.html</guid>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/castlevania-nocturne-s1.html</link>
+    </item>
+  </channel>
+</rss>

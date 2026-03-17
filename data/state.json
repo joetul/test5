@@ -107,6 +107,12 @@
     "latest_season": 4,
     "last_checked": "2026-03-16T00:20:38Z"
   },
+  "batman-caped-crusader": {
+    "tvmaze_id": 55415,
+    "name": "Batman: Caped Crusader",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:40Z"
+  },
   "beef": {
     "tvmaze_id": 54285,
     "name": "BEEF",
@@ -130,6 +136,12 @@
     "name": "Better Call Saul",
     "latest_season": 6,
     "last_checked": "2026-03-16T00:20:39Z"
+  },
+  "black-doves": {
+    "tvmaze_id": 68407,
+    "name": "Black Doves",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:23Z"
   },
   "black-mirror": {
     "tvmaze_id": 305,
@@ -167,6 +179,12 @@
     "latest_season": 8,
     "last_checked": "2026-03-16T00:20:43Z"
   },
+  "castlevania-nocturne": {
+    "tvmaze_id": 62483,
+    "name": "Castlevania: Nocturne",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:21Z"
+  },
   "chicago-fire": {
     "tvmaze_id": 59,
     "name": "Chicago Fire",
@@ -202,6 +220,12 @@
     "name": "Community",
     "latest_season": 6,
     "last_checked": "2026-03-16T00:20:47Z"
+  },
+  "creature-commandos": {
+    "tvmaze_id": 66738,
+    "name": "Creature Commandos",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:11Z"
   },
   "dahmer---monster-the-jeffrey-dahmer-story": {
     "tvmaze_id": 50907,
@@ -272,8 +296,8 @@
   "elsbeth": {
     "tvmaze_id": 66869,
     "name": "Elsbeth",
-    "latest_season": 4,
-    "last_checked": "2026-03-16T18:44:26Z"
+    "latest_season": 3,
+    "last_checked": "2026-03-17T00:09:30Z"
   },
   "emily-in-paris": {
     "tvmaze_id": 41632,
@@ -286,6 +310,12 @@
     "name": "Euphoria",
     "latest_season": 3,
     "last_checked": "2026-03-16T18:43:14Z"
+  },
+  "eyes-of-wakanda": {
+    "tvmaze_id": 73415,
+    "name": "Eyes of Wakanda",
+    "latest_season": 1,
+    "last_checked": "2026-03-17T00:10:09Z"
   },
   "fallout": {
     "tvmaze_id": 49041,
@@ -350,8 +380,8 @@
   "ghosts": {
     "tvmaze_id": 46573,
     "name": "Ghosts",
-    "latest_season": 6,
-    "last_checked": "2026-03-16T18:44:22Z"
+    "latest_season": 5,
+    "last_checked": "2026-03-17T00:09:26Z"
   },
   "ginny-georgia": {
     "tvmaze_id": 47549,
@@ -455,6 +485,12 @@
     "latest_season": 1,
     "last_checked": "2026-03-16T18:42:51Z"
   },
+  "it-s-always-sunny-in-philadelphia": {
+    "tvmaze_id": 347,
+    "name": "It's Always Sunny in Philadelphia",
+    "latest_season": 17,
+    "last_checked": "2026-03-17T00:10:36Z"
+  },
   "kim-s-convenience": {
     "tvmaze_id": 17312,
     "name": "Kim's Convenience",
@@ -503,6 +539,12 @@
     "latest_season": 6,
     "last_checked": "2026-03-16T00:44:03Z"
   },
+  "love-death-robots": {
+    "tvmaze_id": 40329,
+    "name": "Love, Death & Robots",
+    "latest_season": 4,
+    "last_checked": "2026-03-17T00:10:19Z"
+  },
   "lucifer": {
     "tvmaze_id": 1859,
     "name": "Lucifer",
@@ -532,6 +574,12 @@
     "name": "Marvel's The Punisher",
     "latest_season": 2,
     "last_checked": "2026-03-16T00:22:24Z"
+  },
+  "marvel-zombies": {
+    "tvmaze_id": 58949,
+    "name": "Marvel Zombies",
+    "latest_season": 1,
+    "last_checked": "2026-03-17T00:10:07Z"
   },
   "mayor-of-kingstown": {
     "tvmaze_id": 45840,
@@ -604,6 +652,12 @@
     "name": "My Name Is Earl",
     "latest_season": 4,
     "last_checked": "2026-03-16T00:21:27Z"
+  },
+  "mythic-quest": {
+    "tvmaze_id": 41530,
+    "name": "Mythic Quest",
+    "latest_season": 4,
+    "last_checked": "2026-03-17T00:10:27Z"
   },
   "narcos": {
     "tvmaze_id": 2705,
@@ -749,6 +803,12 @@
     "latest_season": 4,
     "last_checked": "2026-03-16T00:21:45Z"
   },
+  "rick-and-morty": {
+    "tvmaze_id": 216,
+    "name": "Rick and Morty",
+    "latest_season": 9,
+    "last_checked": "2026-03-17T00:10:17Z"
+  },
   "ripley": {
     "tvmaze_id": 44042,
     "name": "Ripley",
@@ -808,6 +868,12 @@
     "name": "Slow Horses",
     "latest_season": 7,
     "last_checked": "2026-03-16T00:21:52Z"
+  },
+  "south-park": {
+    "tvmaze_id": 112,
+    "name": "South Park",
+    "latest_season": 29,
+    "last_checked": "2026-03-17T00:10:38Z"
   },
   "squid-game": {
     "tvmaze_id": 43687,
@@ -887,6 +953,12 @@
     "latest_season": 4,
     "last_checked": "2026-03-16T00:21:57Z"
   },
+  "sugar": {
+    "tvmaze_id": 62463,
+    "name": "Sugar",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:29Z"
+  },
   "suits": {
     "tvmaze_id": 172,
     "name": "Suits",
@@ -904,6 +976,12 @@
     "name": "Survivor",
     "latest_season": 51,
     "last_checked": "2026-03-16T18:44:28Z"
+  },
+  "sweet-magnolias": {
+    "tvmaze_id": 38894,
+    "name": "Sweet Magnolias",
+    "latest_season": 4,
+    "last_checked": "2026-03-17T00:10:34Z"
   },
   "sweet-tooth": {
     "tvmaze_id": 39764,
@@ -1145,11 +1223,29 @@
     "latest_season": 6,
     "last_checked": "2026-03-16T00:22:26Z"
   },
+  "the-studio": {
+    "tvmaze_id": 75605,
+    "name": "The Studio",
+    "latest_season": 1,
+    "last_checked": "2026-03-17T00:10:25Z"
+  },
   "the-terminal-list": {
     "tvmaze_id": 47856,
     "name": "The Terminal List",
     "latest_season": 2,
     "last_checked": "2026-03-16T00:22:28Z"
+  },
+  "the-walking-dead-daryl-dixon": {
+    "tvmaze_id": 64501,
+    "name": "The Walking Dead: Daryl Dixon",
+    "latest_season": 4,
+    "last_checked": "2026-03-17T00:10:13Z"
+  },
+  "the-walking-dead-dead-city": {
+    "tvmaze_id": 60879,
+    "name": "The Walking Dead: Dead City",
+    "latest_season": 3,
+    "last_checked": "2026-03-17T00:10:15Z"
   },
   "the-wheel-of-time": {
     "tvmaze_id": 35083,
@@ -1223,11 +1319,29 @@
     "latest_season": 4,
     "last_checked": "2026-03-16T18:42:57Z"
   },
+  "vikings": {
+    "tvmaze_id": 29,
+    "name": "Vikings",
+    "latest_season": 6,
+    "last_checked": "2026-03-17T00:10:32Z"
+  },
+  "vikings-valhalla": {
+    "tvmaze_id": 45121,
+    "name": "Vikings: Valhalla",
+    "latest_season": 3,
+    "last_checked": "2026-03-17T00:10:30Z"
+  },
   "virgin-river": {
     "tvmaze_id": 38893,
     "name": "Virgin River",
     "latest_season": 8,
     "last_checked": "2026-03-16T18:42:02Z"
+  },
+  "vision": {
+    "tvmaze_id": 72478,
+    "name": "Vision",
+    "latest_season": 1,
+    "last_checked": "2026-03-17T00:10:01Z"
   },
   "wandavision": {
     "tvmaze_id": 41748,
@@ -1271,6 +1385,12 @@
     "latest_season": 2,
     "last_checked": "2026-03-16T18:43:24Z"
   },
+  "wonder-man": {
+    "tvmaze_id": 62569,
+    "name": "Wonder Man",
+    "latest_season": 1,
+    "last_checked": "2026-03-17T00:10:05Z"
+  },
   "xo-kitty": {
     "tvmaze_id": 60509,
     "name": "XO, Kitty",
@@ -1294,6 +1414,12 @@
     "name": "You",
     "latest_season": 5,
     "last_checked": "2026-03-16T18:41:45Z"
+  },
+  "your-friendly-neighborhood-spider-man": {
+    "tvmaze_id": 58952,
+    "name": "Your Friendly Neighborhood Spider-Man",
+    "latest_season": 2,
+    "last_checked": "2026-03-17T00:10:03Z"
   },
   "your-honor": {
     "tvmaze_id": 32791,

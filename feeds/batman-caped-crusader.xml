@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Batman: Caped Crusader Season Alerts</title>
+    <description>New season notifications for Batman: Caped Crusader from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/batman-caped-crusader.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Oct 2025 12:09:43 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/batman-caped-crusader.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2024-08-01</title>
+      <description>Premiere: 2024-08-01 | Finale: 2024-08-01 | Episodes: 10</description>
+      <comments>https://www.google.com/search?q=Batman%3A%20Caped%20Crusader%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/batman-caped-crusader-s1.html</guid>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/batman-caped-crusader-s1.html</link>
+    </item>
+  </channel>
+</rss>

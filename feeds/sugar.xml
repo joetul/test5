@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Sugar Season Alerts</title>
+    <description>New season notifications for Sugar from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/sugar.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Jan 2026 17:22:56 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/sugar.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2026-06-19</title>
+      <description>Premiere: 2026-06-19 | Finale: 2026-08-07 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Sugar%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/sugar-s2.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/sugar-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2024-04-05</title>
+      <description>Premiere: 2024-04-05 | Finale: 2024-05-17 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Sugar%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/sugar-s1.html</guid>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/sugar-s1.html</link>
+    </item>
+  </channel>
+</rss>

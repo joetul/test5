@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Black Doves Season Alerts</title>
+    <description>New season notifications for Black Doves from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/black-doves.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Nov 2025 00:13:03 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/black-doves.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 1 — Premieres 2024-12-05</title>
+      <description>Premiere: 2024-12-05 | Finale: 2024-12-05 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=Black%20Doves%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/black-doves-s1.html</guid>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/black-doves-s1.html</link>
+    </item>
+  </channel>
+</rss>

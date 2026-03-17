@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Vikings: Valhalla Season Alerts</title>
+    <description>New season notifications for Vikings: Valhalla from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/vikings-valhalla.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 19:18:20 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/vikings-valhalla.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 3 — Premieres 2024-07-11</title>
+      <description>Premiere: 2024-07-11 | Finale: 2024-07-11 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Vikings%3A%20Valhalla%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s3.html</guid>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s3.html</link>
+    </item>
+    <item>
+      <title>Season 2 — Premieres 2023-01-12</title>
+      <description>Premiere: 2023-01-12 | Finale: 2023-01-12 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Vikings%3A%20Valhalla%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s2.html</guid>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2022-02-25</title>
+      <description>Premiere: 2022-02-25 | Finale: 2022-02-25 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=Vikings%3A%20Valhalla%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s1.html</guid>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/vikings-valhalla-s1.html</link>
+    </item>
+  </channel>
+</rss>

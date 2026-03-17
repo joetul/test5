@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Vision Season Alerts</title>
+    <description>New season notifications for Vision from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/vision.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Nov 2023 14:31:45 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/vision.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

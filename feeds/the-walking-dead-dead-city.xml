@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Walking Dead: Dead City Season Alerts</title>
+    <description>New season notifications for The Walking Dead: Dead City from TVmaze metadata.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-walking-dead-dead-city.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Oct 2025 17:03:20 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-walking-dead-dead-city.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Season 2 — Premieres 2025-05-04</title>
+      <description>Premiere: 2025-05-04 | Finale: 2025-06-22 | Episodes: 8</description>
+      <comments>https://www.google.com/search?q=The%20Walking%20Dead%3A%20Dead%20City%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-walking-dead-dead-city-s2.html</guid>
+      <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-walking-dead-dead-city-s2.html</link>
+    </item>
+    <item>
+      <title>Season 1 — Premieres 2023-06-15</title>
+      <description>Premiere: 2023-06-15 | Finale: 2023-07-20 | Episodes: 6</description>
+      <comments>https://www.google.com/search?q=The%20Walking%20Dead%3A%20Dead%20City%20where%20to%20watch</comments>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-walking-dead-dead-city-s1.html</guid>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-walking-dead-dead-city-s1.html</link>
+    </item>
+  </channel>
+</rss>
