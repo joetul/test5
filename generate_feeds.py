@@ -130,10 +130,14 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
 <title>{s(show_name)} — Season {season_number_value}</title>
 </head>
 <body>
+<main>
+<article>
 <h1>{s(show_name)} — Season {season_number_value}</h1>
 <p>Premiere: {s(format_date_human(premiere))}</p>
 <p>Finale: {s(format_date_human(finale))}</p>
 <p>Episodes: {s(episode_text)}</p>
+</article>
+</main>
 </body>
 </html>
 """
