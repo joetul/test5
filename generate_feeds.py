@@ -128,7 +128,7 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
 <p>{s(show_name)} Season {season_number_value} premieres on {s(format_date_human(premiere))}.</p>
 <p>The season finale is scheduled for {s(format_date_human(finale))}.</p>
 <p>The season has {s(episode_text)} episodes.</p>
-<p>Data from TVmaze (tvmaze.com) under CC BY-SA.</p>
+<p>Adapted from <a href="https://www.tvmaze.com">TVmaze</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </article>
 </main>
 </body>
@@ -276,7 +276,8 @@ def build_feed(show_data, seasons, slug, site_url):
 
     ET.SubElement(channel, "title").text = f"{show_name} Season Alerts"
     ET.SubElement(channel, "description").text = (
-        f"New season notifications for {show_name}. Data from TVmaze (tvmaze.com) under CC BY-SA."
+        f"New season notifications for {show_name}."
+        f" Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0."
     )
     ET.SubElement(channel, "link").text = feed_url
     ET.SubElement(channel, "language").text = "en"
