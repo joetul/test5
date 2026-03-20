@@ -4,6 +4,7 @@
 import json
 import os
 import re
+import html
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,6 +17,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent
 SHOWS_PATH = ROOT / "shows.json"
 FEEDS_DIR = ROOT / "feeds"
+UPDATES_DIR = ROOT / "updates"
 DATA_DIR = ROOT / "data"
 STATE_PATH = DATA_DIR / "state.json"
 INDEX_PATH = FEEDS_DIR / "index.json"
@@ -113,6 +115,28 @@ def network_name(show_data):
     web_channel = show_data.get("webChannel") or {}
     return network.get("name") or web_channel.get("name") or "Unknown"
 
+
+def update_page_url(site_url, slug, season_number_value):
+    return f"{site_url}/updates/{slug}-s{season_number_value}.html"
+
+
+def build_update_page(show_name, season_number_value, premiere, finale, episode_text):
+    s = html.escape
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{s(show_name)} — Season {season_number_value}</title>
+</head>
+<body>
+<h1>{s(show_name)} — Season {season_number_value}</h1>
+<p>Premiere: {s(format_date_human(premiere))}</p>
+<p>Finale: {s(format_date_human(finale))}</p>
+<p>Episodes: {s(episode_text)}</p>
+</body>
+</html>
+"""
 
 
 class TVmazeClient:
@@ -279,12 +303,13 @@ def build_feed(show_data, seasons, slug, site_url):
         finale = season.get("endDate") or "TBD"
         episode_count = season.get("episodeOrder")
         episode_text = str(episode_count) if episode_count is not None else "Unknown"
+        item_url = update_page_url(site_url, slug, number)
 
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"{show_name} — Season {number}"
         ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text)
-        ET.SubElement(item, "link").text = feed_url
-        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"seasonfeed:{slug}:s{number}"
+        ET.SubElement(item, "link").text = item_url
+        ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = item_url
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
 
     tree = ET.ElementTree(rss)
@@ -300,6 +325,7 @@ def latest_season_number(seasons):
 
 def main():
     FEEDS_DIR.mkdir(parents=True, exist_ok=True)
+    UPDATES_DIR.mkdir(parents=True, exist_ok=True)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     shows_doc = read_json(SHOWS_PATH, {"shows": []})
@@ -317,6 +343,7 @@ def main():
 
     manifest = []
     generated_slugs = set()
+    generated_updates = set()
 
     for spec in show_specs:
         show_data = resolve_show(spec, state, client)
@@ -351,6 +378,21 @@ def main():
             print(f"NEW SEASON DETECTED: {show_name} ({previous_latest} -> {latest})")
 
         feed_url = f"{site_url}/feeds/{slug}.xml"
+
+        dated_seasons = [s for s in seasons if has_valid_premiere_date(s)]
+        for s in dated_seasons:
+            num = season_number(s)
+            premiere = s.get("premiereDate") or "TBD"
+            finale = s.get("endDate") or "TBD"
+            ep_count = s.get("episodeOrder")
+            ep_text = str(ep_count) if ep_count is not None else "Unknown"
+            page_name = f"{slug}-s{num}.html"
+            page_html = build_update_page(show_name, num, premiere, finale, ep_text)
+            page_path = UPDATES_DIR / page_name
+            page_bytes = page_html.encode("utf-8")
+            if not page_path.exists() or page_path.read_bytes() != page_bytes:
+                page_path.write_text(page_html, encoding="utf-8")
+            generated_updates.add(page_name)
 
         feed_bytes = build_feed(show_data, seasons, slug, site_url)
         feed_path = FEEDS_DIR / f"{slug}.xml"
@@ -395,6 +437,10 @@ def main():
     for existing_feed in FEEDS_DIR.glob("*.xml"):
         if existing_feed.stem not in generated_slugs:
             existing_feed.unlink()
+
+    for existing_update in UPDATES_DIR.glob("*.html"):
+        if existing_update.name not in generated_updates:
+            existing_update.unlink()
 
     manifest.sort(key=lambda item: item.get("name", "").lower())
     write_json(INDEX_PATH, manifest)
