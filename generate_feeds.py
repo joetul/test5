@@ -122,20 +122,24 @@ def update_page_url(site_url, slug, season_number_value):
 
 def build_update_page(show_name, season_number_value, premiere, finale, episode_text):
     s = html.escape
+    title = f"{s(show_name)} — Season {season_number_value}"
+    desc = f"{s(show_name)} Season {season_number_value}: premieres {s(format_date_human(premiere))}, {s(episode_text)} episodes."
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{s(show_name)} — Season {season_number_value}</title>
+<title>{title}</title>
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
 </head>
 <body>
-<main>
+<main id="MainContent">
 <article>
-<h1>{s(show_name)} — Season {season_number_value}</h1>
-<p>Premiere: {s(format_date_human(premiere))}</p>
-<p>Finale: {s(format_date_human(finale))}</p>
-<p>Episodes: {s(episode_text)}</p>
+<h1>{title}</h1>
+<p>{s(show_name)} Season {season_number_value} premieres on {s(format_date_human(premiere))}.</p>
+<p>The season finale is scheduled for {s(format_date_human(finale))}.</p>
+<p>The season has {s(episode_text)} episodes.</p>
 </article>
 </main>
 </body>
