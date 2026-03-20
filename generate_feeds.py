@@ -129,6 +129,7 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>{title}</title>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
