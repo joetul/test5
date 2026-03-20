@@ -12,6 +12,7 @@
       <description>Premiere: 8 February 2024
 Finale: 4 April 2024
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/tokyo-vice.xml</link>
       <guid isPermaLink="false">seasonfeed:tokyo-vice:s2</guid>
       <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 10</description>
       <description>Premiere: 7 April 2022
 Finale: 28 April 2022
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/tokyo-vice.xml</link>
       <guid isPermaLink="false">seasonfeed:tokyo-vice:s1</guid>
       <pubDate>Thu, 07 Apr 2022 00:00:00 GMT</pubDate>
     </item>

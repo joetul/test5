@@ -12,6 +12,7 @@
       <description>Premiere: 17 March 2015
 Finale: 2 June 2015
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s6</guid>
       <pubDate>Tue, 17 Mar 2015 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 13</description>
       <description>Premiere: 2 January 2014
 Finale: 17 April 2014
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s5</guid>
       <pubDate>Thu, 02 Jan 2014 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 13</description>
       <description>Premiere: 7 February 2013
 Finale: 9 May 2013
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s4</guid>
       <pubDate>Thu, 07 Feb 2013 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 13</description>
       <description>Premiere: 22 September 2011
 Finale: 17 May 2012
 Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s3</guid>
       <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
     </item>
@@ -44,6 +48,7 @@ Episodes: 22</description>
       <description>Premiere: 23 September 2010
 Finale: 12 May 2011
 Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s2</guid>
       <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
     </item>
@@ -52,6 +57,7 @@ Episodes: 24</description>
       <description>Premiere: 17 September 2009
 Finale: 20 May 2010
 Episodes: 25</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
       <guid isPermaLink="false">seasonfeed:community:s1</guid>
       <pubDate>Thu, 17 Sep 2009 00:00:00 GMT</pubDate>
     </item>

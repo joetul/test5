@@ -12,6 +12,7 @@
       <description>Premiere: 21 August 2025
 Finale: 9 October 2025
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/peacemaker.xml</link>
       <guid isPermaLink="false">seasonfeed:peacemaker:s2</guid>
       <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 13 January 2022
 Finale: 17 February 2022
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/peacemaker.xml</link>
       <guid isPermaLink="false">seasonfeed:peacemaker:s1</guid>
       <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
     </item>

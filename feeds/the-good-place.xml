@@ -12,6 +12,7 @@
       <description>Premiere: 26 September 2019
 Finale: 30 January 2020
 Episodes: 14</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-good-place.xml</link>
       <guid isPermaLink="false">seasonfeed:the-good-place:s4</guid>
       <pubDate>Thu, 26 Sep 2019 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 14</description>
       <description>Premiere: 27 September 2018
 Finale: 24 January 2019
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-good-place.xml</link>
       <guid isPermaLink="false">seasonfeed:the-good-place:s3</guid>
       <pubDate>Thu, 27 Sep 2018 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 13</description>
       <description>Premiere: 20 September 2017
 Finale: 1 February 2018
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-good-place.xml</link>
       <guid isPermaLink="false">seasonfeed:the-good-place:s2</guid>
       <pubDate>Wed, 20 Sep 2017 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 13</description>
       <description>Premiere: 19 September 2016
 Finale: 19 January 2017
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-good-place.xml</link>
       <guid isPermaLink="false">seasonfeed:the-good-place:s1</guid>
       <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
     </item>

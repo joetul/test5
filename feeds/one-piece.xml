@@ -12,6 +12,7 @@
       <description>Premiere: 10 March 2026
 Finale: 10 March 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/one-piece.xml</link>
       <guid isPermaLink="false">seasonfeed:one-piece:s2</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 31 August 2023
 Finale: 31 August 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/one-piece.xml</link>
       <guid isPermaLink="false">seasonfeed:one-piece:s1</guid>
       <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
     </item>

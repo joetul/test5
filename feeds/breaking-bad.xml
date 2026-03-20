@@ -12,6 +12,7 @@
       <description>Premiere: 15 July 2012
 Finale: 11 October 2019
 Episodes: 16</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/breaking-bad.xml</link>
       <guid isPermaLink="false">seasonfeed:breaking-bad:s5</guid>
       <pubDate>Sun, 15 Jul 2012 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 16</description>
       <description>Premiere: 17 July 2011
 Finale: 9 October 2011
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/breaking-bad.xml</link>
       <guid isPermaLink="false">seasonfeed:breaking-bad:s4</guid>
       <pubDate>Sun, 17 Jul 2011 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 13</description>
       <description>Premiere: 21 March 2010
 Finale: 13 June 2010
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/breaking-bad.xml</link>
       <guid isPermaLink="false">seasonfeed:breaking-bad:s3</guid>
       <pubDate>Sun, 21 Mar 2010 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 13</description>
       <description>Premiere: 8 March 2009
 Finale: 31 May 2009
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/breaking-bad.xml</link>
       <guid isPermaLink="false">seasonfeed:breaking-bad:s2</guid>
       <pubDate>Sun, 08 Mar 2009 00:00:00 GMT</pubDate>
     </item>
@@ -44,6 +48,7 @@ Episodes: 13</description>
       <description>Premiere: 20 January 2008
 Finale: 9 March 2008
 Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/breaking-bad.xml</link>
       <guid isPermaLink="false">seasonfeed:breaking-bad:s1</guid>
       <pubDate>Sun, 20 Jan 2008 00:00:00 GMT</pubDate>
     </item>

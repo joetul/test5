@@ -12,6 +12,7 @@
       <description>Premiere: 11 January 2026
 Finale: 1 March 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/industry.xml</link>
       <guid isPermaLink="false">seasonfeed:industry:s4</guid>
       <pubDate>Sun, 11 Jan 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 11 August 2024
 Finale: 29 September 2024
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/industry.xml</link>
       <guid isPermaLink="false">seasonfeed:industry:s3</guid>
       <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 8</description>
       <description>Premiere: 1 August 2022
 Finale: 19 September 2022
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/industry.xml</link>
       <guid isPermaLink="false">seasonfeed:industry:s2</guid>
       <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 8</description>
       <description>Premiere: 9 November 2020
 Finale: 27 November 2020
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/industry.xml</link>
       <guid isPermaLink="false">seasonfeed:industry:s1</guid>
       <pubDate>Mon, 09 Nov 2020 00:00:00 GMT</pubDate>
     </item>

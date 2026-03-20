@@ -12,6 +12,7 @@
       <description>Premiere: 12 March 2006
 Finale: 10 June 2007
 Episodes: 21</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s6</guid>
       <pubDate>Sun, 12 Mar 2006 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 21</description>
       <description>Premiere: 7 March 2004
 Finale: 6 June 2004
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s5</guid>
       <pubDate>Sun, 07 Mar 2004 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 13</description>
       <description>Premiere: 15 September 2002
 Finale: 8 December 2002
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s4</guid>
       <pubDate>Sun, 15 Sep 2002 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 13</description>
       <description>Premiere: 4 March 2001
 Finale: 20 May 2001
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s3</guid>
       <pubDate>Sun, 04 Mar 2001 00:00:00 GMT</pubDate>
     </item>
@@ -44,6 +48,7 @@ Episodes: 13</description>
       <description>Premiere: 16 January 2000
 Finale: 9 April 2000
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s2</guid>
       <pubDate>Sun, 16 Jan 2000 00:00:00 GMT</pubDate>
     </item>
@@ -52,6 +57,7 @@ Episodes: 13</description>
       <description>Premiere: 10 January 1999
 Finale: 4 April 1999
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-sopranos.xml</link>
       <guid isPermaLink="false">seasonfeed:the-sopranos:s1</guid>
       <pubDate>Sun, 10 Jan 1999 00:00:00 GMT</pubDate>
     </item>

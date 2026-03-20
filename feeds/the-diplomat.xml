@@ -12,6 +12,7 @@
       <description>Premiere: 16 October 2025
 Finale: 16 October 2025
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-diplomat.xml</link>
       <guid isPermaLink="false">seasonfeed:the-diplomat:s3</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 31 October 2024
 Finale: 31 October 2024
 Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-diplomat.xml</link>
       <guid isPermaLink="false">seasonfeed:the-diplomat:s2</guid>
       <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 6</description>
       <description>Premiere: 20 April 2023
 Finale: 20 April 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-diplomat.xml</link>
       <guid isPermaLink="false">seasonfeed:the-diplomat:s1</guid>
       <pubDate>Thu, 20 Apr 2023 00:00:00 GMT</pubDate>
     </item>

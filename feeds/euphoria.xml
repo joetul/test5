@@ -12,6 +12,7 @@
       <description>Premiere: 12 April 2026
 Finale: 31 May 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/euphoria.xml</link>
       <guid isPermaLink="false">seasonfeed:euphoria:s3</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 9 January 2022
 Finale: 27 February 2022
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/euphoria.xml</link>
       <guid isPermaLink="false">seasonfeed:euphoria:s2</guid>
       <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 8</description>
       <description>Premiere: 16 June 2019
 Finale: 22 January 2021
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/euphoria.xml</link>
       <guid isPermaLink="false">seasonfeed:euphoria:s1</guid>
       <pubDate>Sun, 16 Jun 2019 00:00:00 GMT</pubDate>
     </item>

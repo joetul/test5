@@ -12,6 +12,7 @@
       <description>Premiere: 16 December 2025
 Finale: 3 February 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/fallout.xml</link>
       <guid isPermaLink="false">seasonfeed:fallout:s2</guid>
       <pubDate>Tue, 16 Dec 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 10 April 2024
 Finale: 10 April 2024
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/fallout.xml</link>
       <guid isPermaLink="false">seasonfeed:fallout:s1</guid>
       <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
     </item>

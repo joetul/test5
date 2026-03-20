@@ -12,6 +12,7 @@
       <description>Premiere: 24 May 2026
 Finale: 24 May 2026
 Episodes: Unknown</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s9</guid>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: Unknown</description>
       <description>Premiere: 25 May 2025
 Finale: 27 July 2025
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s8</guid>
       <pubDate>Sun, 25 May 2025 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 10</description>
       <description>Premiere: 15 October 2023
 Finale: 17 December 2023
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s7</guid>
       <pubDate>Sun, 15 Oct 2023 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 10</description>
       <description>Premiere: 4 September 2022
 Finale: 11 December 2022
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s6</guid>
       <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
     </item>
@@ -44,6 +48,7 @@ Episodes: 10</description>
       <description>Premiere: 20 June 2021
 Finale: 5 September 2021
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s5</guid>
       <pubDate>Sun, 20 Jun 2021 00:00:00 GMT</pubDate>
     </item>
@@ -52,6 +57,7 @@ Episodes: 10</description>
       <description>Premiere: 10 November 2019
 Finale: 31 May 2020
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s4</guid>
       <pubDate>Sun, 10 Nov 2019 00:00:00 GMT</pubDate>
     </item>
@@ -60,6 +66,7 @@ Episodes: 10</description>
       <description>Premiere: 1 April 2017
 Finale: 1 October 2017
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s3</guid>
       <pubDate>Sat, 01 Apr 2017 00:00:00 GMT</pubDate>
     </item>
@@ -68,6 +75,7 @@ Episodes: 10</description>
       <description>Premiere: 26 July 2015
 Finale: 4 October 2015
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s2</guid>
       <pubDate>Sun, 26 Jul 2015 00:00:00 GMT</pubDate>
     </item>
@@ -76,6 +84,7 @@ Episodes: 10</description>
       <description>Premiere: 2 December 2013
 Finale: 14 April 2014
 Episodes: 11</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/rick-and-morty.xml</link>
       <guid isPermaLink="false">seasonfeed:rick-and-morty:s1</guid>
       <pubDate>Mon, 02 Dec 2013 00:00:00 GMT</pubDate>
     </item>

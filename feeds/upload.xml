@@ -12,6 +12,7 @@
       <description>Premiere: 25 August 2025
 Finale: 25 August 2025
 Episodes: 4</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/upload.xml</link>
       <guid isPermaLink="false">seasonfeed:upload:s4</guid>
       <pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 4</description>
       <description>Premiere: 20 October 2023
 Finale: 10 November 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/upload.xml</link>
       <guid isPermaLink="false">seasonfeed:upload:s3</guid>
       <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 8</description>
       <description>Premiere: 11 March 2022
 Finale: 11 March 2022
 Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/upload.xml</link>
       <guid isPermaLink="false">seasonfeed:upload:s2</guid>
       <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 7</description>
       <description>Premiere: 1 May 2020
 Finale: 1 May 2020
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/upload.xml</link>
       <guid isPermaLink="false">seasonfeed:upload:s1</guid>
       <pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate>
     </item>

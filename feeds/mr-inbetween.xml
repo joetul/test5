@@ -12,6 +12,7 @@
       <description>Premiere: 25 May 2021
 Finale: 13 July 2021
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mr-inbetween.xml</link>
       <guid isPermaLink="false">seasonfeed:mr-inbetween:s3</guid>
       <pubDate>Tue, 25 May 2021 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 9</description>
       <description>Premiere: 12 September 2019
 Finale: 21 November 2019
 Episodes: 11</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mr-inbetween.xml</link>
       <guid isPermaLink="false">seasonfeed:mr-inbetween:s2</guid>
       <pubDate>Thu, 12 Sep 2019 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 11</description>
       <description>Premiere: 25 September 2018
 Finale: 9 October 2018
 Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mr-inbetween.xml</link>
       <guid isPermaLink="false">seasonfeed:mr-inbetween:s1</guid>
       <pubDate>Tue, 25 Sep 2018 00:00:00 GMT</pubDate>
     </item>

@@ -12,6 +12,7 @@
       <description>Premiere: 13 April 2025
 Finale: 25 May 2025
 Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-last-of-us.xml</link>
       <guid isPermaLink="false">seasonfeed:the-last-of-us:s2</guid>
       <pubDate>Sun, 13 Apr 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 7</description>
       <description>Premiere: 15 January 2023
 Finale: 12 March 2023
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-last-of-us.xml</link>
       <guid isPermaLink="false">seasonfeed:the-last-of-us:s1</guid>
       <pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate>
     </item>

@@ -12,6 +12,7 @@
       <description>Premiere: 13 January 2023
 Finale: 17 March 2023
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/your-honor.xml</link>
       <guid isPermaLink="false">seasonfeed:your-honor:s2</guid>
       <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 10</description>
       <description>Premiere: 6 December 2020
 Finale: 14 February 2021
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/your-honor.xml</link>
       <guid isPermaLink="false">seasonfeed:your-honor:s1</guid>
       <pubDate>Sun, 06 Dec 2020 00:00:00 GMT</pubDate>
     </item>

@@ -12,6 +12,7 @@
       <description>Premiere: 29 January 2025
 Finale: 18 April 2025
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml</link>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s4</guid>
       <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 10</description>
       <description>Premiere: 11 November 2022
 Finale: 6 January 2023
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml</link>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s3</guid>
       <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 10</description>
       <description>Premiere: 7 May 2021
 Finale: 25 June 2021
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml</link>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s2</guid>
       <pubDate>Fri, 07 May 2021 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 9</description>
       <description>Premiere: 7 February 2020
 Finale: 16 April 2021
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml</link>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s1</guid>
       <pubDate>Fri, 07 Feb 2020 00:00:00 GMT</pubDate>
     </item>

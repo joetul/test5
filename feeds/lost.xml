@@ -12,6 +12,7 @@
       <description>Premiere: 2 February 2010
 Finale: 23 May 2010
 Episodes: 18</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s6</guid>
       <pubDate>Tue, 02 Feb 2010 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 18</description>
       <description>Premiere: 21 January 2009
 Finale: 13 May 2009
 Episodes: 17</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s5</guid>
       <pubDate>Wed, 21 Jan 2009 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 17</description>
       <description>Premiere: 31 January 2008
 Finale: 29 May 2008
 Episodes: 14</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s4</guid>
       <pubDate>Thu, 31 Jan 2008 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 14</description>
       <description>Premiere: 4 October 2006
 Finale: 23 May 2007
 Episodes: 23</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s3</guid>
       <pubDate>Wed, 04 Oct 2006 00:00:00 GMT</pubDate>
     </item>
@@ -44,6 +48,7 @@ Episodes: 23</description>
       <description>Premiere: 21 September 2005
 Finale: 24 May 2006
 Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s2</guid>
       <pubDate>Wed, 21 Sep 2005 00:00:00 GMT</pubDate>
     </item>
@@ -52,6 +57,7 @@ Episodes: 24</description>
       <description>Premiere: 22 September 2004
 Finale: 25 May 2005
 Episodes: 25</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/lost.xml</link>
       <guid isPermaLink="false">seasonfeed:lost:s1</guid>
       <pubDate>Wed, 22 Sep 2004 00:00:00 GMT</pubDate>
     </item>

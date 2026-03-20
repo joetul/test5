@@ -12,6 +12,7 @@
       <description>Premiere: 1 March 2023
 Finale: 19 April 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-mandalorian.xml</link>
       <guid isPermaLink="false">seasonfeed:the-mandalorian:s3</guid>
       <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 30 October 2020
 Finale: 18 December 2020
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-mandalorian.xml</link>
       <guid isPermaLink="false">seasonfeed:the-mandalorian:s2</guid>
       <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 8</description>
       <description>Premiere: 12 November 2019
 Finale: 27 December 2019
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/the-mandalorian.xml</link>
       <guid isPermaLink="false">seasonfeed:the-mandalorian:s1</guid>
       <pubDate>Tue, 12 Nov 2019 00:00:00 GMT</pubDate>
     </item>

@@ -12,6 +12,7 @@
       <description>Premiere: 23 February 2026
 Finale: 30 March 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/paradise.xml</link>
       <guid isPermaLink="false">seasonfeed:paradise:s2</guid>
       <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 26 January 2025
 Finale: 4 March 2025
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/paradise.xml</link>
       <guid isPermaLink="false">seasonfeed:paradise:s1</guid>
       <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
     </item>

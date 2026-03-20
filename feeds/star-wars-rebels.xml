@@ -12,6 +12,7 @@
       <description>Premiere: 15 October 2017
 Finale: 5 March 2018
 Episodes: 15</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-rebels.xml</link>
       <guid isPermaLink="false">seasonfeed:star-wars-rebels:s4</guid>
       <pubDate>Sun, 15 Oct 2017 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 15</description>
       <description>Premiere: 24 September 2016
 Finale: 25 March 2017
 Episodes: 21</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-rebels.xml</link>
       <guid isPermaLink="false">seasonfeed:star-wars-rebels:s3</guid>
       <pubDate>Sat, 24 Sep 2016 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 21</description>
       <description>Premiere: 20 June 2015
 Finale: 30 March 2016
 Episodes: 20</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-rebels.xml</link>
       <guid isPermaLink="false">seasonfeed:star-wars-rebels:s2</guid>
       <pubDate>Sat, 20 Jun 2015 00:00:00 GMT</pubDate>
     </item>
@@ -36,6 +39,7 @@ Episodes: 20</description>
       <description>Premiere: 29 September 2014
 Finale: 2 March 2015
 Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-rebels.xml</link>
       <guid isPermaLink="false">seasonfeed:star-wars-rebels:s1</guid>
       <pubDate>Mon, 29 Sep 2014 00:00:00 GMT</pubDate>
     </item>

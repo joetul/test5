@@ -12,6 +12,7 @@
       <description>Premiere: 17 September 2025
 Finale: 22 October 2025
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/gen-v.xml</link>
       <guid isPermaLink="false">seasonfeed:gen-v:s2</guid>
       <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 29 September 2023
 Finale: 3 November 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/gen-v.xml</link>
       <guid isPermaLink="false">seasonfeed:gen-v:s1</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
     </item>

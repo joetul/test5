@@ -12,6 +12,7 @@
       <description>Premiere: 22 December 2024
 Finale: 29 December 2024
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/what-if.xml</link>
       <guid isPermaLink="false">seasonfeed:what-if:s3</guid>
       <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 22 December 2023
 Finale: 30 December 2023
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/what-if.xml</link>
       <guid isPermaLink="false">seasonfeed:what-if:s2</guid>
       <pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 9</description>
       <description>Premiere: 11 August 2021
 Finale: 6 October 2021
 Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/what-if.xml</link>
       <guid isPermaLink="false">seasonfeed:what-if:s1</guid>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
     </item>

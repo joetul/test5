@@ -12,6 +12,7 @@
       <description>Premiere: 22 April 2025
 Finale: 13 May 2025
 Episodes: 12</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/andor.xml</link>
       <guid isPermaLink="false">seasonfeed:andor:s2</guid>
       <pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 12</description>
       <description>Premiere: 21 September 2022
 Finale: 23 November 2022
 Episodes: 12</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/andor.xml</link>
       <guid isPermaLink="false">seasonfeed:andor:s1</guid>
       <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
     </item>

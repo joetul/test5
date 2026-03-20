@@ -12,6 +12,7 @@
       <description>Premiere: 23 February 2025
 Finale: 6 April 2025
 Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/1923.xml</link>
       <guid isPermaLink="false">seasonfeed:1923:s2</guid>
       <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 7</description>
       <description>Premiere: 18 December 2022
 Finale: 26 February 2023
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/1923.xml</link>
       <guid isPermaLink="false">seasonfeed:1923:s1</guid>
       <pubDate>Sun, 18 Dec 2022 00:00:00 GMT</pubDate>
     </item>

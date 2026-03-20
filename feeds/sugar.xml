@@ -12,6 +12,7 @@
       <description>Premiere: 19 June 2026
 Finale: 7 August 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/sugar.xml</link>
       <guid isPermaLink="false">seasonfeed:sugar:s2</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 5 April 2024
 Finale: 17 May 2024
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/sugar.xml</link>
       <guid isPermaLink="false">seasonfeed:sugar:s1</guid>
       <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
     </item>

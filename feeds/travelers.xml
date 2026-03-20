@@ -12,6 +12,7 @@
       <description>Premiere: 14 December 2018
 Finale: 14 December 2018
 Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/travelers.xml</link>
       <guid isPermaLink="false">seasonfeed:travelers:s3</guid>
       <pubDate>Fri, 14 Dec 2018 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 10</description>
       <description>Premiere: 16 October 2017
 Finale: 18 December 2017
 Episodes: 12</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/travelers.xml</link>
       <guid isPermaLink="false">seasonfeed:travelers:s2</guid>
       <pubDate>Mon, 16 Oct 2017 00:00:00 GMT</pubDate>
     </item>
@@ -28,6 +30,7 @@ Episodes: 12</description>
       <description>Premiere: 17 October 2016
 Finale: 2 January 2017
 Episodes: 12</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/travelers.xml</link>
       <guid isPermaLink="false">seasonfeed:travelers:s1</guid>
       <pubDate>Mon, 17 Oct 2016 00:00:00 GMT</pubDate>
     </item>

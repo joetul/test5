@@ -12,6 +12,7 @@
       <description>Premiere: 14 January 2026
 Finale: 4 March 2026
 Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/hijack.xml</link>
       <guid isPermaLink="false">seasonfeed:hijack:s2</guid>
       <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20,6 +21,7 @@ Episodes: 8</description>
       <description>Premiere: 28 June 2023
 Finale: 2 August 2023
 Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/feeds/hijack.xml</link>
       <guid isPermaLink="false">seasonfeed:hijack:s1</guid>
       <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
     </item>
