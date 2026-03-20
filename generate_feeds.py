@@ -128,7 +128,7 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
 <p>{s(show_name)} Season {season_number_value} premieres on {s(format_date_human(premiere))}.</p>
 <p>The season finale is scheduled for {s(format_date_human(finale))}.</p>
 <p>The season has {s(episode_text)} episodes.</p>
-<p><small>Data from <a href="https://www.tvmaze.com">TVmaze</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>.</small></p>
+<p>Data from TVmaze (tvmaze.com) under CC BY-SA.</p>
 </article>
 </main>
 </body>
