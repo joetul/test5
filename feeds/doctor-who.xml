@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Doctor Who Season Alerts</title>
-    <description>New season notifications for Doctor Who. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Doctor Who. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/doctor-who.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 31 Oct 2021 00:00:00 GMT</lastBuildDate>

@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Alien: Earth Season Alerts</title>
-    <description>New season notifications for Alien: Earth. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Alien: Earth. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/alien-earth.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>

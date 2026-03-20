@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>House Season Alerts</title>
-    <description>New season notifications for House. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for House. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/house.xml</link>
     <language>en</language>
     <lastBuildDate>Mon, 03 Oct 2011 00:00:00 GMT</lastBuildDate>

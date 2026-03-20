@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Star Trek: Strange New Worlds Season Alerts</title>
-    <description>New season notifications for Star Trek: Strange New Worlds. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Star Trek: Strange New Worlds. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/star-trek-strange-new-worlds.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 17 Jul 2025 00:00:00 GMT</lastBuildDate>

@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>House of the Dragon Season Alerts</title>
-    <description>New season notifications for House of the Dragon. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for House of the Dragon. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/house-of-the-dragon.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 16 Jun 2024 00:00:00 GMT</lastBuildDate>

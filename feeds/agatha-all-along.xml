@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Agatha All Along Season Alerts</title>
-    <description>New season notifications for Agatha All Along. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Agatha All Along. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/agatha-all-along.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 00:00:00 GMT</lastBuildDate>

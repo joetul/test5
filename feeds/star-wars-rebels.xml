@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Star Wars: Rebels Season Alerts</title>
-    <description>New season notifications for Star Wars: Rebels. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Star Wars: Rebels. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-rebels.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 GMT</lastBuildDate>

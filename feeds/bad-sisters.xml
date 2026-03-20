@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Bad Sisters Season Alerts</title>
-    <description>New season notifications for Bad Sisters. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Bad Sisters. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/bad-sisters.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 13 Nov 2024 00:00:00 GMT</lastBuildDate>

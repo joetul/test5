@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Kim's Convenience Season Alerts</title>
-    <description>New season notifications for Kim's Convenience. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Kim's Convenience. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/kim-s-convenience.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 19 Jan 2021 00:00:00 GMT</lastBuildDate>

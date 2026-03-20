@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>The Last of Us Season Alerts</title>
-    <description>New season notifications for The Last of Us. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for The Last of Us. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-last-of-us.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 13 Apr 2025 00:00:00 GMT</lastBuildDate>

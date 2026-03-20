@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>For All Mankind Season Alerts</title>
-    <description>New season notifications for For All Mankind. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for For All Mankind. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/for-all-mankind.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 27 Mar 2026 00:00:00 GMT</lastBuildDate>

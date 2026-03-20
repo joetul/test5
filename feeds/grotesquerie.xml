@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Grotesquerie Season Alerts</title>
-    <description>New season notifications for Grotesquerie. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Grotesquerie. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/grotesquerie.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 25 Sep 2024 00:00:00 GMT</lastBuildDate>

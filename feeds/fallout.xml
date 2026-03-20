@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Fallout Season Alerts</title>
-    <description>New season notifications for Fallout. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Fallout. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/fallout.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 16 Dec 2025 00:00:00 GMT</lastBuildDate>

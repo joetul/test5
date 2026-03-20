@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>It's Always Sunny in Philadelphia Season Alerts</title>
-    <description>New season notifications for It's Always Sunny in Philadelphia. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for It's Always Sunny in Philadelphia. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/it-s-always-sunny-in-philadelphia.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 09 Jul 2025 00:00:00 GMT</lastBuildDate>

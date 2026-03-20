@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>WandaVision Season Alerts</title>
-    <description>New season notifications for WandaVision. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for WandaVision. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/wandavision.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 15 Jan 2021 00:00:00 GMT</lastBuildDate>

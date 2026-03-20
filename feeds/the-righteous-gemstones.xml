@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>The Righteous Gemstones Season Alerts</title>
-    <description>New season notifications for The Righteous Gemstones. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for The Righteous Gemstones. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-righteous-gemstones.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 09 Mar 2025 00:00:00 GMT</lastBuildDate>

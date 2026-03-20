@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Supernatural Season Alerts</title>
-    <description>New season notifications for Supernatural. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Supernatural. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/supernatural.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 10 Oct 2019 00:00:00 GMT</lastBuildDate>

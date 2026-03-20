@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Battlestar Galactica Season Alerts</title>
-    <description>New season notifications for Battlestar Galactica. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Battlestar Galactica. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/battlestar-galactica.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 04 Apr 2008 00:00:00 GMT</lastBuildDate>

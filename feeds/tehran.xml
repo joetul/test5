@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Tehran Season Alerts</title>
-    <description>New season notifications for Tehran. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Tehran. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/tehran.xml</link>
     <language>en</language>
     <lastBuildDate>Mon, 09 Dec 2024 00:00:00 GMT</lastBuildDate>

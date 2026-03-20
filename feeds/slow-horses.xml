@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Slow Horses Season Alerts</title>
-    <description>New season notifications for Slow Horses. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Slow Horses. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/slow-horses.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 24 Sep 2025 00:00:00 GMT</lastBuildDate>

@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Star Wars: Skeleton Crew Season Alerts</title>
-    <description>New season notifications for Star Wars: Skeleton Crew. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Star Wars: Skeleton Crew. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-skeleton-crew.xml</link>
     <language>en</language>
     <lastBuildDate>Mon, 02 Dec 2024 00:00:00 GMT</lastBuildDate>

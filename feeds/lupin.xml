@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Lupin Season Alerts</title>
-    <description>New season notifications for Lupin. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Lupin. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/lupin.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 05 Oct 2023 00:00:00 GMT</lastBuildDate>

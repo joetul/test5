@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>My Name Is Earl Season Alerts</title>
-    <description>New season notifications for My Name Is Earl. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for My Name Is Earl. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/my-name-is-earl.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 25 Sep 2008 00:00:00 GMT</lastBuildDate>

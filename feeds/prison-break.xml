@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Prison Break Season Alerts</title>
-    <description>New season notifications for Prison Break. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Prison Break. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/prison-break.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 04 Apr 2017 00:00:00 GMT</lastBuildDate>

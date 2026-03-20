@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Arrow Season Alerts</title>
-    <description>New season notifications for Arrow. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Arrow. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/arrow.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 15 Oct 2019 00:00:00 GMT</lastBuildDate>

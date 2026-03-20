@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Poker Face Season Alerts</title>
-    <description>New season notifications for Poker Face. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Poker Face. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/poker-face.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 08 May 2025 00:00:00 GMT</lastBuildDate>

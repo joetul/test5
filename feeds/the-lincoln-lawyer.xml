@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>The Lincoln Lawyer Season Alerts</title>
-    <description>New season notifications for The Lincoln Lawyer. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for The Lincoln Lawyer. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-lincoln-lawyer.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 05 Feb 2026 00:00:00 GMT</lastBuildDate>

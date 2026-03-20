@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Tracker Season Alerts</title>
-    <description>New season notifications for Tracker. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Tracker. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/tracker.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 19 Oct 2025 00:00:00 GMT</lastBuildDate>

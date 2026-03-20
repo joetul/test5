@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Physical Season Alerts</title>
-    <description>New season notifications for Physical. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Physical. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/physical.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 02 Aug 2023 00:00:00 GMT</lastBuildDate>

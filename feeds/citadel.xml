@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Citadel Season Alerts</title>
-    <description>New season notifications for Citadel. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Citadel. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/citadel.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 28 Apr 2023 00:00:00 GMT</lastBuildDate>

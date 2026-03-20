@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Tom Clancy's Jack Ryan Season Alerts</title>
-    <description>New season notifications for Tom Clancy's Jack Ryan. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Tom Clancy's Jack Ryan. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/tom-clancy-s-jack-ryan.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 GMT</lastBuildDate>

@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Mare of Easttown Season Alerts</title>
-    <description>New season notifications for Mare of Easttown. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Mare of Easttown. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/mare-of-easttown.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 18 Apr 2021 00:00:00 GMT</lastBuildDate>

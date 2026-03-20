@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>The Wire Season Alerts</title>
-    <description>New season notifications for The Wire. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for The Wire. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-wire.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 06 Jan 2008 00:00:00 GMT</lastBuildDate>

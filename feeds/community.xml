@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Community Season Alerts</title>
-    <description>New season notifications for Community. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Community. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/community.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 17 Mar 2015 00:00:00 GMT</lastBuildDate>

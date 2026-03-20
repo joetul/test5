@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Homeland Season Alerts</title>
-    <description>New season notifications for Homeland. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for Homeland. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/homeland.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 GMT</lastBuildDate>

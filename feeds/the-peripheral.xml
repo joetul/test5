@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>The Peripheral Season Alerts</title>
-    <description>New season notifications for The Peripheral. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for The Peripheral. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-peripheral.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 21 Oct 2022 00:00:00 GMT</lastBuildDate>

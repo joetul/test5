@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>A Knight of the Seven Kingdoms Season Alerts</title>
-    <description>New season notifications for A Knight of the Seven Kingdoms. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for A Knight of the Seven Kingdoms. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/a-knight-of-the-seven-kingdoms.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 18 Jan 2026 00:00:00 GMT</lastBuildDate>

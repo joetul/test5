@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>See Season Alerts</title>
-    <description>New season notifications for See. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <description>New season notifications for See. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/see.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 26 Aug 2022 00:00:00 GMT</lastBuildDate>
