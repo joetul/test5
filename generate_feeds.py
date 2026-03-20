@@ -114,13 +114,6 @@ def network_name(show_data):
     return network.get("name") or web_channel.get("name") or "Unknown"
 
 
-def watch_search_url(show_name):
-    query = f"{(show_name or '').strip()} where to watch".strip()
-    if not query:
-        return "https://www.google.com"
-    encoded_query = urllib.parse.quote(query, safe="")
-    return f"https://www.google.com/search?q={encoded_query}"
-
 
 class TVmazeClient:
     def __init__(self):
@@ -247,21 +240,16 @@ def format_date_human(date_text):
         return date_text
 
 
-def build_item_description(premiere, finale, episode_text, season_url, search_url):
+def build_item_description(premiere, finale, episode_text, season_url):
     p = format_date_human(premiere)
     f = format_date_human(finale)
-    return (
-        f"<p>Premiere: {p}<br>Finale: {f}<br>Episodes: {episode_text}</p>"
-        f"<p><a href=\"{season_url}\">Season details on TVmaze</a><br>"
-        f"<a href=\"{search_url}\">Where to watch</a></p>"
-    )
+    return f"Premiere: {p}\nFinale: {f}\nEpisodes: {episode_text}\n\n{season_url}"
 
 
 def build_feed(show_data, seasons, slug, site_url):
     show_name = show_data.get("name", "Unknown Show")
     tvmaze_url = show_data.get("url") or f"https://www.tvmaze.com/shows/{show_data.get('id')}"
     feed_url = f"{site_url}/feeds/{slug}.xml"
-    search_url = watch_search_url(show_name)
 
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
@@ -270,7 +258,7 @@ def build_feed(show_data, seasons, slug, site_url):
     ET.SubElement(channel, "description").text = (
         f"New season notifications for {show_name} from TVmaze metadata."
     )
-    ET.SubElement(channel, "link").text = feed_url
+    ET.SubElement(channel, "link").text = tvmaze_url
     ET.SubElement(channel, "language").text = "en"
     ET.SubElement(channel, "lastBuildDate").text = compute_last_build_date(seasons)
 
@@ -296,8 +284,8 @@ def build_feed(show_data, seasons, slug, site_url):
 
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"{show_name} — Season {number}"
-        ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text, season_url, search_url)
-        ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = season_url
+        ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text, season_url)
+        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"seasonfeed:{slug}:s{number}"
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
         ET.SubElement(item, "link").text = season_url
 
@@ -364,7 +352,6 @@ def main():
         if previous_latest is not None and latest > previous_latest:
             print(f"NEW SEASON DETECTED: {show_name} ({previous_latest} -> {latest})")
 
-        search_url = watch_search_url(show_name)
         feed_url = f"{site_url}/feeds/{slug}.xml"
 
         feed_bytes = build_feed(show_data, seasons, slug, site_url)
