@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/hawkeye.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hawkeye — Season 1</title>
-      <description>Premiere: 24 November 2021
-Finale: 22 December 2021
-Episodes: 6</description>
+      <description>Premiere: 24 November 2021&lt;br&gt;Finale: 22 December 2021&lt;br&gt;Episodes: 6</description>
       <link>https://joetul.github.io/SeasonFeed/updates/hawkeye-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/hawkeye-s1.html</guid>
       <pubDate>Wed, 24 Nov 2021 00:00:00 GMT</pubDate>

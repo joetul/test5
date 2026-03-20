@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/echo.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Echo — Season 1</title>
-      <description>Premiere: 9 January 2024
-Finale: 9 January 2024
-Episodes: 5</description>
+      <description>Premiere: 9 January 2024&lt;br&gt;Finale: 9 January 2024&lt;br&gt;Episodes: 5</description>
       <link>https://joetul.github.io/SeasonFeed/updates/echo-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/echo-s1.html</guid>
       <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>

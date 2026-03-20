@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/berl-n.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Berlín — Season 1</title>
-      <description>Premiere: 29 December 2023
-Finale: 29 December 2023
-Episodes: 8</description>
+      <description>Premiere: 29 December 2023&lt;br&gt;Finale: 29 December 2023&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/berl-n-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/berl-n-s1.html</guid>
       <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>

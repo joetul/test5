@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/gen-v.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gen V — Season 2</title>
-      <description>Premiere: 17 September 2025
-Finale: 22 October 2025
-Episodes: 8</description>
+      <description>Premiere: 17 September 2025&lt;br&gt;Finale: 22 October 2025&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/gen-v-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/gen-v-s2.html</guid>
       <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Gen V — Season 1</title>
-      <description>Premiere: 29 September 2023
-Finale: 3 November 2023
-Episodes: 8</description>
+      <description>Premiere: 29 September 2023&lt;br&gt;Finale: 3 November 2023&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/gen-v-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/gen-v-s1.html</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>

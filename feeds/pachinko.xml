@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/pachinko.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pachinko — Season 2</title>
-      <description>Premiere: 23 August 2024
-Finale: 11 October 2024
-Episodes: 8</description>
+      <description>Premiere: 23 August 2024&lt;br&gt;Finale: 11 October 2024&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/pachinko-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/pachinko-s2.html</guid>
       <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Pachinko — Season 1</title>
-      <description>Premiere: 25 March 2022
-Finale: 29 April 2022
-Episodes: 8</description>
+      <description>Premiere: 25 March 2022&lt;br&gt;Finale: 29 April 2022&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/pachinko-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/pachinko-s1.html</guid>
       <pubDate>Fri, 25 Mar 2022 00:00:00 GMT</pubDate>

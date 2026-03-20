@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/obi-wan-kenobi.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obi-Wan Kenobi — Season 1</title>
-      <description>Premiere: 27 May 2022
-Finale: 22 June 2022
-Episodes: 6</description>
+      <description>Premiere: 27 May 2022&lt;br&gt;Finale: 22 June 2022&lt;br&gt;Episodes: 6</description>
       <link>https://joetul.github.io/SeasonFeed/updates/obi-wan-kenobi-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/obi-wan-kenobi-s1.html</guid>
       <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>

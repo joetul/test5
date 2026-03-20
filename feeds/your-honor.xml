@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/your-honor.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Your Honor — Season 2</title>
-      <description>Premiere: 13 January 2023
-Finale: 17 March 2023
-Episodes: 10</description>
+      <description>Premiere: 13 January 2023&lt;br&gt;Finale: 17 March 2023&lt;br&gt;Episodes: 10</description>
       <link>https://joetul.github.io/SeasonFeed/updates/your-honor-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/your-honor-s2.html</guid>
       <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Your Honor — Season 1</title>
-      <description>Premiere: 6 December 2020
-Finale: 14 February 2021
-Episodes: 10</description>
+      <description>Premiere: 6 December 2020&lt;br&gt;Finale: 14 February 2021&lt;br&gt;Episodes: 10</description>
       <link>https://joetul.github.io/SeasonFeed/updates/your-honor-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/your-honor-s1.html</guid>
       <pubDate>Sun, 06 Dec 2020 00:00:00 GMT</pubDate>

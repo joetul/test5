@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/silo.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Silo — Season 2</title>
-      <description>Premiere: 15 November 2024
-Finale: 17 January 2025
-Episodes: 10</description>
+      <description>Premiere: 15 November 2024&lt;br&gt;Finale: 17 January 2025&lt;br&gt;Episodes: 10</description>
       <link>https://joetul.github.io/SeasonFeed/updates/silo-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/silo-s2.html</guid>
       <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Silo — Season 1</title>
-      <description>Premiere: 5 May 2023
-Finale: 30 June 2023
-Episodes: 10</description>
+      <description>Premiere: 5 May 2023&lt;br&gt;Finale: 30 June 2023&lt;br&gt;Episodes: 10</description>
       <link>https://joetul.github.io/SeasonFeed/updates/silo-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/silo-s1.html</guid>
       <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>

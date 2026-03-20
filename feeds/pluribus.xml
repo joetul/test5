@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/pluribus.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pluribus — Season 1</title>
-      <description>Premiere: 7 November 2025
-Finale: 24 December 2025
-Episodes: 9</description>
+      <description>Premiere: 7 November 2025&lt;br&gt;Finale: 24 December 2025&lt;br&gt;Episodes: 9</description>
       <link>https://joetul.github.io/SeasonFeed/updates/pluribus-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/pluribus-s1.html</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>

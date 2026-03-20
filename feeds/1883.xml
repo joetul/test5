@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/1883.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1883 — Season 1</title>
-      <description>Premiere: 19 December 2021
-Finale: 27 February 2022
-Episodes: 10</description>
+      <description>Premiere: 19 December 2021&lt;br&gt;Finale: 27 February 2022&lt;br&gt;Episodes: 10</description>
       <link>https://joetul.github.io/SeasonFeed/updates/1883-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/1883-s1.html</guid>
       <pubDate>Sun, 19 Dec 2021 00:00:00 GMT</pubDate>

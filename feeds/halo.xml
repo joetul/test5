@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/halo.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Halo — Season 2</title>
-      <description>Premiere: 8 February 2024
-Finale: 21 March 2024
-Episodes: 8</description>
+      <description>Premiere: 8 February 2024&lt;br&gt;Finale: 21 March 2024&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/halo-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/halo-s2.html</guid>
       <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Halo — Season 1</title>
-      <description>Premiere: 24 March 2022
-Finale: 19 May 2022
-Episodes: 9</description>
+      <description>Premiere: 24 March 2022&lt;br&gt;Finale: 19 May 2022&lt;br&gt;Episodes: 9</description>
       <link>https://joetul.github.io/SeasonFeed/updates/halo-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/halo-s1.html</guid>
       <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>

@@ -9,9 +9,7 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/dopesick.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dopesick — Season 1</title>
-      <description>Premiere: 13 October 2021
-Finale: 17 November 2021
-Episodes: 8</description>
+      <description>Premiere: 13 October 2021&lt;br&gt;Finale: 17 November 2021&lt;br&gt;Episodes: 8</description>
       <link>https://joetul.github.io/SeasonFeed/updates/dopesick-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/dopesick-s1.html</guid>
       <pubDate>Wed, 13 Oct 2021 00:00:00 GMT</pubDate>

@@ -9,18 +9,14 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/andor.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Andor — Season 2</title>
-      <description>Premiere: 22 April 2025
-Finale: 13 May 2025
-Episodes: 12</description>
+      <description>Premiere: 22 April 2025&lt;br&gt;Finale: 13 May 2025&lt;br&gt;Episodes: 12</description>
       <link>https://joetul.github.io/SeasonFeed/updates/andor-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/andor-s2.html</guid>
       <pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Andor — Season 1</title>
-      <description>Premiere: 21 September 2022
-Finale: 23 November 2022
-Episodes: 12</description>
+      <description>Premiere: 21 September 2022&lt;br&gt;Finale: 23 November 2022&lt;br&gt;Episodes: 12</description>
       <link>https://joetul.github.io/SeasonFeed/updates/andor-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/andor-s1.html</guid>
       <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>

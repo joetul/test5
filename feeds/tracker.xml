@@ -9,27 +9,21 @@
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/tracker.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tracker — Season 3</title>
-      <description>Premiere: 19 October 2025
-Finale: 12 April 2026
-Episodes: 22</description>
+      <description>Premiere: 19 October 2025&lt;br&gt;Finale: 12 April 2026&lt;br&gt;Episodes: 22</description>
       <link>https://joetul.github.io/SeasonFeed/updates/tracker-s3.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/tracker-s3.html</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Tracker — Season 2</title>
-      <description>Premiere: 13 October 2024
-Finale: 11 May 2025
-Episodes: 20</description>
+      <description>Premiere: 13 October 2024&lt;br&gt;Finale: 11 May 2025&lt;br&gt;Episodes: 20</description>
       <link>https://joetul.github.io/SeasonFeed/updates/tracker-s2.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/tracker-s2.html</guid>
       <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Tracker — Season 1</title>
-      <description>Premiere: 11 February 2024
-Finale: 19 May 2024
-Episodes: 13</description>
+      <description>Premiere: 11 February 2024&lt;br&gt;Finale: 19 May 2024&lt;br&gt;Episodes: 13</description>
       <link>https://joetul.github.io/SeasonFeed/updates/tracker-s1.html</link>
       <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/tracker-s1.html</guid>
       <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
