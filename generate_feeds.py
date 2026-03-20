@@ -283,6 +283,7 @@ def build_feed(show_data, seasons, slug, site_url):
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"{show_name} — Season {number}"
         ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text)
+        ET.SubElement(item, "link").text = feed_url
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"seasonfeed:{slug}:s{number}"
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
 
