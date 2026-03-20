@@ -389,7 +389,6 @@
       .site-header { padding: 0.5rem 0.75rem; }
 
       .header-top { margin-bottom: 0.5rem; }
-      .site-subtitle { display: none; }
       .site-title { font-size: 1.1rem; }
 
       .missing-show-link { padding: 0.35rem 0.55rem; font-size: 0.8rem; }
@@ -683,6 +682,10 @@
         if (rssBtn) copyRSS(rssBtn);
       });
 
+      els.showsBody.addEventListener("error", e => {
+        if (e.target.tagName === "IMG") e.target.style.display = "none";
+      }, true);
+
       // Keyboard shortcuts
       document.addEventListener("keydown", e => {
         if (e.key === "/" && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
@@ -794,7 +797,7 @@
 
       tr.innerHTML =
         '<td class="col-select"><input type="checkbox" class="show-cb" value="' + escapeHtml(key) + '"' + (isSelected ? " checked" : "") + '></td>' +
-        '<td class="col-image">' + (imgSrc ? '<img src="' + imgSrc + '" alt="" class="show-thumb" loading="lazy" width="40" height="56" onerror="this.style.display=\'none\'">' : '<div class="show-thumb"></div>') + '</td>' +
+        '<td class="col-image">' + (imgSrc ? '<img src="' + imgSrc + '" alt="" class="show-thumb" loading="lazy" width="40" height="56">' : '<div class="show-thumb"></div>') + '</td>' +
         '<td class="col-name">' +
           '<div class="show-name-text">' + escapeHtml(show.name || "") + '</div>' +
           '<div class="show-year">' + escapeHtml(year) + '</div>' +
