@@ -490,7 +490,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/59/chicago-fire",
     "network": "NBC",
     "status": "Running",
-    "latest_season": 14,
+    "latest_season": 15,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475640.jpg",
     "premiered": "2012-10-10"
   },
@@ -501,7 +501,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/2246/chicago-med",
     "network": "NBC",
     "status": "Running",
-    "latest_season": 11,
+    "latest_season": 12,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/588/1471713.jpg",
     "premiered": "2015-11-17"
   },
@@ -512,7 +512,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/56/chicago-pd",
     "network": "NBC",
     "status": "Running",
-    "latest_season": 13,
+    "latest_season": 14,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/590/1475641.jpg",
     "premiered": "2014-01-08"
   },

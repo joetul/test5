@@ -266,20 +266,20 @@
   "chicago-fire": {
     "tvmaze_id": 59,
     "name": "Chicago Fire",
-    "latest_season": 14,
-    "last_checked": "2026-03-16T18:44:07Z"
+    "latest_season": 15,
+    "last_checked": "2026-03-28T03:53:07Z"
   },
   "chicago-med": {
     "tvmaze_id": 2246,
     "name": "Chicago Med",
-    "latest_season": 11,
-    "last_checked": "2026-03-16T18:44:11Z"
+    "latest_season": 12,
+    "last_checked": "2026-03-28T03:53:10Z"
   },
   "chicago-p-d": {
     "tvmaze_id": 56,
     "name": "Chicago P.D.",
-    "latest_season": 13,
-    "last_checked": "2026-03-16T18:44:09Z"
+    "latest_season": 14,
+    "last_checked": "2026-03-28T03:53:09Z"
   },
   "chuck": {
     "tvmaze_id": 168,
