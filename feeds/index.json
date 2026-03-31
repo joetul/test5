@@ -1073,7 +1073,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/67/greys-anatomy",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 22,
+    "latest_season": 23,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1501061.jpg",
     "premiered": "2005-03-27"
   },
@@ -1931,7 +1931,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/75030/paradise",
     "network": "Hulu",
     "status": "Running",
-    "latest_season": 2,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/614/1536865.jpg",
     "premiered": "2025-01-26"
   },
