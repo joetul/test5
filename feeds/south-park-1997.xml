@@ -5,8 +5,16 @@
     <description>New season notifications for South Park. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/south-park-1997.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/south-park-1997.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>South Park — Season 29</title>
+      <description>Premiere: 16 September 2026
+Finale: 25 November 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/south-park-1997-s29.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/south-park-1997-s29.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>South Park — Season 28</title>
       <description>Premiere: 15 October 2025

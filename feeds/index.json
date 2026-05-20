@@ -601,7 +601,7 @@
     "network": "Paramount+",
     "status": "Running",
     "latest_season": 20,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/571.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/625/1564657.jpg",
     "premiered": "2005-09-22"
   },
   {
@@ -2722,7 +2722,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-boys-2019.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/15299/the-boys",
     "network": "Prime Video",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/619/1547768.jpg",
     "premiered": "2019-07-26"
@@ -3250,7 +3250,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/tom-clancy-s-jack-ryan-2018.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/5079/tom-clancys-jack-ryan",
     "network": "Prime Video",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/486/1215704.jpg",
     "premiered": "2018-08-31"
