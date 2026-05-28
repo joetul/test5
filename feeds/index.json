@@ -413,7 +413,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/107/bobs-burgers",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 16,
+    "latest_season": 17,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1474468.jpg",
     "premiered": "2011-01-09"
   },
@@ -3119,7 +3119,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/83/the-simpsons",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 37,
+    "latest_season": 38,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/588/1471731.jpg",
     "premiered": "1989-12-17"
   },

@@ -224,8 +224,8 @@
   "bob-s-burgers": {
     "tvmaze_id": 107,
     "name": "Bob's Burgers",
-    "latest_season": 16,
-    "last_checked": "2026-03-20T14:42:29Z"
+    "latest_season": 17,
+    "last_checked": "2026-05-28T04:34:07Z"
   },
   "bosch": {
     "tvmaze_id": 1216,
@@ -1700,8 +1700,8 @@
   "the-simpsons": {
     "tvmaze_id": 83,
     "name": "The Simpsons",
-    "latest_season": 37,
-    "last_checked": "2026-03-20T14:43:39Z"
+    "latest_season": 38,
+    "last_checked": "2026-05-28T04:35:12Z"
   },
   "the-sopranos": {
     "tvmaze_id": 527,
