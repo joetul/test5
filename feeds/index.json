@@ -601,7 +601,7 @@
     "network": "Paramount+",
     "status": "Running",
     "latest_season": 20,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/625/1564657.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/626/1567475.jpg",
     "premiered": "2005-09-22"
   },
   {
@@ -1105,7 +1105,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/hacks-2021.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/54914/hacks",
     "network": "HBO Max",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/621/1552621.jpg",
     "premiered": "2021-05-13"
@@ -2680,7 +2680,7 @@
     "network": "Hulu",
     "status": "Running",
     "latest_season": 5,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480192.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/626/1567246.jpg",
     "premiered": "2022-06-23"
   },
   {
